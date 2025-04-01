@@ -7,6 +7,7 @@
 	--accent-light-teal: #4ecdc433;
 	--secondary-soft-gray-text: #8e9196;
 	--cards-dark-gray: #2d3748;
+	font-size: 1rem;
 }
 
 * {
@@ -22,12 +23,14 @@ body {
 	background-color: var(--primary-dark-navy-blue);
 	font-family: "Lora", serif;
 	color: var(--primary-light-gray-text);
+	height: 100vh;
+	width: 100vw;
 }
 
 /* Container for responsive padding */
 .container {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 75rem;
 	margin: 0 auto;
 	padding: 0 1.25rem;
 }
@@ -171,6 +174,113 @@ hr {
 	height: 1px;
 	background-color: var(--cards-dark-gray);
 }
+
+main {
+	padding: 2rem;
+}
+.article-container {
+	display: flex;
+	/* align-items: flex-end; */
+	width: 22rem;
+	height: 12rem;
+	position: relative;
+	overflow: hidden;
+	border-radius: 1.5rem;
+}
+.info {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0.5rem;
+	z-index: 3;
+	color: var(--primary-light-gray-text);
+	cursor: pointer;
+}
+.gradient {
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(
+		to top,
+		var(--primary-dark-navy-blue),
+		var(--accent-bright-teal)
+	);
+	opacity: 0.2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 1.5rem;
+	z-index: 2;
+	cursor: pointer;
+}
+.article-img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	display: block;
+	border-radius: 1.5rem;
+	transition: transform ease-in-out 0.2s;
+}
+.info:hover + .article-img {
+	transform: scale(1.05);
+}
+.category-tag {
+	width: fit-content;
+	padding: 0.4rem;
+	border-radius: 1rem;
+	background-color: var(--accent-bright-teal);
+	color: var(--primary-light-gray-text);
+}
+.title {
+	font-family: "playfair display";
+	font-weight: 800;
+	font-size: 1.2rem;
+	transition: transform ease-in-out 0.5s;
+}
+.title:hover {
+	color: var(--accent-bright-teal);
+}
+.credits {
+	display: flex;
+	align-items: center;
+	margin: 0.5rem 0.2rem 0.2rem 0.2rem;
+	font-family: "montserrat";
+	font-size: 0.75rem;
+	font-weight: 500;
+	/* text-shadow: 0.5px 0.5px 2px var(--primary-light-gray-text); */
+	color: rgb(193, 193, 193);
+}
+.dot {
+	width: 0.3rem;
+	height: 0.3rem;
+	margin: 0 0.4rem;
+	background-color: var(--secondary-soft-gray-text);
+	border-radius: 0.2rem;
+}
+/* <div class="article-container">
+			<div class="gradient"></div>
+			<div class="info">
+				<p class="category-tag">Arts</p>
+				<p class="title">
+					From 12 Rejections to Literary Icon: J.K.Rowling's Harry Potter
+					Journey
+				</p>
+				<div class="credits">
+					<p class="author">John Doe</p>
+					<span class="dot"></span>
+					<p class="date">July 15, 2023</p>
+					<span class="dot"></span>
+					<p class="reading-time">6 min read</p>
+				</div>
+			</div>
+			<img
+				src="https://images.unsplash.com/photo-1551269901-5c5e14c25df7?q=80&w=2069&auto=format&fit=crop"
+				alt="j k rowling article image"
+			/>
+</div> */
 
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
