@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// Close menu function
 	function closeMenu() {
+		// console.log("close menu called", navLinks.classList.contains("active"));
 		if (navLinks.classList.contains("active")) {
 			navLinks.classList.remove("active");
 			hamburger.style.display = "inline";

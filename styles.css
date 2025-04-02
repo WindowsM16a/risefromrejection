@@ -7,7 +7,6 @@
 	--accent-light-teal: #4ecdc433;
 	--secondary-soft-gray-text: #8e9196;
 	--cards-dark-gray: #2d3748;
-	font-size: 16px;
 }
 
 * {
@@ -133,7 +132,7 @@ body {
 	border: 1px solid var(--secondary-soft-gray-text);
 	border-radius: 0.25rem;
 	color: var(--primary-light-gray-text);
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 
 .mobile-search-input::placeholder {
