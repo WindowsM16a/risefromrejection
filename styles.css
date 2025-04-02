@@ -89,6 +89,8 @@ body {
 	padding: 0.01rem;
 	transition: color 0.1s ease-in-out;
 	border-radius: 0.25rem;
+	touch-action: manipulation;
+	-webkit-tap-highlight-color: transparent;
 }
 
 .nav-links li a:hover {
@@ -331,7 +333,7 @@ main {
 		gap: 1rem;
 		z-index: 40;
 	}
-	.nav-link-p:active {
+	.nav-link-p:focus {
 		background-color: var(--accent-light-teal);
 	}
 
