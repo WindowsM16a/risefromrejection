@@ -1,3 +1,19 @@
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+import {
+	getDatabase,
+	ref,
+	push,
+} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
+
+const appSettings = {
+	databaseURL: "https://rise-from-rejection-default-rtdb.firebaseio.com/",
+};
+
+const app = initializeApp(appSettings);
+const database = getDatabase(app);
+const storiesInDB = ref(database, "stories");
+const inputFieldEl = document.getElementById("search-input-field");
+
 // JavaScript for the navbar functionality
 document.addEventListener("DOMContentLoaded", function () {
 	// Get DOM elements
@@ -72,6 +88,8 @@ document.addEventListener("DOMContentLoaded", function () {
 		mobileSearchInput.addEventListener("keyup", function (e) {
 			if (e.key === "Enter") {
 				console.log("Mobile search submitted:", this.value);
+				let inputValue = inputFieldEl.value;
+				push(storiesInDB, inputValue);
 				// Add your search functionality here
 				closeMenu(); // Close the menu after submitting
 			}
