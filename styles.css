@@ -264,7 +264,7 @@ main {
 
 .latest-stories {
 	margin: 2rem 0 0 0;
-	width: 22rem;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 }
@@ -276,12 +276,20 @@ main {
 }
 .latest-stories-p {
 	font-family: "playfair display";
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 }
 .view-all-p {
 	font-family: "montserrat";
 	font-size: 1rem;
 	color: var(--accent-bright-teal);
+}
+.article-grids {
+	display: grid;
+	gap: 1.5rem;
+	/* border: 1px solid yellow; */
+	justify-content: center;
+	grid-template-columns: repeat(2, 20.5rem);
+	grid-template-rows: repeat(2, 20rem);
 }
 /* <div class="article-container">
 			<div class="gradient"></div>
@@ -353,6 +361,14 @@ main {
 
 	.nav-links.active {
 		animation: fadeIn 0.3s ease-in-out;
+	}
+
+	.article-grids {
+		display: grid;
+		width: 100%;
+		gap: 1rem;
+		grid-template-columns: repeat(1, 100%);
+		grid-template-rows: repeat(2, 15rem);
 	}
 
 	.article-container {
