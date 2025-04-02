@@ -85,6 +85,11 @@ body {
 	color: var(--primary-light-gray-text);
 	transition: color 0.3s ease;
 }
+.nav-link-p {
+	padding: 0.01rem;
+	transition: color 0.1s ease-in-out;
+	border-radius: 0.25rem;
+}
 
 .nav-links li a:hover {
 	color: var(--accent-bright-teal);
@@ -325,6 +330,9 @@ main {
 		padding: 1rem;
 		gap: 1rem;
 		z-index: 40;
+	}
+	.nav-link-p:active {
+		background-color: var(--accent-light-teal);
 	}
 
 	.nav-links.active {
