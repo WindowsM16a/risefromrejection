@@ -55,7 +55,7 @@ body {
 	display: flex;
 	align-items: center;
 	font-size: 1.5rem;
-	font-family: "Playfair Display", serif;
+	font-family: "Playfair Display";
 }
 
 .rise {
