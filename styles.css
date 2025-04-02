@@ -7,7 +7,7 @@
 	--accent-light-teal: #4ecdc433;
 	--secondary-soft-gray-text: #8e9196;
 	--cards-dark-gray: #2d3748;
-	font-size: 1rem;
+	font-size: 16px;
 }
 
 * {
@@ -24,7 +24,7 @@ body {
 	font-family: "Lora", serif;
 	color: var(--primary-light-gray-text);
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
 }
 
 /* Container for responsive padding */
@@ -288,7 +288,7 @@ main {
 	gap: 1.5rem;
 	/* border: 1px solid yellow; */
 	justify-content: center;
-	grid-template-columns: repeat(2, 20.5rem);
+	grid-template-columns: repeat(2, 50%);
 	grid-template-rows: repeat(2, 20rem);
 }
 /* <div class="article-container">
