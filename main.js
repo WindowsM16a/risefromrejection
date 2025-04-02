@@ -86,4 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	document.addEventListener("click", function () {
 		closeMenu();
 	});
+
+	// dynamically rendering articles
+	// todo: the main article should be random
 });
