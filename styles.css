@@ -438,7 +438,7 @@ footer hr {
 		width: 100%;
 		gap: 1rem;
 		grid-template-columns: repeat(1, 100%);
-		grid-template-rows: repeat(2, 15rem);
+		grid-template-rows: repeat(3, 15rem);
 	}
 
 	.article-container {
