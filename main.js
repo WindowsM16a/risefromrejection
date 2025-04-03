@@ -11,6 +11,10 @@ const appSettings = {
 
 const app = initializeApp(appSettings);
 const database = getDatabase(app);
+const namesInDB = ref(database, "names");
+const dobInDB = ref(database, "dob");
+const countriesInDB = ref(database, "countries");
+const industriesInDB = ref(database, "industries");
 const storiesInDB = ref(database, "stories");
 const inputFieldEl = document.getElementById("search-input-field");
 
@@ -89,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			if (e.key === "Enter") {
 				console.log("Mobile search submitted:", this.value);
 				let inputValue = inputFieldEl.value;
-				push(storiesInDB, inputValue);
+				push(namesInDB, inputValue);
 				// Add your search functionality here
 				closeMenu(); // Close the menu after submitting
 			}
