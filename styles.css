@@ -201,7 +201,7 @@ main {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	padding: 0.5rem;
+	padding: 1rem;
 	z-index: 3;
 	color: var(--primary-light-gray-text);
 	cursor: pointer;
@@ -339,7 +339,7 @@ footer {
 .footer-upper {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: flex-start;
 }
 .footer-logo {
@@ -389,7 +389,7 @@ footer {
 .catinsub {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
+	align-items: flex-start;
 	/* justify-content: flex-start; */
 	gap: 3rem;
 }
@@ -482,7 +482,7 @@ footer hr {
 		font-style: 0.9rem;
 	}
 	.sub-title {
-		font-size: 0.7rem;
+		font-size: 1.2rem;
 	}
 }
 
