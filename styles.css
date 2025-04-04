@@ -243,6 +243,13 @@ main {
 	font-size: 1.8rem;
 	transition: transform ease-in-out 0.5s;
 }
+.sub-title {
+	color: var(--secondary-soft-gray-text);
+	font-family: "playfair display";
+	font-weight: 800;
+	font-size: 1.8rem;
+	transition: transform ease-in-out 0.5s;
+}
 .title:hover {
 	color: var(--accent-bright-teal);
 }
