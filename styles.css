@@ -197,7 +197,7 @@ main {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	gap: 0.5rem;
+	gap: 0.2rem;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -273,12 +273,9 @@ main {
 	align-items: center;
 	margin: 0.5rem 0.2rem 0.2rem 0.2rem;
 	font-family: "montserrat";
-	font-size: 0.75rem;
+	font-size: 0.8rem;
 	font-weight: 500;
 	color: var(--tertiary-gray-text);
-}
-.head-credits {
-	font-size: 0.85rem;
 }
 
 .dot {
@@ -470,18 +467,23 @@ footer hr {
 		height: 15rem;
 	}
 
+	.info {
+		gap: 0.1rem;
+	}
+
 	.head-title {
 		font-size: 1.2rem;
 	}
 	.title {
-		font-size: 1rem;
+		font-size: 1.3rem;
 	}
 
 	.head-sub-title {
 		font-style: 0.9rem;
 	}
 	.sub-title {
-		font-size: 1.2rem;
+		font-size: 1rem;
+		font-weight: 400;
 	}
 }
 
