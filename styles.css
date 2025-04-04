@@ -186,7 +186,7 @@ main {
 	display: flex;
 	flex-grow: 1;
 	min-height: 20rem;
-	min-width: 30rem;
+	min-width: 21rem;
 	position: relative;
 	overflow: hidden;
 	border-radius: 1.5rem;
