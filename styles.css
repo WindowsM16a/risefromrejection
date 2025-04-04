@@ -179,14 +179,11 @@ main {
 	padding: 2rem;
 }
 
-.head-article-container {
-	width: 100%;
-}
 .article-container {
 	display: flex;
 	flex-grow: 1;
 	min-height: 20rem;
-	min-width: 21rem;
+	min-width: 19rem;
 	position: relative;
 	overflow: hidden;
 	border-radius: 1.5rem;
@@ -266,7 +263,7 @@ main {
 	font-family: "montserrat";
 	font-size: 0.75rem;
 	font-weight: 500;
-	color: rgb(193, 193, 193);
+	color: var(--tertiary-gray-text);
 }
 .dot {
 	width: 0.3rem;
@@ -309,9 +306,14 @@ main {
 }
 
 footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;
 	background-color: var(--cards-dark-gray);
 	padding: 2rem;
 	margin: 2rem 0 0 0;
+	width: 100%;
 }
 
 .footer-container {
@@ -322,9 +324,11 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: flex-start;
 }
 .footer-logo {
 	display: flex;
+	font-size: 1.6rem;
 	align-items: center;
 	margin: 0 0 1rem 0;
 }
@@ -350,6 +354,8 @@ footer {
 	font-weight: 550;
 	font-size: 1.05rem;
 	margin: -0.4rem 0;
+	min-width: 19rem;
+	flex-grow: 1;
 }
 .categories,
 .information {
@@ -366,9 +372,10 @@ footer {
 }
 .catinsub {
 	display: flex;
-	justify-content: space-around;
-	gap: 2rem;
-	width: 100%;
+	flex-wrap: wrap;
+	align-items: center;
+	/* justify-content: flex-start; */
+	gap: 3rem;
 }
 footer hr {
 	height: 0.002rem;
