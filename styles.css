@@ -300,7 +300,7 @@ main {
 	flex-wrap: wrap;
 	/* flex-grow: 1; */
 	gap: 1.2rem;
-	border: 1px solid yellow;
+	/* border: 1px solid yellow; */
 	/* grid-template-columns: repeat(3, 32%);
 	grid-template-rows: repeat(2, 20rem); */
 }
