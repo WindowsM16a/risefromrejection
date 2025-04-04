@@ -7,6 +7,7 @@
 	--accent-light-teal: #4ecdc433;
 	--secondary-soft-gray-text: #8e9196;
 	--cards-dark-gray: #2d3748;
+	--tertiary-gray-text: rgb(193, 193, 193);
 }
 
 * {
@@ -177,15 +178,20 @@ hr {
 main {
 	padding: 2rem;
 }
+
+.head-article-container {
+	width: 100%;
+}
 .article-container {
 	display: flex;
-	/* align-items: flex-end; */
-	width: 100%;
-	height: 22rem;
+	flex-grow: 1;
+	min-height: 20rem;
+	min-width: 30rem;
 	position: relative;
 	overflow: hidden;
 	border-radius: 1.5rem;
 }
+
 .info {
 	width: 100%;
 	display: flex;
@@ -240,14 +246,14 @@ main {
 .title {
 	font-family: "playfair display";
 	font-weight: 800;
-	font-size: 1.8rem;
+	font-size: 1.2rem;
 	transition: transform ease-in-out 0.5s;
 }
 .sub-title {
-	color: var(--secondary-soft-gray-text);
-	font-family: "playfair display";
-	font-weight: 800;
-	font-size: 1.8rem;
+	color: var(--tertiary-gray-text);
+	font-family: "lora";
+	font-weight: 500;
+	font-size: 0.8rem;
 	transition: transform ease-in-out 0.5s;
 }
 .title:hover {
@@ -260,7 +266,6 @@ main {
 	font-family: "montserrat";
 	font-size: 0.75rem;
 	font-weight: 500;
-	/* text-shadow: 0.5px 0.5px 2px var(--primary-light-gray-text); */
 	color: rgb(193, 193, 193);
 }
 .dot {
@@ -293,41 +298,20 @@ main {
 	color: var(--accent-bright-teal);
 }
 .article-grids {
-	display: grid;
-	gap: 1.5rem;
-	/* border: 1px solid yellow; */
-	justify-content: center;
-	grid-template-columns: repeat(3, 32%);
-	grid-template-rows: repeat(2, 20rem);
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	/* flex-grow: 1; */
+	gap: 1.2rem;
+	border: 1px solid yellow;
+	/* grid-template-columns: repeat(3, 32%);
+	grid-template-rows: repeat(2, 20rem); */
 }
-.article-grids .article-container {
-	height: 20rem;
-}
-/* <div class="article-container">
-			<div class="gradient"></div>
-			<div class="info">
-				<p class="category-tag">Arts</p>
-				<p class="title">
-					From 12 Rejections to Literary Icon: J.K.Rowling's Harry Potter
-					Journey
-				</p>
-				<div class="credits">
-					<p class="author">John Doe</p>
-					<span class="dot"></span>
-					<p class="date">July 15, 2023</p>
-					<span class="dot"></span>
-					<p class="reading-time">6 min read</p>
-				</div>
-			</div>
-			<img
-				src="https://images.unsplash.com/photo-1551269901-5c5e14c25df7?q=80&w=2069&auto=format&fit=crop"
-				alt="j k rowling article image"
-			/>
-</div> */
 
 footer {
 	background-color: var(--cards-dark-gray);
 	padding: 2rem;
+	margin: 2rem 0 0 0;
 }
 
 .footer-container {
@@ -340,6 +324,8 @@ footer {
 	align-items: center;
 }
 .footer-logo {
+	display: flex;
+	align-items: center;
 	margin: 0 0 1rem 0;
 }
 .footer-logo img {
@@ -444,19 +430,29 @@ footer hr {
 	}
 
 	.article-grids {
-		display: grid;
-		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-grow: 1;
 		gap: 1rem;
-		grid-template-columns: repeat(1, 100%);
-		grid-template-rows: repeat(3, 15rem);
 	}
 
-	.article-container {
+	.article-container,
+	.head-article-container {
 		height: 15rem;
 	}
 
+	.head-title {
+		font-size: 1.2rem;
+	}
 	.title {
 		font-size: 1rem;
+	}
+
+	.head-sub-title {
+		font-style: 0.9rem;
+	}
+	.sub-title {
+		font-size: 0.7rem;
 	}
 }
 
