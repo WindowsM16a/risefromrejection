@@ -17,6 +17,8 @@ const countriesInDB = ref(database, "countries");
 const industriesInDB = ref(database, "industries");
 const storiesInDB = ref(database, "stories");
 const inputFieldEl = document.getElementById("search-input-field");
+const date = new Date();
+let copyrightDiv = document.getElementById("copyrights");
 
 // JavaScript for the navbar functionality
 document.addEventListener("DOMContentLoaded", function () {
@@ -112,4 +114,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// dynamically rendering articles
 	// todo: the main article should be random
+
+	// date for footer
+	let year = date.getFullYear();
+	console.log(year);
+	copyrightDiv.innerHTML = "";
+	let copyrightText = document.createElement("p");
+	copyrightText.innerHTML = `&copy; ${year} Rise from Rejections. All rights reserved.`;
+	copyrightDiv.append(copyrightText);
 });
