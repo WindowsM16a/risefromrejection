@@ -183,7 +183,7 @@ main {
 	display: flex;
 	flex-grow: 1;
 	min-height: 20rem;
-	min-width: 19rem;
+	min-width: 23rem;
 	position: relative;
 	overflow: hidden;
 	border-radius: 1.5rem;
@@ -238,6 +238,7 @@ main {
 	transform: scale(1.05);
 }
 .category-tag {
+	font-weight: 600;
 	width: fit-content;
 	padding: 0.2rem 0.4rem;
 	border-radius: 1rem;
@@ -250,6 +251,7 @@ main {
 	font-family: "playfair display";
 	font-weight: 800;
 	font-size: 1.4rem;
+	transition: color 0.25s ease-in-out;
 }
 .head-title {
 	font-size: 2rem;
@@ -371,8 +373,8 @@ footer {
 	font-family: "montserrat";
 	font-weight: 550;
 	font-size: 1.05rem;
-	margin: -0.4rem 0;
 	min-width: 19rem;
+	margin: 0 0 -0.4rem 0;
 	flex-grow: 1;
 }
 .categories,
@@ -410,6 +412,7 @@ footer hr {
 	text-align: center;
 	color: var(--secondary-soft-gray-text);
 }
+
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
 	.nav-links {

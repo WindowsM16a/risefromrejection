@@ -30,15 +30,10 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 const dbRef = ref(db);
-
-// DOM elements
-const inputFieldEl = document.getElementById("search-input-field");
-
-const headDiv = document.querySelector(".head-article-container");
+const personalitiesRef = ref(db, "personalities");
 
 // footer date
 const date = new Date();
-let copyrightDiv = document.getElementById("copyrights");
 
 // function addData() {
 // 	set(ref(db, "artTest/" + `${fName}${lName}`), {
@@ -50,13 +45,12 @@ let copyrightDiv = document.getElementById("copyrights");
 // 			console.log("data added successfully");
 // 		})
 // 		.catch((error) => {
-// 			console.log("unsuccessful: ", error);
+// 			console.log("unsuccessful: " + error);
 // 		});
 // }
 // addData();
 
 // function getData() {
-
 // 	get(child(dbRef, "articles/" + "elonmusk"))
 // 		.then((snapshot) => {
 // 			if (snapshot.exists()) {
@@ -67,7 +61,7 @@ let copyrightDiv = document.getElementById("copyrights");
 // 			}
 // 		})
 // 		.catch((error) => {
-// 			console.log(error);
+// 			console.log('unsuccessful: ' + error);
 // 		});
 // }
 // getData();
@@ -87,6 +81,10 @@ document.addEventListener("DOMContentLoaded", function () {
 	const navLinksItems = document.querySelectorAll(".nav-links li a");
 	const desktopSearchBtn = document.querySelector(".search-btn");
 	const mobileSearchInput = document.querySelector(".mobile-search-input");
+	const headDiv = document.querySelector(".head-article-container");
+	const copyrightDiv = document.getElementById("copyrights");
+	const footerSearchInput = document.querySelector(".email-input");
+	const latestArticlesGrids = document.querySelector(".article-grids");
 
 	// Toggle menu function
 	function toggleMenu() {
@@ -168,10 +166,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		closeMenu();
 	});
 
-	// dynamically rendering articles
-	// todo: the main article should be random
-
-	// we're using jk rowling's for tests
+	// dynamically rendering main article
 	function mainArticle() {
 		let randNum = Math.floor(Math.random() * 10 + 1);
 		get(child(dbRef, "personalities/" + randNum)).then((snapshot) => {
@@ -179,10 +174,8 @@ document.addEventListener("DOMContentLoaded", function () {
 				// so i don't keep writing val
 				const snapVal = snapshot.val();
 
-				const jCountry = snapVal.country;
-				// console.log("this is it: " + jCountry);
-				const jInd = snapVal.industry;
 				const jImgSrc = snapVal.image_src;
+				// console.log("this is it: " + jImgSrc);
 				const jAuthor = snapVal.author;
 				const jWriteDate = snapVal.date;
 				const jCategory = snapVal.category;
@@ -214,12 +207,81 @@ document.addEventListener("DOMContentLoaded", function () {
 			/>`;
 
 				// display it
-				headDiv.style.display = "block";
+				headDiv.style.display = "flex";
 			}
 		});
 	}
-	// call the function
+	// calling the function
 	mainArticle();
+
+	// dynamically rendering the latest articles
+	latestArticlesGrids.style.display = "none";
+
+	async function latestArticles() {
+		try {
+			const snapshot = await get(personalitiesRef);
+			console.log("snapshot received", snapshot);
+
+			if (snapshot.exists()) {
+				const snapVal = snapshot.val();
+				console.log("data from db received", snapVal);
+
+				const personalitiesFromDb = Object.values(snapVal);
+
+				latestArticlesGrids.innerHTML = "";
+
+				personalitiesFromDb.forEach((personality) => {
+					console.log("rendering:", personality);
+					latestArticlesGrids.innerHTML += `<div class="article-container">
+						<div class="gradient"></div>
+						<div class="info">
+							<p class="category-tag">${personality.category}</p>
+							<p class="title">
+								${personality.title}
+							</p>
+							<p class="sub-title">
+								${personality.subtitle}
+							</p>
+							<div class="credits">
+								<p class="author">${personality.author}</p>
+								<span class="dot"></span>
+								<p class="date">${personality.date}</p>
+								<span class="dot"></span>
+								<p class="reading-time">${personality.reading_time} read</p>
+							</div>
+						</div>
+						<img
+							class="article-img"
+							src="${personality.image_src}"
+							alt="${personality.name}'s image"
+						/>
+					</div>`;
+				});
+			} else console.log("No data found");
+		} catch (err) {
+			console.error("Error loading articles" + err);
+		}
+	}
+	// calling the function
+	latestArticles();
+	latestArticlesGrids.style.display = "flex";
+
+	// submit email to db
+	// footerSearchInput.addEventListener("keyup", function (e) {
+	// 	let user = "Shayne Wuver";
+	// 	if (e.key == "Enter") {
+	// 		set(ref(db, "emails/" + user), {
+	// 			name: user,
+	// 			email: this.value,
+	// 		})
+	// 			.then(() => {
+	// 				console.log("Email search submitted: ", this.value);
+	// 			})
+	// 			.catch((error) => {
+	// 				console.log("unsuccessful: " + error);
+	// 			});
+	// 	}
+	// });
 
 	// date for footer
 	let year = date.getFullYear();
