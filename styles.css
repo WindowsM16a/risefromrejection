@@ -240,6 +240,10 @@ main {
 	transform: scale(1.05);
 }
 
+.info:hover .title {
+	color: var(--accent-bright-teal);
+}
+
 .category-tag {
 	font-weight: 600;
 	width: fit-content;
@@ -255,7 +259,7 @@ main {
 	font-family: "playfair display";
 	font-weight: 800;
 	font-size: clamp(1.3rem, 2.5vw, 1.4rem);
-	transition: color 0.25s ease-in-out;
+	transition: color 0.35s ease-in-out;
 }
 .head-title {
 	font-size: clamp(1.6rem, 3vw, 1.8rem);
@@ -327,7 +331,6 @@ footer {
 	flex-grow: 1;
 	background-color: var(--cards-dark-gray);
 	padding: 2rem;
-	margin: 0 0 0 0;
 	width: 100%;
 }
 
