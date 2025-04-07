@@ -211,22 +211,21 @@ document.addEventListener("DOMContentLoaded", function () {
 			personalitiesArray.forEach((personality) => {
 				latestArticlesGrids.innerHTML += `
         <div class="article-container">
-          <div class="gradient"></div>
-          <div class="info">
+        <div class="gradient"></div>
+        <div class="info">
             <p class="category-tag">${personality.category}</p>
             <p class="title">${personality.title}</p>
             <p class="sub-title">${personality.subtitle}</p>
             <div class="credits">
-              <p class="author">${personality.author}</p>
-              <span class="dot"></span>
-              <p class="date">${personality.date}</p>
-              <span class="dot"></span>
-              <p class="reading-time">${personality.reading_time} read</p>
+            <p class="author">${personality.author}</p>
+            <span class="dot"></span>
+            <p class="date">${personality.date}</p>
+            <span class="dot"></span>
+            <p class="reading-time">${personality.reading_time} read</p>
             </div>
-          </div>
-          <img class="article-img" loading="lazy" src="${personality.image_src}" alt="${personality.name}'s image" />
         </div>
-      `;
+        <img class="article-img" loading="lazy" src="${personality.image_src}" alt="${personality.name}'s image" />
+        </div>`;
 			});
 			latestArticlesGrids.style.display = "flex"; // Show the grid
 		} catch (err) {
