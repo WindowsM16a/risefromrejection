@@ -6,6 +6,8 @@ import {
 	child,
 	get,
 	set,
+	update,
+	remove,
 } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-database.js";
 
 // personalities file
