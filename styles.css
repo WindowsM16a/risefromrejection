@@ -5,6 +5,7 @@
 	--primary-light-gray-text: #e9e9e9;
 	--accent-bright-teal: #4ecdc4;
 	--accent-light-teal: #4ecdc433;
+	--accent-dark-teal: #0e7871;
 	--secondary-soft-gray-text: #8e9196;
 	--cards-dark-gray: #2d3748;
 	--tertiary-gray-text: rgb(193, 193, 193);
@@ -183,7 +184,7 @@ main {
 	display: flex;
 	flex-grow: 1;
 	min-height: 20rem;
-	min-width: 19rem;
+	min-width: 25rem;
 	position: relative;
 	overflow: hidden;
 	border-radius: 1.5rem;
@@ -203,19 +204,21 @@ main {
 	left: 0;
 	padding: 1rem;
 	z-index: 3;
+	/* background-image: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 0.9),
+		var(--accent-light-teal)
+	); */
 	color: var(--primary-light-gray-text);
 	cursor: pointer;
 	transition: ease-in-out 0.25s;
 }
 .gradient {
+	/* display: none; */
 	width: 100%;
 	height: 100%;
-	background-image: linear-gradient(
-		to top,
-		var(--primary-dark-navy-blue),
-		var(--accent-bright-teal)
-	);
-	opacity: 0.2;
+	background-image: linear-gradient(to top, #0e1017, #0e1017d5, #4ecdc552);
+	opacity: 0.9;
 	position: absolute;
 	top: 0;
 	left: 0;

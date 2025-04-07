@@ -6,7 +6,7 @@ export const personalities = [
 		country: "South Africa",
 		category: "Tech",
 		image_src:
-			"https://images.unsplash.com/photo-1551269901-5c5e14c25df7?q=80&w=2069&auto=format&fit=crop",
+			"https://wallpapers.com/images/featured/elon-musk-81fi31lzmqbcg80q.jpg",
 		industry: "Automotive, Space, Tech",
 		title:
 			"From 12 Rejections to Literary Icon: Elon Musk's Harry Potter Journey",
@@ -25,7 +25,7 @@ export const personalities = [
 		country: "USA",
 		category: "Tech",
 		image_src:
-			"https://images.unsplash.com/photo-1551269901-5c5e14c25df7?q=80&w=2069&auto=format&fit=crop",
+			"https://c4.wallpaperflare.com/wallpaper/581/868/873/steve-jobs-face-wallpaper-preview.jpg",
 		industry: "Tech",
 		title:
 			"From 12 Rejections to Literary Icon: Steve Jobs' Harry Potter Journey",
@@ -44,7 +44,7 @@ export const personalities = [
 		country: "USA",
 		category: "Tech",
 		image_src:
-			"https://images.unsplash.com/photo-1551269901-5c5e14c25df7?q=80&w=2069&auto=format&fit=crop",
+			"https://wallpapers.com/images/hd/jeff-bezos-1920-x-1080-background-jzkq5xxymatya6y3.jpg",
 		industry: "Tech (E-commerce)",
 		title:
 			"From 12 Rejections to Literary Icon: Jeff Bezos' Harry Potter Journey",
@@ -62,8 +62,7 @@ export const personalities = [
 		dob: "July 19, 1953",
 		country: "USA",
 		category: "Business",
-		image_src:
-			"https://images.unsplash.com/photo-1551269901-5c5e14c25df7?q=80&w=2069&auto=format&fit=crop",
+		image_src: "https://wallpapercave.com/wp/wp6787693.jpg",
 		industry: "Food & Beverage",
 		title:
 			"From 12 Rejections to Literary Icon: Howard Schultz's Harry Potter Journey",
@@ -82,7 +81,7 @@ export const personalities = [
 		country: "USA",
 		category: "Arts",
 		image_src:
-			"https://images.unsplash.com/photo-1551269901-5c5e14c25df7?q=80&w=2069&auto=format&fit=crop",
+			"https://wallpapercat.com/w/full/0/5/a/158247-2560x1440-desktop-hd-oprah-winfrey-wallpaper-photo.jpg",
 		industry: "Media",
 		title:
 			"From 12 Rejections to Literary Icon: Oprah Winfrey's Harry Potter Journey",
@@ -101,7 +100,7 @@ export const personalities = [
 		country: "UK",
 		category: "Business",
 		image_src:
-			"https://images.unsplash.com/photo-1551269901-5c5e14c25df7?q=80&w=2069&auto=format&fit=crop",
+			"https://images.ctfassets.net/rxqefefl3t5b/7opR6flu92Y9dlkc24JRYD/9dd4a8e981c517b88c826c950c7d76fe/branson-richard_2016-04_dont-look-down-headshot.jpg?fl=progressive&q=80&w=1440&fit=fill",
 		industry: "Entrepreneurship",
 		title:
 			"From 12 Rejections to Literary Icon: Richard Branson's Harry Potter Journey",
@@ -120,7 +119,7 @@ export const personalities = [
 		country: "UK",
 		category: "Business",
 		image_src:
-			"https://images.unsplash.com/photo-1551269901-5c5e14c25df7?q=80&w=2069&auto=format&fit=crop",
+			"https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iNr8MMA6mGbk/v1/-1x-1.webp",
 		industry: "Consumer Products",
 		title:
 			"From 12 Rejections to Literary Icon: James Dyson's Harry Potter Journey",
@@ -139,7 +138,7 @@ export const personalities = [
 		country: "UK",
 		category: "Arts",
 		image_src:
-			"https://images.unsplash.com/photo-1551269901-5c5e14c25df7?q=80&w=2069&auto=format&fit=crop",
+			"https://wallpapers.com/images/hd/j-k-rowling-1920-x-1080-wallpaper-m5reac09milb9c5k.jpg",
 		industry: "Literature, Entertainment",
 		title:
 			"From 12 Rejections to Literary Icon: J.K Rowling's Harry Potter Journey",
@@ -158,7 +157,7 @@ export const personalities = [
 		country: "USA",
 		category: "Tech",
 		image_src:
-			"https://images.unsplash.com/photo-1551269901-5c5e14c25df7?q=80&w=2069&auto=format&fit=crop",
+			"https://9to5mac.com/wp-content/uploads/sites/6/2018/10/larry-ellison.jpg?quality=100&strip=all",
 		industry: "Tech (Software)",
 		title:
 			"From 12 Rejections to Literary Icon: Larry Ellison's Harry Potter Journey",
@@ -177,7 +176,7 @@ export const personalities = [
 		country: "USA",
 		category: "Tech",
 		image_src:
-			"https://images.unsplash.com/photo-1551269901-5c5e14c25df7?q=80&w=2069&auto=format&fit=crop",
+			"https://media.wired.com/photos/65e8712677e10c6c234ba97c/master/w_1600%2Cc_limit/GettyImages-543406904.jpg",
 		industry: "Tech (Ride-sharing)",
 		title:
 			"From 12 Rejections to Literary Icon: Travis Kalanick's Harry Potter Journey",

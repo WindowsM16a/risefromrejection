@@ -167,104 +167,75 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 
 	// dynamically rendering main article
-	function mainArticle() {
-		let randNum = Math.floor(Math.random() * 10 + 1);
-		get(child(dbRef, "personalities/" + randNum)).then((snapshot) => {
-			if (snapshot.exists()) {
-				// so i don't keep writing val
-				const snapVal = snapshot.val();
-
-				const jImgSrc = snapVal.image_src;
-				// console.log("this is it: " + jImgSrc);
-				const jAuthor = snapVal.author;
-				const jWriteDate = snapVal.date;
-				const jCategory = snapVal.category;
-				const jReadTime = snapVal.reading_time;
-				const jName = snapVal.name;
-				const jTitle = snapVal.title;
-				const jSubtitle = snapVal.subtitle;
-
-				headDiv.style.display = "none";
-				headDiv.innerHTML = `<div class="gradient"></div>
-			<div class="info">
-			<p class="category-tag">${jCategory}</p>
-			<p class="head-title title">${jTitle}
-			</p>
-			<p class="head-sub-title sub-title">${jSubtitle}
-			</p>
-			<div class="credits">
-			<p class="author">${jAuthor}</p>
-			<span class="dot"></span>
-			<p class="date">${jWriteDate}</p>
-			<span class="dot"></span>
-			<p class="reading-time">${jReadTime} read</p>
-			</div>
-			</div>
-			<img
-			class="article-img"
-			src="${jImgSrc}"
-			alt="${jName} image"
-			/>`;
-
-				// display it
-				headDiv.style.display = "flex";
-			}
-		});
-	}
-	// calling the function
-	mainArticle();
-
-	// dynamically rendering the latest articles
-	latestArticlesGrids.style.display = "none";
-
-	async function latestArticles() {
+	// todo: the titles should have character limit of 65
+	async function loadAllArticles() {
 		try {
+			// Fetch all personalities with a single call
 			const snapshot = await get(personalitiesRef);
-			console.log("snapshot received", snapshot);
+			if (!snapshot.exists()) {
+				console.log("No data found.");
+				return;
+			}
 
-			if (snapshot.exists()) {
-				const snapVal = snapshot.val();
-				console.log("data from db received", snapVal);
+			const data = snapshot.val();
+			// Convert the object into an array for easier handling
+			const personalitiesArray = Object.values(data);
 
-				const personalitiesFromDb = Object.values(snapVal);
+			// --- Main Article Section ---
+			// Pick a random personality from the array for the main article
+			const randIndex = Math.floor(Math.random() * personalitiesArray.length);
+			const mainPerson = personalitiesArray[randIndex];
 
-				latestArticlesGrids.innerHTML = "";
+			// Build the main article HTML using mainPerson's details
+			headDiv.style.display = "none"; // Hide while updating
+			headDiv.innerHTML = `
+      <div class="gradient"></div>
+      <div class="info">
+        <p class="category-tag">${mainPerson.category}</p>
+        <p class="head-title title">${mainPerson.title}</p>
+        <p class="head-sub-title sub-title">${mainPerson.subtitle}</p>
+        <div class="credits">
+          <p class="author">${mainPerson.author}</p>
+          <span class="dot"></span>
+          <p class="date">${mainPerson.date}</p>
+          <span class="dot"></span>
+          <p class="reading-time">${mainPerson.reading_time} read</p>
+        </div>
+      </div>
+      <img class="article-img" src="${mainPerson.image_src}" alt="${mainPerson.name}'s image" />
+    `;
+			headDiv.style.display = "flex"; // Show updated main article
 
-				personalitiesFromDb.forEach((personality) => {
-					console.log("rendering:", personality);
-					latestArticlesGrids.innerHTML += `<div class="article-container">
-						<div class="gradient"></div>
-						<div class="info">
-							<p class="category-tag">${personality.category}</p>
-							<p class="title">
-								${personality.title}
-							</p>
-							<p class="sub-title">
-								${personality.subtitle}
-							</p>
-							<div class="credits">
-								<p class="author">${personality.author}</p>
-								<span class="dot"></span>
-								<p class="date">${personality.date}</p>
-								<span class="dot"></span>
-								<p class="reading-time">${personality.reading_time} read</p>
-							</div>
-						</div>
-						<img
-							class="article-img"
-							src="${personality.image_src}"
-							alt="${personality.name}'s image"
-						/>
-					</div>`;
-				});
-			} else console.log("No data found");
+			// --- Latest Articles Grid ---
+			latestArticlesGrids.innerHTML = ""; // Clear the grid before populating
+			personalitiesArray.forEach((personality) => {
+				latestArticlesGrids.innerHTML += `
+        <div class="article-container">
+          <div class="gradient"></div>
+          <div class="info">
+            <p class="category-tag">${personality.category}</p>
+            <p class="title">${personality.title}</p>
+            <p class="sub-title">${personality.subtitle}</p>
+            <div class="credits">
+              <p class="author">${personality.author}</p>
+              <span class="dot"></span>
+              <p class="date">${personality.date}</p>
+              <span class="dot"></span>
+              <p class="reading-time">${personality.reading_time} read</p>
+            </div>
+          </div>
+          <img class="article-img" loading="lazy" src="${personality.image_src}" alt="${personality.name}'s image" />
+        </div>
+      `;
+			});
+			latestArticlesGrids.style.display = "flex"; // Show the grid
 		} catch (err) {
-			console.error("Error loading articles" + err);
+			console.error("Error loading articles:", err);
 		}
 	}
-	// calling the function
-	latestArticles();
-	latestArticlesGrids.style.display = "flex";
+
+	// Calling the integrated function
+	loadAllArticles();
 
 	// submit email to db
 	// footerSearchInput.addEventListener("keyup", function (e) {
