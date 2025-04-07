@@ -6,8 +6,6 @@ import {
 	child,
 	get,
 	set,
-	update,
-	remove,
 } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-database.js";
 
 // personalities file
@@ -23,8 +21,6 @@ const firebaseConfig = {
 	messagingSenderId: "976543624439",
 	appId: "1:976543624439:web:ecb3feb91d44ac70b437f2",
 };
-
-// reading values from objects in the array
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
@@ -89,7 +85,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	// Toggle menu function
 	function toggleMenu() {
 		navLinks.classList.toggle("active");
-
 		if (navLinks.classList.contains("active")) {
 			hamburger.style.display = "none";
 			close.style.display = "inline";
@@ -166,8 +161,147 @@ document.addEventListener("DOMContentLoaded", function () {
 		closeMenu();
 	});
 
-	// dynamically rendering main article
-	// todo: the titles should have character limit of 65
+	// ----------------------------
+	// Modularized Rendering Functions
+	// ----------------------------
+
+	// Create and return main article element using createElement
+	function renderMainArticle(mainPerson) {
+		// Create container for main article
+		const container = document.createElement("div");
+
+		// Create gradient overlay
+		const gradient = document.createElement("div");
+		gradient.classList.add("gradient");
+		container.appendChild(gradient);
+
+		// Create info div and its children
+		const info = document.createElement("div");
+		info.classList.add("info");
+
+		const categoryTag = document.createElement("p");
+		categoryTag.classList.add("category-tag");
+		categoryTag.textContent = mainPerson.category;
+		info.appendChild(categoryTag);
+
+		const headTitle = document.createElement("p");
+		headTitle.classList.add("head-title", "title");
+		headTitle.textContent = mainPerson.title;
+		info.appendChild(headTitle);
+
+		const headSubTitle = document.createElement("p");
+		headSubTitle.classList.add("head-sub-title", "sub-title");
+		headSubTitle.textContent = mainPerson.subtitle;
+		info.appendChild(headSubTitle);
+
+		const credits = document.createElement("div");
+		credits.classList.add("credits");
+
+		const authorP = document.createElement("p");
+		authorP.classList.add("author");
+		authorP.textContent = mainPerson.author;
+		credits.appendChild(authorP);
+
+		const dot1 = document.createElement("span");
+		dot1.classList.add("dot");
+		credits.appendChild(dot1);
+
+		const dateP = document.createElement("p");
+		dateP.classList.add("date");
+		dateP.textContent = mainPerson.date;
+		credits.appendChild(dateP);
+
+		const dot2 = document.createElement("span");
+		dot2.classList.add("dot");
+		credits.appendChild(dot2);
+
+		const readingTimeP = document.createElement("p");
+		readingTimeP.classList.add("reading-time");
+		readingTimeP.textContent = mainPerson.reading_time + " read";
+		credits.appendChild(readingTimeP);
+
+		info.appendChild(credits);
+		container.appendChild(info);
+
+		// Create image element
+		const img = document.createElement("img");
+		img.classList.add("article-img");
+		img.src = mainPerson.image_src;
+		img.alt = `${mainPerson.name}'s image`;
+		container.appendChild(img);
+
+		return container;
+	}
+
+	// Create and return an article element for latest articles
+	function renderArticle(personality) {
+		const articleContainer = document.createElement("div");
+		articleContainer.classList.add("article-container");
+
+		const gradient = document.createElement("div");
+		gradient.classList.add("gradient");
+		articleContainer.appendChild(gradient);
+
+		const info = document.createElement("div");
+		info.classList.add("info");
+
+		const categoryTag = document.createElement("p");
+		categoryTag.classList.add("category-tag");
+		categoryTag.textContent = personality.category;
+		info.appendChild(categoryTag);
+
+		const titleP = document.createElement("p");
+		titleP.classList.add("title");
+		titleP.textContent = personality.title;
+		info.appendChild(titleP);
+
+		const subTitleP = document.createElement("p");
+		subTitleP.classList.add("sub-title");
+		subTitleP.textContent = personality.subtitle;
+		info.appendChild(subTitleP);
+
+		const credits = document.createElement("div");
+		credits.classList.add("credits");
+
+		const authorP = document.createElement("p");
+		authorP.classList.add("author");
+		authorP.textContent = personality.author;
+		credits.appendChild(authorP);
+
+		const dot1 = document.createElement("span");
+		dot1.classList.add("dot");
+		credits.appendChild(dot1);
+
+		const dateP = document.createElement("p");
+		dateP.classList.add("date");
+		dateP.textContent = personality.date;
+		credits.appendChild(dateP);
+
+		const dot2 = document.createElement("span");
+		dot2.classList.add("dot");
+		credits.appendChild(dot2);
+
+		const readingTimeP = document.createElement("p");
+		readingTimeP.classList.add("reading-time");
+		readingTimeP.textContent = personality.reading_time + " read";
+		credits.appendChild(readingTimeP);
+
+		info.appendChild(credits);
+		articleContainer.appendChild(info);
+
+		const img = document.createElement("img");
+		img.classList.add("article-img");
+		img.src = personality.image_src;
+		img.alt = `${personality.name}'s image`;
+		img.loading = "lazy";
+		articleContainer.appendChild(img);
+
+		return articleContainer;
+	}
+
+	// ----------------------------
+	// Load All Articles: Modularized rendering of main article and latest articles grid
+	// ----------------------------
 	async function loadAllArticles() {
 		try {
 			// Fetch all personalities with a single call
@@ -177,57 +311,20 @@ document.addEventListener("DOMContentLoaded", function () {
 				return;
 			}
 
-			const data = snapshot.val();
-			// Convert the object into an array for easier handling
-			const personalitiesArray = Object.values(data);
+			const personalitiesArray = Object.values(snapshot.val());
 
 			// --- Main Article Section ---
-			// Pick a random personality from the array for the main article
 			const randIndex = Math.floor(Math.random() * personalitiesArray.length);
 			const mainPerson = personalitiesArray[randIndex];
-
-			// Build the main article HTML using mainPerson's details
-			headDiv.style.display = "none"; // Hide while updating
-			headDiv.innerHTML = `
-    <div class="gradient"></div>
-    <div class="info">
-        <p class="category-tag">${mainPerson.category}</p>
-        <p class="head-title title">${mainPerson.title}</p>
-        <p class="head-sub-title sub-title">${mainPerson.subtitle}</p>
-        <div class="credits">
-        <p class="author">${mainPerson.author}</p>
-        <span class="dot"></span>
-        <p class="date">${mainPerson.date}</p>
-        <span class="dot"></span>
-        <p class="reading-time">${mainPerson.reading_time} read</p>
-        </div>
-    </div>
-    <img class="article-img" src="${mainPerson.image_src}" alt="${mainPerson.name}'s image" />
-    `;
-			headDiv.style.display = "flex"; // Show updated main article
+			headDiv.innerHTML = "";
+			headDiv.appendChild(renderMainArticle(mainPerson));
 
 			// --- Latest Articles Grid ---
-			latestArticlesGrids.innerHTML = ""; // Clear the grid before populating
+			latestArticlesGrids.innerHTML = "";
 			personalitiesArray.forEach((personality) => {
-				latestArticlesGrids.innerHTML += `
-        <div class="article-container">
-        <div class="gradient"></div>
-        <div class="info">
-            <p class="category-tag">${personality.category}</p>
-            <p class="title">${personality.title}</p>
-            <p class="sub-title">${personality.subtitle}</p>
-            <div class="credits">
-            <p class="author">${personality.author}</p>
-            <span class="dot"></span>
-            <p class="date">${personality.date}</p>
-            <span class="dot"></span>
-            <p class="reading-time">${personality.reading_time} read</p>
-            </div>
-        </div>
-        <img class="article-img" loading="lazy" src="${personality.image_src}" alt="${personality.name}'s image" />
-        </div>`;
+				latestArticlesGrids.appendChild(renderArticle(personality));
 			});
-			latestArticlesGrids.style.display = "flex"; // Show the grid
+			latestArticlesGrids.style.display = "flex";
 		} catch (err) {
 			console.error("Error loading articles:", err);
 		}
@@ -254,10 +351,9 @@ document.addEventListener("DOMContentLoaded", function () {
 	// });
 
 	// date for footer
-	let year = date.getFullYear();
-	// console.log(year);
+	const year = date.getFullYear();
 	copyrightDiv.innerHTML = "";
-	let copyrightText = document.createElement("p");
+	const copyrightText = document.createElement("p");
 	copyrightText.innerHTML = `&copy; ${year} Rise from Rejections. All rights reserved.`;
-	copyrightDiv.append(copyrightText);
+	copyrightDiv.appendChild(copyrightText);
 });
