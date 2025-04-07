@@ -10,6 +10,7 @@
 	--cards-dark-gray: #2d3748;
 	--tertiary-gray-text: rgb(193, 193, 193);
 }
+
 * {
 	margin: 0;
 	padding: 0;
@@ -56,7 +57,7 @@ body {
 .logo {
 	display: flex;
 	align-items: center;
-	font-size: 1.5rem;
+	font-size: clamp(1.3rem, 2vw, 1.5rem);
 	font-family: "Playfair Display";
 }
 
@@ -189,6 +190,7 @@ main {
 	overflow: hidden;
 	border-radius: 1.5rem;
 }
+
 .head-article-container {
 	min-height: 25rem;
 	margin: 0 0 3rem 0;
@@ -204,17 +206,12 @@ main {
 	left: 0;
 	padding: 1rem;
 	z-index: 3;
-	/* background-image: linear-gradient(
-		to top,
-		rgba(0, 0, 0, 0.9),
-		var(--accent-light-teal)
-	); */
 	color: var(--primary-light-gray-text);
 	cursor: pointer;
 	transition: ease-in-out 0.25s;
 }
+
 .gradient {
-	/* display: none; */
 	width: 100%;
 	height: 100%;
 	background-image: linear-gradient(to top, #0e1017, #0e1017d5, #4ecdc552);
@@ -226,6 +223,7 @@ main {
 	z-index: 2;
 	cursor: pointer;
 }
+
 .article-img {
 	width: 100%;
 	height: 100%;
@@ -237,9 +235,11 @@ main {
 	border-radius: 1.5rem;
 	transition: transform ease-in-out 0.2s;
 }
+
 .info:hover + .article-img {
 	transform: scale(1.05);
 }
+
 .category-tag {
 	font-weight: 600;
 	width: fit-content;
@@ -250,29 +250,24 @@ main {
 	font-family: "montserrat";
 }
 
+/* Responsive font sizes with clamp() */
 .title {
 	font-family: "playfair display";
 	font-weight: 800;
-	font-size: 1.4rem;
+	font-size: clamp(1.3rem, 2.5vw, 1.4rem);
 	transition: color 0.25s ease-in-out;
 }
 .head-title {
-	font-size: 2rem;
-}
-.head-title {
-	font-size: 1.8rem;
+	font-size: clamp(1.6rem, 3vw, 1.8rem);
 }
 .sub-title {
 	color: var(--tertiary-gray-text);
 	font-family: "lora";
 	font-weight: 500;
-	font-size: 0.9rem;
+	font-size: clamp(0.8rem, 1.5vw, 0.9rem);
 }
 .head-sub-title {
-	font-size: 1.1rem;
-}
-.head-sub-title {
-	font-size: 1.1rem;
+	font-size: clamp(1rem, 2vw, 1.1rem);
 }
 .title:hover {
 	color: var(--accent-bright-teal);
@@ -282,7 +277,7 @@ main {
 	align-items: center;
 	margin: 0.5rem 0.2rem 0.2rem 0.2rem;
 	font-family: "montserrat";
-	font-size: 0.8rem;
+	font-size: clamp(0.7rem, 1.2vw, 0.8rem);
 	font-weight: 500;
 	color: var(--tertiary-gray-text);
 }
@@ -296,7 +291,6 @@ main {
 }
 
 .latest-stories {
-	margin: 2rem 0 0 0;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -310,20 +304,20 @@ main {
 }
 .latest-stories-p {
 	font-family: "playfair display";
-	font-size: 1.4rem;
+	font-size: clamp(1.2rem, 2vw, 1.4rem);
 }
 .view-all-p {
 	font-family: "montserrat";
-	font-size: 1rem;
+	font-size: clamp(0.9rem, 1.5vw, 1rem);
 	color: var(--accent-bright-teal);
 }
+
 .article-grids {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
 	flex-grow: 1;
 	gap: 1.5rem;
-	/* border: 1px solid yellow; */
 }
 
 footer {
@@ -333,7 +327,7 @@ footer {
 	flex-grow: 1;
 	background-color: var(--cards-dark-gray);
 	padding: 2rem;
-	margin: 2rem 0 0 0;
+	margin: 0 0 0 0;
 	width: 100%;
 }
 
@@ -349,14 +343,12 @@ footer {
 }
 .footer-logo {
 	display: flex;
-	font-size: 1.6rem;
+	font-size: clamp(1.4rem, 2vw, 1.6rem);
 	align-items: center;
 	margin: 0 0 1rem 0;
 }
 .footer-logo img {
 	width: 2.5rem;
-	/* filter: drop-shadow(0px 1000px var(--secondary-soft-gray-text));
-	transform: translateY(-1000px); */
 }
 .footer-logo-and-p {
 	margin: 2rem 0;
@@ -373,7 +365,7 @@ footer {
 .subscribe-h {
 	font-family: "montserrat";
 	font-weight: 550;
-	font-size: 1.05rem;
+	font-size: clamp(1rem, 1.8vw, 1.05rem);
 	min-width: 19rem;
 	margin: 0 0 -0.4rem 0;
 	flex-grow: 1;
@@ -431,6 +423,7 @@ footer hr {
 
 	.nav-links.active {
 		display: flex;
+		animation: fadeIn 0.3s ease-in-out;
 	}
 
 	.nav-links li {
@@ -450,7 +443,6 @@ footer hr {
 		display: none;
 	}
 
-	/* Animation for mobile menu */
 	@keyframes fadeIn {
 		from {
 			opacity: 0;
@@ -460,14 +452,7 @@ footer hr {
 		}
 	}
 
-	.nav-links.active {
-		animation: fadeIn 0.3s ease-in-out;
-	}
-
 	.article-grids {
-		display: flex;
-		flex-wrap: wrap;
-		flex-grow: 1;
 		gap: 1rem;
 	}
 
@@ -480,15 +465,15 @@ footer hr {
 		gap: 0.1rem;
 	}
 
+	/* Override font sizes for smaller screens if needed */
 	.title {
 		font-size: 1.3rem;
 	}
 	.head-title {
 		font-size: 1.35rem;
 	}
-
 	.head-sub-title {
-		font-style: 0.9rem;
+		font-size: 1.1rem;
 	}
 	.sub-title {
 		font-size: 0.95rem;

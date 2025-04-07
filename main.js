@@ -67,10 +67,10 @@ const date = new Date();
 // getData();
 
 // uploading and updating the local personalities (10 for now). i'll stop doing local stuff once i learn auth so only i can write to the db.
-personalities.forEach((person) => {
-	const personRef = ref(db, "personalities/" + person.id);
-	set(personRef, person);
-});
+// personalities.forEach((person) => {
+// 	const personRef = ref(db, "personalities/" + person.id);
+// 	set(personRef, person);
+// });
 
 // JavaScript for the navbar functionality
 document.addEventListener("DOMContentLoaded", function () {
@@ -189,20 +189,20 @@ document.addEventListener("DOMContentLoaded", function () {
 			// Build the main article HTML using mainPerson's details
 			headDiv.style.display = "none"; // Hide while updating
 			headDiv.innerHTML = `
-      <div class="gradient"></div>
-      <div class="info">
+    <div class="gradient"></div>
+    <div class="info">
         <p class="category-tag">${mainPerson.category}</p>
         <p class="head-title title">${mainPerson.title}</p>
         <p class="head-sub-title sub-title">${mainPerson.subtitle}</p>
         <div class="credits">
-          <p class="author">${mainPerson.author}</p>
-          <span class="dot"></span>
-          <p class="date">${mainPerson.date}</p>
-          <span class="dot"></span>
-          <p class="reading-time">${mainPerson.reading_time} read</p>
+        <p class="author">${mainPerson.author}</p>
+        <span class="dot"></span>
+        <p class="date">${mainPerson.date}</p>
+        <span class="dot"></span>
+        <p class="reading-time">${mainPerson.reading_time} read</p>
         </div>
-      </div>
-      <img class="article-img" src="${mainPerson.image_src}" alt="${mainPerson.name}'s image" />
+    </div>
+    <img class="article-img" src="${mainPerson.image_src}" alt="${mainPerson.name}'s image" />
     `;
 			headDiv.style.display = "flex"; // Show updated main article
 
