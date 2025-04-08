@@ -173,6 +173,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	function renderMainArticle(mainPerson) {
 		// link around article
 		const storyLink = document.createElement("a");
+		storyLink.classList.add("storyLink");
 		storyLink.href = "https://www.google.com";
 
 		// Create container for main article
