@@ -382,6 +382,10 @@ document.addEventListener("DOMContentLoaded", function () {
 		metaEL.textContent = `By ${article.author} on ${article.date}`;
 		container.appendChild(metaEL);
 
+		const imgEl = document.createElement("img");
+		imgEl.src = `${article.image_src}`;
+		container.appendChild(imgEl);
+
 		const contentEl = document.createElement("p");
 		contentEl.innerText = article.story;
 		container.appendChild(contentEl);
