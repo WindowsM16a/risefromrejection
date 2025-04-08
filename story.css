@@ -1,0 +1,8 @@
+#backBtn {
+	background: transparent;
+	cursor: pointer;
+}
+
+#backBtn img {
+	width: 2rem;
+}

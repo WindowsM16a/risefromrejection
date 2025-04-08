@@ -85,6 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	const copyrightDiv = document.getElementById("copyrights");
 	const footerSearchInput = document.querySelector(".email-input");
 	const latestArticlesGrids = document.querySelector(".article-grids");
+	const backBtnEl = document.getElementById("backBtn");
 
 	// Toggle menu function
 	function toggleMenu() {
@@ -174,7 +175,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		// link around article
 		const storyLink = document.createElement("a");
 		storyLink.classList.add("storyLink");
-		storyLink.href = "https://www.google.com";
+		storyLink.href = `../story.html?id=${mainPerson.id}`;
 
 		// Create container for main article
 		const container = document.createElement("div");
@@ -246,7 +247,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	// Create and return an article element for latest articles
 	function renderArticle(personality) {
 		const storyLink = document.createElement("a");
-		storyLink.href = "https://www.google.com";
+		storyLink.href = `../story.html?id=${personality.id}`;
 		storyLink.classList.add("storyLink");
 
 		const articleContainer = document.createElement("div");
@@ -331,7 +332,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			// --- Main Article Section ---
 			const randIndex = Math.floor(Math.random() * personalitiesArray.length);
 			const mainPerson = personalitiesArray[randIndex];
-			headDiv.innerHTML = "";
+			headDiv.style.display = "none";
 			headDiv.appendChild(renderMainArticle(mainPerson));
 
 			// --- Latest Articles Grid ---
@@ -339,6 +340,8 @@ document.addEventListener("DOMContentLoaded", function () {
 			personalitiesArray.forEach((personality) => {
 				latestArticlesGrids.appendChild(renderArticle(personality));
 			});
+
+			headDiv.style.display = "flex";
 			latestArticlesGrids.style.display = "flex";
 		} catch (err) {
 			console.error("Error loading articles:", err);
@@ -347,6 +350,52 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// Calling the integrated function
 	loadAllArticles();
+
+	// the stories page
+	const params = new URLSearchParams(window.location.search);
+	const articleId = params.get("id");
+
+	async function loadStory(id) {
+		try {
+			const snapshot = await get(child(dbRef, `personalities/${id}`));
+			if (snapshot.exists()) {
+				const article = snapshot.val();
+				renderStory(article);
+			} else {
+				document.getElementById("storyContainer").innerHTML =
+					"<p>Article not found :( </p>";
+			}
+		} catch (error) {
+			console.log("Error fetching article:", error);
+		}
+	}
+
+	function renderStory(article) {
+		const container = document.getElementById("storyContainer");
+		container.innerHTML = "";
+
+		const titleEl = document.createElement("h1");
+		titleEl.textContent = article.title;
+		container.appendChild(titleEl);
+
+		const metaEL = document.createElement("p");
+		metaEL.textContent = `By ${article.author} on ${article.date}`;
+		container.appendChild(metaEL);
+
+		const contentEl = document.createElement("p");
+		contentEl.innerText = article.story;
+		container.appendChild(contentEl);
+	}
+
+	// display article
+	if (articleId) {
+		loadStory(articleId);
+	}
+
+	// back btn
+	backBtnEl.addEventListener("click", () => {
+		window.history.back();
+	});
 
 	// submit email to db
 	// footerSearchInput.addEventListener("keyup", function (e) {
