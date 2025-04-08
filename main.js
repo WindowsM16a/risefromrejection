@@ -169,6 +169,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// Create and return main article element using createElement
 	function renderMainArticle(mainPerson) {
+		// link around article
+		const storyLink = document.createElement("a");
+		storyLink.href = "https://www.google.com";
+
 		// Create container for main article
 		const container = document.createElement("div");
 
@@ -231,12 +235,16 @@ document.addEventListener("DOMContentLoaded", function () {
 		img.src = mainPerson.image_src;
 		img.alt = `${mainPerson.name}'s image`;
 		container.appendChild(img);
+		storyLink.appendChild(container);
 
-		return container;
+		return storyLink;
 	}
 
 	// Create and return an article element for latest articles
 	function renderArticle(personality) {
+		const storyLink = document.createElement("a");
+		storyLink.href = "https://www.google.com";
+
 		const articleContainer = document.createElement("div");
 		articleContainer.classList.add("article-container");
 
@@ -297,8 +305,9 @@ document.addEventListener("DOMContentLoaded", function () {
 		img.alt = `${personality.name}'s image`;
 		img.loading = "lazy";
 		articleContainer.appendChild(img);
+		storyLink.appendChild(articleContainer);
 
-		return articleContainer;
+		return storyLink;
 	}
 
 	// ----------------------------
