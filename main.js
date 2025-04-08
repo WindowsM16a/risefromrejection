@@ -14,6 +14,8 @@ import {
 import { personalities } from "../bts-code/personalities.js";
 
 // don't touch
+
+// todo: optimize images on cloudinary for performance.
 const firebaseConfig = {
 	apiKey: "AIzaSyAkidMW8oxhj2UbMZo3iX31sy8sjEf-zEA",
 	authDomain: "rise-from-rejection.firebaseapp.com",
@@ -244,6 +246,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	function renderArticle(personality) {
 		const storyLink = document.createElement("a");
 		storyLink.href = "https://www.google.com";
+		storyLink.classList.add("storyLink");
 
 		const articleContainer = document.createElement("div");
 		articleContainer.classList.add("article-container");

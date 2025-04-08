@@ -181,7 +181,8 @@ main {
 	padding: 2rem;
 }
 
-.article-container {
+.article-container,
+.storyLink {
 	display: flex;
 	flex-grow: 1;
 	min-height: 20rem;
@@ -236,7 +237,7 @@ main {
 	transition: transform ease-in-out 0.2s;
 }
 
-.article-container + .article-img {
+.info:hover + .article-img {
 	transform: scale(1.05);
 }
 
