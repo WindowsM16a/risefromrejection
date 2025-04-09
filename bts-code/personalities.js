@@ -11,8 +11,43 @@ export const personalities = [
 		title: "Elon Musk: Revolutionizing Space & Automobiles",
 		subtitle:
 			"How Elon turned rejections into rockets and cars, reshaping our future.",
-		story:
-			"Tesla and SpaceX struggled to secure funding, with multiple investors rejecting Musk’s vision. SpaceX nearly failed after three unsuccessful launches before the fourth launch secured a NASA contract.",
+		story: `When J.K. Rowling sat in a café in Edinburgh, Scotland, scribbling the beginnings of Harry Potter on napkins, she had no idea that she was about to create one of the most successful literary franchises in history. But before the world of wizardry and Hogwarts became a global phenomenon, Rowling faced rejection after rejection.
+
+		In the early 1990s, Rowling was at a particularly difficult point in her life. A recently divorced single mother living on welfare, she struggled to support herself and her daughter while battling depression. Despite these challenges, she found solace in writing about a young wizard named Harry Potter.
+
+		//title
+		The Road of Rejection
+		When Rowling completed her manuscript for "Harry Potter and the Philosopher's Stone" (later renamed "Harry Potter and the Sorcerer's Stone" in the US), she was hopeful but realistic. What she didn't anticipate was that 12 different publishers would reject her work, considering it too long for children, too complex in its themes, or simply not marketable.
+
+		// quote
+		"Failure meant a stripping away of the inessential. I stopped pretending to myself that I was anything other than what I was, and began to direct all my energy into finishing the only work that mattered to me."
+
+		One publishing house, Bloomsbury, finally took a chance on Rowling in 1997, offering a modest advance of £1,500. The deciding factor? The eight-year-old daughter of the publishing house's chairman read the first chapter and immediately demanded more.
+
+		// title
+		From Struggling Writer to Literary Icon
+		The rest, as they say, is history. The Harry Potter series went on to sell more than 500 million copies worldwide, was translated into over 80 languages, and spawned a multi-billion dollar film franchise, theme parks, merchandise, and more.
+
+		Rowling's personal fortune grew from welfare dependency to an estimated net worth of over $1 billion, making her the first author in history to achieve billionaire status primarily through writing. She has since used her platform and wealth to support numerous charitable causes, particularly those focused on alleviating social inequality and supporting single-parent families.
+
+		// title
+		The Power of Perseverance
+		Rowling's story exemplifies the power of perseverance in the face of rejection. Had she given up after the first few rejections, the world would never have known the story of The Boy Who Lived. Instead, she continued to believe in her work and her vision, refusing to let others' opinions diminish her resolve.
+
+		In a 2008 Harvard commencement speech, Rowling reflected on this period: "Rock bottom became the solid foundation on which I rebuilt my life." This sentiment captures the essence of what makes Rowling's story so powerful—her ability to transform rejection into resilience.
+
+		// title
+		Lessons from Rowling's Journey
+		Rowling's path from rejection to success offers several valuable lessons:
+
+		Believe in your unique vision: Despite feedback suggesting her book was too lengthy or complex for children's literature, Rowling stayed true to her creative vision.
+
+		Use rejection as redirection: Each "no" brought Rowling one step closer to the "yes" that would change her life.
+
+		Find strength in adversity: Rowling has often spoken about how her struggles gave her the determination to succeed. "I was set free because my greatest fear had been realized," she once said about hitting rock bottom.
+
+		As J.K. Rowling's story shows, rejection isn't the end of a dream—sometimes, it's just the beginning. Her journey from a struggling single mother to one of the world's most beloved authors reminds us that persistence, resilience, and belief in oneself can truly transform rejection into remarkable success.
+`,
 		author: "John Doe",
 		date: "April 1, 2025",
 		reading_time: "6 min",
@@ -28,8 +63,43 @@ export const personalities = [
 		industry: "Tech",
 		title: "Steve Jobs: Innovator of the Digital Age",
 		subtitle: "From setbacks to success, Jobs redefined personal computing.",
-		story:
-			"Fired from Apple in 1985 after a power struggle. He later founded NeXT and Pixar before returning to Apple in 1997, reviving the company with products like the iMac and iPhone.",
+		story: `When J.K. Rowling sat in a café in Edinburgh, Scotland, scribbling the beginnings of Harry Potter on napkins, she had no idea that she was about to create one of the most successful literary franchises in history. But before the world of wizardry and Hogwarts became a global phenomenon, Rowling faced rejection after rejection.
+
+		In the early 1990s, Rowling was at a particularly difficult point in her life. A recently divorced single mother living on welfare, she struggled to support herself and her daughter while battling depression. Despite these challenges, she found solace in writing about a young wizard named Harry Potter.
+
+		//title
+		The Road of Rejection
+		When Rowling completed her manuscript for "Harry Potter and the Philosopher's Stone" (later renamed "Harry Potter and the Sorcerer's Stone" in the US), she was hopeful but realistic. What she didn't anticipate was that 12 different publishers would reject her work, considering it too long for children, too complex in its themes, or simply not marketable.
+
+		// quote
+		"Failure meant a stripping away of the inessential. I stopped pretending to myself that I was anything other than what I was, and began to direct all my energy into finishing the only work that mattered to me."
+
+		One publishing house, Bloomsbury, finally took a chance on Rowling in 1997, offering a modest advance of £1,500. The deciding factor? The eight-year-old daughter of the publishing house's chairman read the first chapter and immediately demanded more.
+
+		// title
+		From Struggling Writer to Literary Icon
+		The rest, as they say, is history. The Harry Potter series went on to sell more than 500 million copies worldwide, was translated into over 80 languages, and spawned a multi-billion dollar film franchise, theme parks, merchandise, and more.
+
+		Rowling's personal fortune grew from welfare dependency to an estimated net worth of over $1 billion, making her the first author in history to achieve billionaire status primarily through writing. She has since used her platform and wealth to support numerous charitable causes, particularly those focused on alleviating social inequality and supporting single-parent families.
+
+		// title
+		The Power of Perseverance
+		Rowling's story exemplifies the power of perseverance in the face of rejection. Had she given up after the first few rejections, the world would never have known the story of The Boy Who Lived. Instead, she continued to believe in her work and her vision, refusing to let others' opinions diminish her resolve.
+
+		In a 2008 Harvard commencement speech, Rowling reflected on this period: "Rock bottom became the solid foundation on which I rebuilt my life." This sentiment captures the essence of what makes Rowling's story so powerful—her ability to transform rejection into resilience.
+
+		// title
+		Lessons from Rowling's Journey
+		Rowling's path from rejection to success offers several valuable lessons:
+
+		Believe in your unique vision: Despite feedback suggesting her book was too lengthy or complex for children's literature, Rowling stayed true to her creative vision.
+
+		Use rejection as redirection: Each "no" brought Rowling one step closer to the "yes" that would change her life.
+
+		Find strength in adversity: Rowling has often spoken about how her struggles gave her the determination to succeed. "I was set free because my greatest fear had been realized," she once said about hitting rock bottom.
+
+		As J.K. Rowling's story shows, rejection isn't the end of a dream—sometimes, it's just the beginning. Her journey from a struggling single mother to one of the world's most beloved authors reminds us that persistence, resilience, and belief in oneself can truly transform rejection into remarkable success.
+`,
 		author: "John Doe",
 		date: "April 1, 2025",
 		reading_time: "6 min",
@@ -45,8 +115,43 @@ export const personalities = [
 		industry: "Tech (E-commerce)",
 		title: "Jeff Bezos: E-commerce Empire Builder",
 		subtitle: "Turning online doubts into a global retail revolution.",
-		story:
-			"Early investors rejected Amazon, believing online retail was too risky. Many dismissed his idea of an everything store, but he persisted, building Amazon into a global giant.",
+		story: `When J.K. Rowling sat in a café in Edinburgh, Scotland, scribbling the beginnings of Harry Potter on napkins, she had no idea that she was about to create one of the most successful literary franchises in history. But before the world of wizardry and Hogwarts became a global phenomenon, Rowling faced rejection after rejection.
+
+		In the early 1990s, Rowling was at a particularly difficult point in her life. A recently divorced single mother living on welfare, she struggled to support herself and her daughter while battling depression. Despite these challenges, she found solace in writing about a young wizard named Harry Potter.
+
+		//title
+		The Road of Rejection
+		When Rowling completed her manuscript for "Harry Potter and the Philosopher's Stone" (later renamed "Harry Potter and the Sorcerer's Stone" in the US), she was hopeful but realistic. What she didn't anticipate was that 12 different publishers would reject her work, considering it too long for children, too complex in its themes, or simply not marketable.
+
+		// quote
+		"Failure meant a stripping away of the inessential. I stopped pretending to myself that I was anything other than what I was, and began to direct all my energy into finishing the only work that mattered to me."
+
+		One publishing house, Bloomsbury, finally took a chance on Rowling in 1997, offering a modest advance of £1,500. The deciding factor? The eight-year-old daughter of the publishing house's chairman read the first chapter and immediately demanded more.
+
+		// title
+		From Struggling Writer to Literary Icon
+		The rest, as they say, is history. The Harry Potter series went on to sell more than 500 million copies worldwide, was translated into over 80 languages, and spawned a multi-billion dollar film franchise, theme parks, merchandise, and more.
+
+		Rowling's personal fortune grew from welfare dependency to an estimated net worth of over $1 billion, making her the first author in history to achieve billionaire status primarily through writing. She has since used her platform and wealth to support numerous charitable causes, particularly those focused on alleviating social inequality and supporting single-parent families.
+
+		// title
+		The Power of Perseverance
+		Rowling's story exemplifies the power of perseverance in the face of rejection. Had she given up after the first few rejections, the world would never have known the story of The Boy Who Lived. Instead, she continued to believe in her work and her vision, refusing to let others' opinions diminish her resolve.
+
+		In a 2008 Harvard commencement speech, Rowling reflected on this period: "Rock bottom became the solid foundation on which I rebuilt my life." This sentiment captures the essence of what makes Rowling's story so powerful—her ability to transform rejection into resilience.
+
+		// title
+		Lessons from Rowling's Journey
+		Rowling's path from rejection to success offers several valuable lessons:
+
+		Believe in your unique vision: Despite feedback suggesting her book was too lengthy or complex for children's literature, Rowling stayed true to her creative vision.
+
+		Use rejection as redirection: Each "no" brought Rowling one step closer to the "yes" that would change her life.
+
+		Find strength in adversity: Rowling has often spoken about how her struggles gave her the determination to succeed. "I was set free because my greatest fear had been realized," she once said about hitting rock bottom.
+
+		As J.K. Rowling's story shows, rejection isn't the end of a dream—sometimes, it's just the beginning. Her journey from a struggling single mother to one of the world's most beloved authors reminds us that persistence, resilience, and belief in oneself can truly transform rejection into remarkable success.
+`,
 		author: "John Doe",
 		date: "April 1, 2025",
 		reading_time: "6 min",
@@ -61,8 +166,43 @@ export const personalities = [
 		industry: "Food & Beverage",
 		title: "Howard Schultz: Brewing a Global Brand",
 		subtitle: "From near-bankruptcy to worldwide coffee dominance.",
-		story:
-			"Over 200 banks and investors rejected his plan to expand Starbucks into a chain. Eventually, he found support, transforming Starbucks into an international brand.",
+		story: `When J.K. Rowling sat in a café in Edinburgh, Scotland, scribbling the beginnings of Harry Potter on napkins, she had no idea that she was about to create one of the most successful literary franchises in history. But before the world of wizardry and Hogwarts became a global phenomenon, Rowling faced rejection after rejection.
+
+		In the early 1990s, Rowling was at a particularly difficult point in her life. A recently divorced single mother living on welfare, she struggled to support herself and her daughter while battling depression. Despite these challenges, she found solace in writing about a young wizard named Harry Potter.
+
+		//title
+		The Road of Rejection
+		When Rowling completed her manuscript for "Harry Potter and the Philosopher's Stone" (later renamed "Harry Potter and the Sorcerer's Stone" in the US), she was hopeful but realistic. What she didn't anticipate was that 12 different publishers would reject her work, considering it too long for children, too complex in its themes, or simply not marketable.
+
+		// quote
+		"Failure meant a stripping away of the inessential. I stopped pretending to myself that I was anything other than what I was, and began to direct all my energy into finishing the only work that mattered to me."
+
+		One publishing house, Bloomsbury, finally took a chance on Rowling in 1997, offering a modest advance of £1,500. The deciding factor? The eight-year-old daughter of the publishing house's chairman read the first chapter and immediately demanded more.
+
+		// title
+		From Struggling Writer to Literary Icon
+		The rest, as they say, is history. The Harry Potter series went on to sell more than 500 million copies worldwide, was translated into over 80 languages, and spawned a multi-billion dollar film franchise, theme parks, merchandise, and more.
+
+		Rowling's personal fortune grew from welfare dependency to an estimated net worth of over $1 billion, making her the first author in history to achieve billionaire status primarily through writing. She has since used her platform and wealth to support numerous charitable causes, particularly those focused on alleviating social inequality and supporting single-parent families.
+
+		// title
+		The Power of Perseverance
+		Rowling's story exemplifies the power of perseverance in the face of rejection. Had she given up after the first few rejections, the world would never have known the story of The Boy Who Lived. Instead, she continued to believe in her work and her vision, refusing to let others' opinions diminish her resolve.
+
+		In a 2008 Harvard commencement speech, Rowling reflected on this period: "Rock bottom became the solid foundation on which I rebuilt my life." This sentiment captures the essence of what makes Rowling's story so powerful—her ability to transform rejection into resilience.
+
+		// title
+		Lessons from Rowling's Journey
+		Rowling's path from rejection to success offers several valuable lessons:
+
+		Believe in your unique vision: Despite feedback suggesting her book was too lengthy or complex for children's literature, Rowling stayed true to her creative vision.
+
+		Use rejection as redirection: Each "no" brought Rowling one step closer to the "yes" that would change her life.
+
+		Find strength in adversity: Rowling has often spoken about how her struggles gave her the determination to succeed. "I was set free because my greatest fear had been realized," she once said about hitting rock bottom.
+
+		As J.K. Rowling's story shows, rejection isn't the end of a dream—sometimes, it's just the beginning. Her journey from a struggling single mother to one of the world's most beloved authors reminds us that persistence, resilience, and belief in oneself can truly transform rejection into remarkable success.
+`,
 		author: "John Doe",
 		date: "April 1, 2025",
 		reading_time: "6 min",
@@ -78,8 +218,43 @@ export const personalities = [
 		industry: "Media",
 		title: "Oprah Winfrey: From Trials to Triumph",
 		subtitle: "Transforming personal struggles into an inspiring media legacy.",
-		story:
-			"Fired from her first TV job in Baltimore for being 'unfit for television.' She later became a media mogul and billionaire with <b><i>The Oprah Winfrey Show.</i></b>",
+		story: `When J.K. Rowling sat in a café in Edinburgh, Scotland, scribbling the beginnings of Harry Potter on napkins, she had no idea that she was about to create one of the most successful literary franchises in history. But before the world of wizardry and Hogwarts became a global phenomenon, Rowling faced rejection after rejection.
+
+		In the early 1990s, Rowling was at a particularly difficult point in her life. A recently divorced single mother living on welfare, she struggled to support herself and her daughter while battling depression. Despite these challenges, she found solace in writing about a young wizard named Harry Potter.
+
+		//title
+		The Road of Rejection
+		When Rowling completed her manuscript for "Harry Potter and the Philosopher's Stone" (later renamed "Harry Potter and the Sorcerer's Stone" in the US), she was hopeful but realistic. What she didn't anticipate was that 12 different publishers would reject her work, considering it too long for children, too complex in its themes, or simply not marketable.
+
+		// quote
+		"Failure meant a stripping away of the inessential. I stopped pretending to myself that I was anything other than what I was, and began to direct all my energy into finishing the only work that mattered to me."
+
+		One publishing house, Bloomsbury, finally took a chance on Rowling in 1997, offering a modest advance of £1,500. The deciding factor? The eight-year-old daughter of the publishing house's chairman read the first chapter and immediately demanded more.
+
+		// title
+		From Struggling Writer to Literary Icon
+		The rest, as they say, is history. The Harry Potter series went on to sell more than 500 million copies worldwide, was translated into over 80 languages, and spawned a multi-billion dollar film franchise, theme parks, merchandise, and more.
+
+		Rowling's personal fortune grew from welfare dependency to an estimated net worth of over $1 billion, making her the first author in history to achieve billionaire status primarily through writing. She has since used her platform and wealth to support numerous charitable causes, particularly those focused on alleviating social inequality and supporting single-parent families.
+
+		// title
+		The Power of Perseverance
+		Rowling's story exemplifies the power of perseverance in the face of rejection. Had she given up after the first few rejections, the world would never have known the story of The Boy Who Lived. Instead, she continued to believe in her work and her vision, refusing to let others' opinions diminish her resolve.
+
+		In a 2008 Harvard commencement speech, Rowling reflected on this period: "Rock bottom became the solid foundation on which I rebuilt my life." This sentiment captures the essence of what makes Rowling's story so powerful—her ability to transform rejection into resilience.
+
+		// title
+		Lessons from Rowling's Journey
+		Rowling's path from rejection to success offers several valuable lessons:
+
+		Believe in your unique vision: Despite feedback suggesting her book was too lengthy or complex for children's literature, Rowling stayed true to her creative vision.
+
+		Use rejection as redirection: Each "no" brought Rowling one step closer to the "yes" that would change her life.
+
+		Find strength in adversity: Rowling has often spoken about how her struggles gave her the determination to succeed. "I was set free because my greatest fear had been realized," she once said about hitting rock bottom.
+
+		As J.K. Rowling's story shows, rejection isn't the end of a dream—sometimes, it's just the beginning. Her journey from a struggling single mother to one of the world's most beloved authors reminds us that persistence, resilience, and belief in oneself can truly transform rejection into remarkable success.
+`,
 		author: "John Doe",
 		date: "April 1, 2025",
 		reading_time: "6 min",
@@ -96,8 +271,43 @@ export const personalities = [
 		title: "Richard Branson: Maverick of Entrepreneurship",
 		subtitle:
 			"Defying norms to build a global empire, one bold venture at a time.",
-		story:
-			"Investors and banks dismissed his Virgin brand expansion. He persisted, launching Virgin Records, Virgin Atlantic, and other ventures, proving critics wrong.",
+		story: `When J.K. Rowling sat in a café in Edinburgh, Scotland, scribbling the beginnings of Harry Potter on napkins, she had no idea that she was about to create one of the most successful literary franchises in history. But before the world of wizardry and Hogwarts became a global phenomenon, Rowling faced rejection after rejection.
+
+		In the early 1990s, Rowling was at a particularly difficult point in her life. A recently divorced single mother living on welfare, she struggled to support herself and her daughter while battling depression. Despite these challenges, she found solace in writing about a young wizard named Harry Potter.
+
+		//title
+		The Road of Rejection
+		When Rowling completed her manuscript for "Harry Potter and the Philosopher's Stone" (later renamed "Harry Potter and the Sorcerer's Stone" in the US), she was hopeful but realistic. What she didn't anticipate was that 12 different publishers would reject her work, considering it too long for children, too complex in its themes, or simply not marketable.
+
+		// quote
+		"Failure meant a stripping away of the inessential. I stopped pretending to myself that I was anything other than what I was, and began to direct all my energy into finishing the only work that mattered to me."
+
+		One publishing house, Bloomsbury, finally took a chance on Rowling in 1997, offering a modest advance of £1,500. The deciding factor? The eight-year-old daughter of the publishing house's chairman read the first chapter and immediately demanded more.
+
+		// title
+		From Struggling Writer to Literary Icon
+		The rest, as they say, is history. The Harry Potter series went on to sell more than 500 million copies worldwide, was translated into over 80 languages, and spawned a multi-billion dollar film franchise, theme parks, merchandise, and more.
+
+		Rowling's personal fortune grew from welfare dependency to an estimated net worth of over $1 billion, making her the first author in history to achieve billionaire status primarily through writing. She has since used her platform and wealth to support numerous charitable causes, particularly those focused on alleviating social inequality and supporting single-parent families.
+
+		// title
+		The Power of Perseverance
+		Rowling's story exemplifies the power of perseverance in the face of rejection. Had she given up after the first few rejections, the world would never have known the story of The Boy Who Lived. Instead, she continued to believe in her work and her vision, refusing to let others' opinions diminish her resolve.
+
+		In a 2008 Harvard commencement speech, Rowling reflected on this period: "Rock bottom became the solid foundation on which I rebuilt my life." This sentiment captures the essence of what makes Rowling's story so powerful—her ability to transform rejection into resilience.
+
+		// title
+		Lessons from Rowling's Journey
+		Rowling's path from rejection to success offers several valuable lessons:
+
+		Believe in your unique vision: Despite feedback suggesting her book was too lengthy or complex for children's literature, Rowling stayed true to her creative vision.
+
+		Use rejection as redirection: Each "no" brought Rowling one step closer to the "yes" that would change her life.
+
+		Find strength in adversity: Rowling has often spoken about how her struggles gave her the determination to succeed. "I was set free because my greatest fear had been realized," she once said about hitting rock bottom.
+
+		As J.K. Rowling's story shows, rejection isn't the end of a dream—sometimes, it's just the beginning. Her journey from a struggling single mother to one of the world's most beloved authors reminds us that persistence, resilience, and belief in oneself can truly transform rejection into remarkable success.
+`,
 		author: "John Doe",
 		date: "April 1, 2025",
 		reading_time: "6 min",
@@ -113,8 +323,43 @@ export const personalities = [
 		industry: "Consumer Products",
 		title: "James Dyson: Innovating Everyday Solutions",
 		subtitle: "After thousands of failures, he transformed cleaning forever.",
-		story:
-			"His vacuum cleaner prototype was rejected over 5,000 times before he launched his own company, now a leader in home appliances.",
+		story: `When J.K. Rowling sat in a café in Edinburgh, Scotland, scribbling the beginnings of Harry Potter on napkins, she had no idea that she was about to create one of the most successful literary franchises in history. But before the world of wizardry and Hogwarts became a global phenomenon, Rowling faced rejection after rejection.
+
+		In the early 1990s, Rowling was at a particularly difficult point in her life. A recently divorced single mother living on welfare, she struggled to support herself and her daughter while battling depression. Despite these challenges, she found solace in writing about a young wizard named Harry Potter.
+
+		//title
+		The Road of Rejection
+		When Rowling completed her manuscript for "Harry Potter and the Philosopher's Stone" (later renamed "Harry Potter and the Sorcerer's Stone" in the US), she was hopeful but realistic. What she didn't anticipate was that 12 different publishers would reject her work, considering it too long for children, too complex in its themes, or simply not marketable.
+
+		// quote
+		"Failure meant a stripping away of the inessential. I stopped pretending to myself that I was anything other than what I was, and began to direct all my energy into finishing the only work that mattered to me."
+
+		One publishing house, Bloomsbury, finally took a chance on Rowling in 1997, offering a modest advance of £1,500. The deciding factor? The eight-year-old daughter of the publishing house's chairman read the first chapter and immediately demanded more.
+
+		// title
+		From Struggling Writer to Literary Icon
+		The rest, as they say, is history. The Harry Potter series went on to sell more than 500 million copies worldwide, was translated into over 80 languages, and spawned a multi-billion dollar film franchise, theme parks, merchandise, and more.
+
+		Rowling's personal fortune grew from welfare dependency to an estimated net worth of over $1 billion, making her the first author in history to achieve billionaire status primarily through writing. She has since used her platform and wealth to support numerous charitable causes, particularly those focused on alleviating social inequality and supporting single-parent families.
+
+		// title
+		The Power of Perseverance
+		Rowling's story exemplifies the power of perseverance in the face of rejection. Had she given up after the first few rejections, the world would never have known the story of The Boy Who Lived. Instead, she continued to believe in her work and her vision, refusing to let others' opinions diminish her resolve.
+
+		In a 2008 Harvard commencement speech, Rowling reflected on this period: "Rock bottom became the solid foundation on which I rebuilt my life." This sentiment captures the essence of what makes Rowling's story so powerful—her ability to transform rejection into resilience.
+
+		// title
+		Lessons from Rowling's Journey
+		Rowling's path from rejection to success offers several valuable lessons:
+
+		Believe in your unique vision: Despite feedback suggesting her book was too lengthy or complex for children's literature, Rowling stayed true to her creative vision.
+
+		Use rejection as redirection: Each "no" brought Rowling one step closer to the "yes" that would change her life.
+
+		Find strength in adversity: Rowling has often spoken about how her struggles gave her the determination to succeed. "I was set free because my greatest fear had been realized," she once said about hitting rock bottom.
+
+		As J.K. Rowling's story shows, rejection isn't the end of a dream—sometimes, it's just the beginning. Her journey from a struggling single mother to one of the world's most beloved authors reminds us that persistence, resilience, and belief in oneself can truly transform rejection into remarkable success.
+`,
 		author: "John Doe",
 		date: "April 1, 2025",
 		reading_time: "6 min",
@@ -130,8 +375,43 @@ export const personalities = [
 		industry: "Literature, Entertainment",
 		title: "J.K. Rowling: Master of Magical Storytelling",
 		subtitle: "From rejection to a wizarding world that enchanted millions.",
-		story:
-			"Harry Potter was rejected by 12 publishers. She was advised to get a day job before Bloomsbury finally published the first book, leading to a billion-dollar franchise.",
+		story: `When J.K. Rowling sat in a café in Edinburgh, Scotland, scribbling the beginnings of Harry Potter on napkins, she had no idea that she was about to create one of the most successful literary franchises in history. But before the world of wizardry and Hogwarts became a global phenomenon, Rowling faced rejection after rejection.
+
+		In the early 1990s, Rowling was at a particularly difficult point in her life. A recently divorced single mother living on welfare, she struggled to support herself and her daughter while battling depression. Despite these challenges, she found solace in writing about a young wizard named Harry Potter.
+
+		//title
+		The Road of Rejection
+		When Rowling completed her manuscript for "Harry Potter and the Philosopher's Stone" (later renamed "Harry Potter and the Sorcerer's Stone" in the US), she was hopeful but realistic. What she didn't anticipate was that 12 different publishers would reject her work, considering it too long for children, too complex in its themes, or simply not marketable.
+
+		// quote
+		"Failure meant a stripping away of the inessential. I stopped pretending to myself that I was anything other than what I was, and began to direct all my energy into finishing the only work that mattered to me."
+
+		One publishing house, Bloomsbury, finally took a chance on Rowling in 1997, offering a modest advance of £1,500. The deciding factor? The eight-year-old daughter of the publishing house's chairman read the first chapter and immediately demanded more.
+
+		// title
+		From Struggling Writer to Literary Icon
+		The rest, as they say, is history. The Harry Potter series went on to sell more than 500 million copies worldwide, was translated into over 80 languages, and spawned a multi-billion dollar film franchise, theme parks, merchandise, and more.
+
+		Rowling's personal fortune grew from welfare dependency to an estimated net worth of over $1 billion, making her the first author in history to achieve billionaire status primarily through writing. She has since used her platform and wealth to support numerous charitable causes, particularly those focused on alleviating social inequality and supporting single-parent families.
+
+		// title
+		The Power of Perseverance
+		Rowling's story exemplifies the power of perseverance in the face of rejection. Had she given up after the first few rejections, the world would never have known the story of The Boy Who Lived. Instead, she continued to believe in her work and her vision, refusing to let others' opinions diminish her resolve.
+
+		In a 2008 Harvard commencement speech, Rowling reflected on this period: "Rock bottom became the solid foundation on which I rebuilt my life." This sentiment captures the essence of what makes Rowling's story so powerful—her ability to transform rejection into resilience.
+
+		// title
+		Lessons from Rowling's Journey
+		Rowling's path from rejection to success offers several valuable lessons:
+
+		Believe in your unique vision: Despite feedback suggesting her book was too lengthy or complex for children's literature, Rowling stayed true to her creative vision.
+
+		Use rejection as redirection: Each "no" brought Rowling one step closer to the "yes" that would change her life.
+
+		Find strength in adversity: Rowling has often spoken about how her struggles gave her the determination to succeed. "I was set free because my greatest fear had been realized," she once said about hitting rock bottom.
+
+		As J.K. Rowling's story shows, rejection isn't the end of a dream—sometimes, it's just the beginning. Her journey from a struggling single mother to one of the world's most beloved authors reminds us that persistence, resilience, and belief in oneself can truly transform rejection into remarkable success.
+`,
 		author: "John Doe",
 		date: "April 1, 2025",
 		reading_time: "6 min",
@@ -148,8 +428,43 @@ export const personalities = [
 		title: "Larry Ellison: Pioneer of Software Innovation",
 		subtitle:
 			"Turning tech challenges into a legacy of groundbreaking software.",
-		story:
-			"His idea of a relational database was dismissed by IBM and Microsoft. He went on to create Oracle, a leading software company.",
+		story: `When J.K. Rowling sat in a café in Edinburgh, Scotland, scribbling the beginnings of Harry Potter on napkins, she had no idea that she was about to create one of the most successful literary franchises in history. But before the world of wizardry and Hogwarts became a global phenomenon, Rowling faced rejection after rejection.
+
+		In the early 1990s, Rowling was at a particularly difficult point in her life. A recently divorced single mother living on welfare, she struggled to support herself and her daughter while battling depression. Despite these challenges, she found solace in writing about a young wizard named Harry Potter.
+
+		//title
+		The Road of Rejection
+		When Rowling completed her manuscript for "Harry Potter and the Philosopher's Stone" (later renamed "Harry Potter and the Sorcerer's Stone" in the US), she was hopeful but realistic. What she didn't anticipate was that 12 different publishers would reject her work, considering it too long for children, too complex in its themes, or simply not marketable.
+
+		// quote
+		"Failure meant a stripping away of the inessential. I stopped pretending to myself that I was anything other than what I was, and began to direct all my energy into finishing the only work that mattered to me."
+
+		One publishing house, Bloomsbury, finally took a chance on Rowling in 1997, offering a modest advance of £1,500. The deciding factor? The eight-year-old daughter of the publishing house's chairman read the first chapter and immediately demanded more.
+
+		// title
+		From Struggling Writer to Literary Icon
+		The rest, as they say, is history. The Harry Potter series went on to sell more than 500 million copies worldwide, was translated into over 80 languages, and spawned a multi-billion dollar film franchise, theme parks, merchandise, and more.
+
+		Rowling's personal fortune grew from welfare dependency to an estimated net worth of over $1 billion, making her the first author in history to achieve billionaire status primarily through writing. She has since used her platform and wealth to support numerous charitable causes, particularly those focused on alleviating social inequality and supporting single-parent families.
+
+		// title
+		The Power of Perseverance
+		Rowling's story exemplifies the power of perseverance in the face of rejection. Had she given up after the first few rejections, the world would never have known the story of The Boy Who Lived. Instead, she continued to believe in her work and her vision, refusing to let others' opinions diminish her resolve.
+
+		In a 2008 Harvard commencement speech, Rowling reflected on this period: "Rock bottom became the solid foundation on which I rebuilt my life." This sentiment captures the essence of what makes Rowling's story so powerful—her ability to transform rejection into resilience.
+
+		// title
+		Lessons from Rowling's Journey
+		Rowling's path from rejection to success offers several valuable lessons:
+
+		Believe in your unique vision: Despite feedback suggesting her book was too lengthy or complex for children's literature, Rowling stayed true to her creative vision.
+
+		Use rejection as redirection: Each "no" brought Rowling one step closer to the "yes" that would change her life.
+
+		Find strength in adversity: Rowling has often spoken about how her struggles gave her the determination to succeed. "I was set free because my greatest fear had been realized," she once said about hitting rock bottom.
+
+		As J.K. Rowling's story shows, rejection isn't the end of a dream—sometimes, it's just the beginning. Her journey from a struggling single mother to one of the world's most beloved authors reminds us that persistence, resilience, and belief in oneself can truly transform rejection into remarkable success.
+`,
 		author: "John Doe",
 		date: "April 1, 2025",
 		reading_time: "6 min",
@@ -166,8 +481,43 @@ export const personalities = [
 		title: "Travis Kalanick: Disrupting Urban Mobility",
 		subtitle:
 			"Redefining transportation with bold, game-changing ride-sharing ideas.",
-		story:
-			"Uber faced skepticism from investors who doubted the ride-sharing model. It later disrupted the taxi industry and became a multi billion-dollar company.",
+		story: `When J.K. Rowling sat in a café in Edinburgh, Scotland, scribbling the beginnings of Harry Potter on napkins, she had no idea that she was about to create one of the most successful literary franchises in history. But before the world of wizardry and Hogwarts became a global phenomenon, Rowling faced rejection after rejection.
+
+		In the early 1990s, Rowling was at a particularly difficult point in her life. A recently divorced single mother living on welfare, she struggled to support herself and her daughter while battling depression. Despite these challenges, she found solace in writing about a young wizard named Harry Potter.
+
+		//title
+		The Road of Rejection
+		When Rowling completed her manuscript for "Harry Potter and the Philosopher's Stone" (later renamed "Harry Potter and the Sorcerer's Stone" in the US), she was hopeful but realistic. What she didn't anticipate was that 12 different publishers would reject her work, considering it too long for children, too complex in its themes, or simply not marketable.
+
+		// quote
+		"Failure meant a stripping away of the inessential. I stopped pretending to myself that I was anything other than what I was, and began to direct all my energy into finishing the only work that mattered to me."
+
+		One publishing house, Bloomsbury, finally took a chance on Rowling in 1997, offering a modest advance of £1,500. The deciding factor? The eight-year-old daughter of the publishing house's chairman read the first chapter and immediately demanded more.
+
+		// title
+		From Struggling Writer to Literary Icon
+		The rest, as they say, is history. The Harry Potter series went on to sell more than 500 million copies worldwide, was translated into over 80 languages, and spawned a multi-billion dollar film franchise, theme parks, merchandise, and more.
+
+		Rowling's personal fortune grew from welfare dependency to an estimated net worth of over $1 billion, making her the first author in history to achieve billionaire status primarily through writing. She has since used her platform and wealth to support numerous charitable causes, particularly those focused on alleviating social inequality and supporting single-parent families.
+
+		// title
+		The Power of Perseverance
+		Rowling's story exemplifies the power of perseverance in the face of rejection. Had she given up after the first few rejections, the world would never have known the story of The Boy Who Lived. Instead, she continued to believe in her work and her vision, refusing to let others' opinions diminish her resolve.
+
+		In a 2008 Harvard commencement speech, Rowling reflected on this period: "Rock bottom became the solid foundation on which I rebuilt my life." This sentiment captures the essence of what makes Rowling's story so powerful—her ability to transform rejection into resilience.
+
+		// title
+		Lessons from Rowling's Journey
+		Rowling's path from rejection to success offers several valuable lessons:
+
+		Believe in your unique vision: Despite feedback suggesting her book was too lengthy or complex for children's literature, Rowling stayed true to her creative vision.
+
+		Use rejection as redirection: Each "no" brought Rowling one step closer to the "yes" that would change her life.
+
+		Find strength in adversity: Rowling has often spoken about how her struggles gave her the determination to succeed. "I was set free because my greatest fear had been realized," she once said about hitting rock bottom.
+
+		As J.K. Rowling's story shows, rejection isn't the end of a dream—sometimes, it's just the beginning. Her journey from a struggling single mother to one of the world's most beloved authors reminds us that persistence, resilience, and belief in oneself can truly transform rejection into remarkable success.
+`,
 		author: "John Doe",
 		date: "April 1, 2025",
 		reading_time: "6 min",

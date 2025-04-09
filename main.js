@@ -166,10 +166,6 @@ document.addEventListener("DOMContentLoaded", function () {
 		closeMenu();
 	});
 
-	// ----------------------------
-	// Modularized Rendering Functions
-	// ----------------------------
-
 	// Create and return main article element using createElement
 	function renderMainArticle(mainPerson) {
 		// link around article
@@ -374,15 +370,48 @@ document.addEventListener("DOMContentLoaded", function () {
 		const container = document.getElementById("storyContainer");
 		container.innerHTML = "";
 
+		const categoryTag = document.createElement("p");
+		categoryTag.classList.add("category-tag");
+		categoryTag.textContent = article.category;
+		container.appendChild(categoryTag);
+
 		const titleEl = document.createElement("h1");
 		titleEl.id = "title";
 		titleEl.textContent = article.title;
 		container.appendChild(titleEl);
 
-		const metaEL = document.createElement("p");
-		metaEL.id = "meta";
-		metaEL.textContent = `By ${article.author} on ${article.date}`;
-		container.appendChild(metaEL);
+		const subtitle = document.createElement("p");
+		subtitle.id = "subtitle";
+		subtitle.textContent = `${article.subtitle}`;
+		container.appendChild(subtitle);
+
+		const credits = document.createElement("div");
+		credits.classList.add("credits");
+
+		const authorP = document.createElement("p");
+		authorP.classList.add("author");
+		authorP.textContent = article.author;
+		credits.appendChild(authorP);
+
+		const dot1 = document.createElement("span");
+		dot1.classList.add("dot");
+		credits.appendChild(dot1);
+
+		const dateP = document.createElement("p");
+		dateP.classList.add("date");
+		dateP.textContent = article.date;
+		credits.appendChild(dateP);
+
+		const dot2 = document.createElement("span");
+		dot2.classList.add("dot");
+		credits.appendChild(dot2);
+
+		const readingTimeP = document.createElement("p");
+		readingTimeP.classList.add("reading-time");
+		readingTimeP.textContent = article.reading_time + " read";
+		credits.appendChild(readingTimeP);
+
+		container.appendChild(credits);
 
 		const imgEl = document.createElement("img");
 		imgEl.src = `${article.image_src}`;
