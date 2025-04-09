@@ -23,6 +23,7 @@ main {
 	/* this will prolly cause issues */
 	max-width: 90%;
 	gap: 0.8rem;
+	margin: 0 0 2rem 0;
 }
 
 #title {
