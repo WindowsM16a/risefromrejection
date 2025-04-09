@@ -10,7 +10,7 @@ main {
 	align-self: flex-start;
 	background: transparent;
 	cursor: pointer;
-	padding: 0 0 2rem 0;
+	padding: 1rem 0 2rem 0.3rem;
 }
 #backBtn img {
 	width: 2.5rem;
