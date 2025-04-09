@@ -20,8 +20,9 @@ Built with simplicity and story in mind:
 
 - 🧱 HTML + CSS
 - 🧠 Vanilla JavaScript
-- [Cloudinary]() CDN for image hosting
-- 🔥 [Firebase]() Realtime DB
+- [Google Fonts/Icons](https://fonts.google.com/icons) for fonts and icons
+- [Cloudinary](https://cloudinary.com) for image hosting
+- 🔥 [Firebase](https://firebase.google.com/) Realtime DB
 - 🚀 Hosted on [Vercel](https://vercel.com/)
 
 ---
