@@ -1,8 +1,41 @@
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 #backBtn {
+	display: flex;
+	align-self: flex-start;
 	background: transparent;
 	cursor: pointer;
 }
-
 #backBtn img {
 	width: 2rem;
+}
+
+#storyContainer {
+	display: flex;
+	flex-direction: column;
+	min-width: 19rem;
+	max-width: 70%;
+	gap: 1rem;
+}
+
+#title {
+}
+
+#meta {
+}
+
+#articleImg {
+	width: 100%;
+	border-radius: 1rem;
+}
+
+#storyId {
+}
+
+/* media queries yay */
+@media (max-width: 768px) {
 }

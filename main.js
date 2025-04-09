@@ -375,18 +375,22 @@ document.addEventListener("DOMContentLoaded", function () {
 		container.innerHTML = "";
 
 		const titleEl = document.createElement("h1");
+		titleEl.id = "title";
 		titleEl.textContent = article.title;
 		container.appendChild(titleEl);
 
 		const metaEL = document.createElement("p");
+		metaEL.id = "meta";
 		metaEL.textContent = `By ${article.author} on ${article.date}`;
 		container.appendChild(metaEL);
 
 		const imgEl = document.createElement("img");
 		imgEl.src = `${article.image_src}`;
+		imgEl.id = "articleImg";
 		container.appendChild(imgEl);
 
 		const contentEl = document.createElement("p");
+		contentEl.id = "storyId";
 		contentEl.innerText = article.story;
 		container.appendChild(contentEl);
 	}
