@@ -20,8 +20,9 @@ Built with simplicity and story in mind:
 
 - 🧱 HTML + CSS
 - 🧠 Vanilla JavaScript
-- 🔥 Firebase Realtime DB
-- 🚀 Hosted on Vercel
+- [Cloudinary]() CDN for image hosting
+- 🔥 [Firebase]() Realtime DB
+- 🚀 Hosted on [Vercel](https://vercel.com/)
 
 ---
 
