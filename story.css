@@ -74,6 +74,7 @@ main {
 .h5-heading,
 .h6-heading {
 	font-family: "montserrat";
+	font-weight: 600;
 	margin: 1.5rem 0 0.35rem 0;
 }
 
