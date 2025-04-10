@@ -67,10 +67,10 @@ const date = new Date();
 // getData();
 
 // uploading and updating the local personalities (10 for now). i'll stop doing local stuff once i learn auth so only i can write to the db.
-// personalities.forEach((person) => {
-// 	const personRef = ref(db, "personalities/" + person.id);
-// 	set(personRef, person);
-// });
+personalities.forEach((person) => {
+	const personRef = ref(db, "personalities/" + person.id);
+	set(personRef, person);
+});
 
 // JavaScript for the navbar functionality
 document.addEventListener("DOMContentLoaded", function () {
@@ -101,7 +101,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// Close menu function
 	function closeMenu() {
-		// console.log("close menu called", navLinks.classList.contains("active"));
 		if (navLinks.classList.contains("active")) {
 			navLinks.classList.remove("active");
 			hamburger.style.display = "inline";
@@ -358,8 +357,9 @@ document.addEventListener("DOMContentLoaded", function () {
 				const article = snapshot.val();
 				renderStory(article);
 			} else {
-				document.getElementById("storyContainer").innerHTML =
-					"<p>Article not found :( </p>";
+				document.getElementById(
+					"storyContainer"
+				).innerHTML = `<h2>Article not found :( </h2>`;
 			}
 		} catch (error) {
 			console.log("Error fetching article:", error);
@@ -420,7 +420,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 		const contentEl = document.createElement("p");
 		contentEl.id = "storyId";
-		contentEl.innerText = article.story;
+		contentEl.innerHTML = article.story;
 		container.appendChild(contentEl);
 	}
 
