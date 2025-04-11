@@ -270,14 +270,14 @@ export const personalities = [
 	},
 	{
 		id: 8,
-		name: "Armani Essinam",
+		name: "J.K. Rowling",
 		dob: "July 31, 1965",
 		country: "UK",
 		category: "Arts",
 		image_src:
 			"https://wallpapers.com/images/hd/j-k-rowling-1920-x-1080-wallpaper-m5reac09milb9c5k.jpg",
 		industry: "Literature, Entertainment",
-		title: "Armani Essinam: Master of Magical Storytelling",
+		title: "J.K. Rowling: Master of Magical Storytelling",
 		subtitle: "From rejection to a wizarding world that enchanted millions.",
 		story: `When J.K. Rowling sat in a café in Edinburgh, Scotland, scribbling the beginnings of Harry Potter on napkins, she had no idea that she was about to create one of the most successful literary franchises in history. But before the world of wizardry and Hogwarts became a global phenomenon, Rowling faced rejection after rejection.
 		<br>
