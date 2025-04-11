@@ -1,4 +1,4 @@
-# <img src="./imgs/risefromrejectionlogo.png" alt="Rise from Rejection Logo" width="30"/> Rise from Rejection: Hall of Fame
+# <img src="https://res.cloudinary.com/dx72ndl5e/image/upload/v1743799571/risefromrejectionlogo_o7ezjg.png" alt="Rise from Rejection Logo" width="30"/> Rise from Rejection: Hall of Fame
 
 > _"Rejected? Good. Let’s make history."_
 
