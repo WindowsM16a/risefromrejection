@@ -168,12 +168,13 @@ document.addEventListener("DOMContentLoaded", function () {
 	// Create and return main article element using createElement
 	function renderMainArticle(mainPerson) {
 		// link around article
-		const storyLink = document.createElement("a");
-		storyLink.classList.add("storyLink");
-		storyLink.href = `../story.html?id=${mainPerson.id}`;
+		const mainStoryLink = document.createElement("a");
+		mainStoryLink.classList.add("mainStoryLink");
+		mainStoryLink.href = `../story.html?id=${mainPerson.id}`;
 
 		// Create container for main article
 		const container = document.createElement("div");
+		container.classList.add("head-article-container");
 
 		// Create gradient overlay
 		const gradient = document.createElement("div");
@@ -234,9 +235,9 @@ document.addEventListener("DOMContentLoaded", function () {
 		img.src = mainPerson.image_src;
 		img.alt = `${mainPerson.name}'s image`;
 		container.appendChild(img);
-		storyLink.appendChild(container);
+		mainStoryLink.appendChild(container);
 
-		return storyLink;
+		return mainStoryLink;
 	}
 
 	// Create and return an article element for latest articles
@@ -450,6 +451,8 @@ document.addEventListener("DOMContentLoaded", function () {
 	// 			});
 	// 	}
 	// });
+
+	// categories
 
 	// date for footer
 	const year = date.getFullYear();

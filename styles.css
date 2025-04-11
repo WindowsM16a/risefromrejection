@@ -187,14 +187,28 @@ main {
 	flex-grow: 1;
 	min-height: 20rem;
 	min-width: 19.45rem;
+	max-width: 25.7706rem;
 	position: relative;
 	overflow: hidden;
 	border-radius: 1.5rem;
 }
 
-.head-article-container {
+.head-article-container,
+.mainStoryLink {
+	display: flex;
+	flex-grow: 1;
+	min-width: 19.45rem;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	border-radius: 1.5rem;
 	min-height: 25rem;
 	margin: 0 0 3rem 0;
+}
+
+.storyLink,
+.mainStoryLink {
+	margin: 0;
 }
 
 .info {
