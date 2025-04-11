@@ -95,7 +95,7 @@ export const personalities = [
 			Instead of giving up, Jobs started NeXT, a computer company that initially struggled but laid the groundwork for future innovations. He also bought Pixar, which eventually produced “Toy Story,” the first fully computer-animated film — a massive hit.<br>
 
 			<h3 class='h3-heading'>The Return and the Revolution</h3>
-			In 1997, Apple acquired NeXT, bringing Jobs back to the company he co-founded. This second chapter was even more powerful than the first. Under his leadership, Apple launched the iMac, iPod, iPhone, and iPad — reshaping music, phones, and computing.<br>
+			In 1997, Apple acquired NeXT, bringing Jobs back to the company he co-founded. This second chapter was even more powerful than the first. Under his leadership, Apple launched the iMac, iPod, iPhone, and iPad — reshaping music, phones, and computing.<br><br>
 
 			<h4>Legacy</h4>
 			Jobs went from being fired to becoming one of the most visionary leaders of all time. His story proves that rejection is not the end — it’s sometimes just the beginning of a better chapter.`,
@@ -127,7 +127,7 @@ export const personalities = [
 			Even as Amazon began to grow, Bezos was ridiculed. The media called him crazy for prioritizing growth over profits. In 1999, Barron's published a cover story titled “Amazon.Bomb,” predicting Amazon’s collapse. Wall Street doubted the model, and many believed online retail was a bubble waiting to burst.<br>
 
 			<h3 class='h3-heading'>Turning the Page</h3>
-			Bezos ignored the noise. He focused on long-term customer loyalty and reinvested every dime into innovation — from the Kindle to AWS. By the early 2010s, Amazon had become the default marketplace for the internet and a cloud computing juggernaut.<br>
+			Bezos ignored the noise. He focused on long-term customer loyalty and reinvested every dime into innovation — from the Kindle to AWS. By the early 2010s, Amazon had become the default marketplace for the internet and a cloud computing juggernaut.<br><br>
 
 			<h4>Legacy</h4>
 			Today, Amazon is one of the most valuable companies in the world. Bezos became the richest man alive not by avoiding rejection, but by walking directly into it with a vision most couldn’t see. His story proves that being doubted doesn’t mean being wrong.
@@ -159,7 +159,7 @@ export const personalities = [
 			Undeterred, Schultz left Starbucks and tried to raise money to build his own coffee shop concept. Over 200 investors turned him down. They didn’t see the potential in espresso culture, or why people would pay $3 for a drink they could make at home.<br>
 
 			<h3 class='h3-heading'>The Brew of Persistence</h3>
-			Eventually, Schultz scraped together enough funding and started Il Giornale — a café that embodied his vision. It succeeded. In 1987, he returned to Starbucks and bought it. Under his leadership, Starbucks grew into a global phenomenon, redefining how the world drinks coffee.<br>
+			Eventually, Schultz scraped together enough funding and started <i>Il Giornale<i> — a café that embodied his vision. It succeeded. In 1987, he returned to Starbucks and bought it. Under his leadership, Starbucks grew into a global phenomenon, redefining how the world drinks coffee.<br><br>
 
 			<h4>Legacy</h4>
 			Howard Schultz took rejection and turned it into a business rooted in values — healthcare for part-timers, stock for baristas, and space for communities. His story proves that when no one else believes in your vision, you must believe enough for all of them.
@@ -192,7 +192,7 @@ export const personalities = [
 			Instead of quitting, Oprah leaned into what made her different. She moved to a daytime talk show format and slowly began to shine. Her authenticity — once considered a weakness — became her greatest strength.<br>
 
 			<h3 class='h3-heading'>The Oprah Winfrey Show</h3>
-			In 1986, "The Oprah Winfrey Show" launched nationally. It became one of the highest-rated programs in TV history, running for 25 years and earning her countless awards, honors, and a spot in media history.<br>
+			In 1986, "The Oprah Winfrey Show" launched nationally. It became one of the highest-rated programs in TV history, running for 25 years and earning her countless awards, honors, and a spot in media history.<br><br>
 
 			<h4>Legacy</h4>
 			Oprah became the first Black female billionaire and built a media empire. She turned her rejection into redirection — and then into revolution. Her life proves that what makes you different can one day become what makes you legendary.
@@ -226,7 +226,7 @@ export const personalities = [
 			When he launched Virgin Atlantic, critics laughed. Competing with British Airways seemed impossible. His first plane was grounded due to engine failure, and he was nearly bankrupted before the airline even got off the ground.<br>
 
 			<h3 class='h3-heading'>Bold Bets and Bigger Comebacks</h3>
-			Despite near-constant rejection from traditional investors, regulators, and even governments, Branson leaned into his style — bold branding, customer obsession, and calculated risk. Virgin Atlantic eventually soared. Virgin Mobile, Virgin Galactic, and dozens more followed.<br>
+			Despite near-constant rejection from traditional investors, regulators, and even governments, Branson leaned into his style — bold branding, customer obsession, and calculated risk. Virgin Atlantic eventually soared. Virgin Mobile, Virgin Galactic, and dozens more followed.<br><br>
 
 			<h4>Legacy</h4>
 			Branson turned mockery into momentum. His story is a masterclass in believing in the unconventional. Rejection didn't weaken his drive — it amplified his belief that rules are made to be rewritten.
@@ -259,7 +259,7 @@ export const personalities = [
 			Once the design worked, Dyson faced an even bigger challenge: getting it to market. Every major vacuum manufacturer rejected him. Why? His design threatened the lucrative business model of selling disposable bags. They’d rather keep the problem than embrace the solution.<br>
 
 			<h3 class='h3-heading'>Doing It Alone</h3>
-			Tired of rejections, Dyson launched his own company. In 1993, the first Dyson vacuum hit the market — and quickly outsold every competitor in the UK. It was efficient, sleek, and bag-free. The idea that was “unrealistic” became the new industry standard.<br>
+			Tired of rejections, Dyson launched his own company. In 1993, the first Dyson vacuum hit the market — and quickly outsold every competitor in the UK. It was efficient, sleek, and bag-free. The idea that was “unrealistic” became the new industry standard.<br><br>
 
 			<h4>Legacy</h4>
 			Today, Dyson is synonymous with innovation. From vacuums to bladeless fans to hand dryers, his brand is built on never accepting “no” as the final answer. His story proves that the world may ignore your first 5,000 ideas — but it only takes one to change everything.
