@@ -66,7 +66,7 @@ Dev • Story collector • Believer in second chances **_when they don't drain 
 
 ## 🖤 Why this project?
 
-Because **_not_** enough people talk about the nos behind the **_yeses_**.
+Because not enough people talk about the **_nos_** behind the **_yeses_**.
 Because we all need a reminder that rejection isn’t the end.
 
 This isn’t just a site. It’s a statement.
