@@ -270,7 +270,7 @@ export const personalities = [
 	},
 	{
 		id: 8,
-		name: "J.K. Rowling",
+		name: "Armani Essinam",
 		dob: "July 31, 1965",
 		country: "UK",
 		category: "Arts",
