@@ -159,7 +159,7 @@ export const personalities = [
 			Undeterred, Schultz left Starbucks and tried to raise money to build his own coffee shop concept. Over 200 investors turned him down. They didn’t see the potential in espresso culture, or why people would pay $3 for a drink they could make at home.<br>
 
 			<h3 class='h3-heading'>The Brew of Persistence</h3>
-			Eventually, Schultz scraped together enough funding and started <i>Il Giornale<i> — a café that embodied his vision. It succeeded. In 1987, he returned to Starbucks and bought it. Under his leadership, Starbucks grew into a global phenomenon, redefining how the world drinks coffee.<br><br>
+			Eventually, Schultz scraped together enough funding and started <i>Il Giornale</i> — a café that embodied his vision. It succeeded. In 1987, he returned to Starbucks and bought it. Under his leadership, Starbucks grew into a global phenomenon, redefining how the world drinks coffee.<br><br>
 
 			<h4>Legacy</h4>
 			Howard Schultz took rejection and turned it into a business rooted in values — healthcare for part-timers, stock for baristas, and space for communities. His story proves that when no one else believes in your vision, you must believe enough for all of them.
