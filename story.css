@@ -16,17 +16,6 @@ main {
 	align-items: center;
 }
 
-#backBtn {
-	display: flex;
-	align-self: flex-start;
-	background: transparent;
-	cursor: pointer;
-	padding: 1rem 0 2rem 0.3rem;
-}
-#backBtn img {
-	width: 2.5rem;
-}
-
 #storyContainer {
 	display: flex;
 	flex-direction: column;

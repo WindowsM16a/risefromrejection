@@ -29,6 +29,17 @@ body {
 	width: 100%;
 }
 
+#backBtn {
+	display: flex;
+	align-self: flex-start;
+	background: transparent;
+	cursor: pointer;
+	padding: 1rem 0 2rem 0.3rem;
+}
+#backBtn img {
+	width: 2.5rem;
+}
+
 /* Container for responsive padding */
 .container {
 	width: 100%;
