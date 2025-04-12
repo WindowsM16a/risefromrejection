@@ -376,7 +376,7 @@ export const personalities = [
 		country: "USA",
 		category: "Sports",
 		image_src:
-			"https://upload.wikimedia.org/wikipedia/commons/5/5a/Michael_Jordan_in_2014.jpg",
+			"https://wallpapers.com/images/hd/greyscale-portrait-of-michael-jordan-hd-kohvnon0doa5omw1.jpg",
 		industry: "Sports (Basketball)",
 		title: "Michael Jordan: The Relentless Rise",
 		subtitle:
@@ -409,8 +409,7 @@ export const personalities = [
 		dob: "September 10, 1964",
 		country: "China",
 		category: "Business",
-		image_src:
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Jack_Ma_WEF_2015.jpg/800px-Jack_Ma_WEF_2015.jpg",
+		image_src: "https://cdn.wallpapersafari.com/23/17/Mt0pFT.jpg",
 		industry: "Tech (E-commerce)",
 		title: "Jack Ma: The Power of the ‘No’",
 		subtitle:
@@ -444,7 +443,7 @@ export const personalities = [
 		country: "USA",
 		category: "Food & Beverage",
 		image_src:
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Colonel_Harlan_Sanders%2C_circa_1974_%28cropped%29.png/800px-Colonel_Harlan_Sanders%2C_circa_1974_%28cropped%29.png",
+			"https://wallpapers.com/images/hd/kfc-colonel-sanders-2o47xhr7syd85zpc.jpg",
 		industry: "Food (Fast Food)",
 		title: "Colonel Sanders: Late Bloomer, Global Icon",
 		subtitle:
@@ -478,7 +477,7 @@ export const personalities = [
 		country: "USA",
 		category: "Entertainment",
 		image_src:
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Tyler_Perry_by_Gage_Skidmore.jpg/800px-Tyler_Perry_by_Gage_Skidmore.jpg",
+			"https://wallpapercat.com/w/full/2/e/3/159359-3214x2134-desktop-hd-tyler-perry-wallpaper.jpg",
 		industry: "Film & TV",
 		title: "Tyler Perry: From Homeless to Hollywood",
 		subtitle:
@@ -512,7 +511,7 @@ export const personalities = [
 		country: "USA",
 		category: "Entertainment",
 		image_src:
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Walt_Disney_1946.JPG/800px-Walt_Disney_1946.JPG",
+			"https://media.newyorker.com/photos/63937ba0f7f876dfc16b53fe/3:2/w_1971,h_1314,c_limit/ra1093.jpg",
 		industry: "Entertainment (Animation & Theme Parks)",
 		title: "Walt Disney: Fired for ‘Lack of Imagination’",
 		subtitle:
@@ -542,8 +541,7 @@ export const personalities = [
 		dob: "November 7, 1867",
 		country: "Poland/France",
 		category: "Science",
-		image_src:
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Marie_Curie_c1920.jpg/800px-Marie_Curie_c1920.jpg",
+		image_src: "https://wallpapercave.com/wp/wp4651664.jpg",
 		industry: "Science (Physics & Chemistry)",
 		title: "Marie Curie: The Woman Who Split the Atom",
 		subtitle:
@@ -574,7 +572,7 @@ export const personalities = [
 		country: "Serbia/Croatia/USA",
 		category: "Science",
 		image_src:
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/N.Tesla.JPG/800px-N.Tesla.JPG",
+			"https://wallpapersok.com/images/high/nikola-tesla-word-cloud-mwisdk4g27uo8cmp.jpg",
 		industry: "Science (Electricity & Invention)",
 		title: "Nikola Tesla: The Forgotten Genius",
 		subtitle: "Invented the future. Died broke. Respected a century too late.",
@@ -604,7 +602,7 @@ export const personalities = [
 		country: "Germany",
 		category: "Science",
 		image_src:
-			"https://upload.wikimedia.org/wikipedia/commons/d/d3/Einstein_1921_by_F_Schmutzer_-_restoration.jpg",
+			"https://i.pinimg.com/736x/ef/3a/3c/ef3a3cc37140ecfd76fae7db1d8c3f56.jpg",
 		industry: "Physics",
 		title: "Albert Einstein: Defying Traditional Education",
 		subtitle: "From rejected PhD thesis to rewriting the laws of physics.",
@@ -634,7 +632,7 @@ export const personalities = [
 		country: "USA",
 		category: "Science",
 		image_src:
-			"https://upload.wikimedia.org/wikipedia/commons/a/ab/Katherine_Johnson.jpg",
+			"https://www.nasa.gov/wp-content/uploads/2020/02/lrc-2016-h1-p-katherine-g-johnson-050507-nasa-knows-5.png",
 		industry: "Mathematics (NASA)",
 		title: "Katherine Johnson: Defying Rejection at NASA",
 		subtitle:
@@ -665,7 +663,7 @@ export const personalities = [
 		country: "UK",
 		category: "Science",
 		image_src:
-			"https://upload.wikimedia.org/wikipedia/commons/5/53/Alan_Turing_Aged_16.jpg",
+			"https://www.advocate.com/media-library/alan-turing.jpg?id=32667932&width=1245&height=700&coordinates=0%2C0%2C0%2C2",
 		industry: "Mathematics/Computer Science",
 		title: "Alan Turing: A Legacy of Rejection and Genius",
 		subtitle: "Breaking the Nazi code, but persecuted for his identity.",
