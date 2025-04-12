@@ -196,7 +196,7 @@ main {
 .storyLink {
 	display: flex;
 	flex-grow: 1;
-	min-height: 20rem;
+	min-height: 21rem;
 	min-width: 19.45rem;
 	max-width: 25.7706rem;
 	position: relative;
