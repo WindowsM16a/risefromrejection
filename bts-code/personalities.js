@@ -374,7 +374,7 @@ export const personalities = [
 		name: "Michael Jordan",
 		dob: "February 17, 1963",
 		country: "USA",
-		category: "Sports",
+		category: "Arts",
 		image_src:
 			"https://wallpapers.com/images/hd/greyscale-portrait-of-michael-jordan-hd-kohvnon0doa5omw1.jpg",
 		industry: "Sports (Basketball)",
@@ -441,7 +441,7 @@ export const personalities = [
 		name: "Colonel Harland Sanders",
 		dob: "September 9, 1890",
 		country: "USA",
-		category: "Food & Beverage",
+		category: "Business",
 		image_src:
 			"https://wallpapers.com/images/hd/kfc-colonel-sanders-2o47xhr7syd85zpc.jpg",
 		industry: "Food (Fast Food)",
@@ -475,7 +475,7 @@ export const personalities = [
 		name: "Tyler Perry",
 		dob: "September 13, 1969",
 		country: "USA",
-		category: "Entertainment",
+		category: "Arts",
 		image_src:
 			"https://wallpapercat.com/w/full/2/e/3/159359-3214x2134-desktop-hd-tyler-perry-wallpaper.jpg",
 		industry: "Film & TV",
@@ -509,7 +509,7 @@ export const personalities = [
 		name: "Walt Disney",
 		dob: "December 5, 1901",
 		country: "USA",
-		category: "Entertainment",
+		category: "Arts",
 		image_src:
 			"https://media.newyorker.com/photos/63937ba0f7f876dfc16b53fe/3:2/w_1971,h_1314,c_limit/ra1093.jpg",
 		industry: "Entertainment (Animation & Theme Parks)",
