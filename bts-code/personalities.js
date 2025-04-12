@@ -360,7 +360,7 @@ export const personalities = [
 			Cities resisted. Taxi unions protested. Investors hesitated. Regulators tried to shut it down at every turn. Kalanick was seen as too aggressive, too brash. But he kept pushing, expanding Uber from one city to hundreds around the globe in just a few years.<br>
 
 			<h3 class='h3-heading'>Changing How the World Moves</h3>
-			Uber didn’t just disrupt the taxi industry — it created the gig economy. Despite massive opposition, lawsuits, and public criticism, Uber became one of the fastest-growing startups in history.<br>
+			Uber didn’t just disrupt the taxi industry — it created the gig economy. Despite massive opposition, lawsuits, and public criticism, Uber became one of the fastest-growing startups in history.<br><br>
 
 			<h4>Legacy</h4>
 			Though Kalanick later stepped down as CEO, his impact remains undeniable. His journey shows that innovation often comes wrapped in rejection — and it’s not for the faint of heart. Sometimes, it takes a little defiance to change the way the world moves.
@@ -394,7 +394,7 @@ export const personalities = [
 		In 1984, Jordan was drafted third overall. He didn't forget. He dropped 63 points in a playoff game his second year — against Larry Bird’s Celtics. Bird called him “God disguised as Michael Jordan.” Still, critics said he couldn’t win championships. That changed in the '90s.<br>
 
 		<h3 class='h3-heading'>The Dynasty Years</h3>
-		Between 1991 and 1998, Jordan led the Chicago Bulls to six NBA titles. Two three-peats. Countless game-winners. Finals MVP every single time. He turned basketball into a global language — and himself into a brand.<br>
+		Between 1991 and 1998, Jordan led the Chicago Bulls to six NBA titles. Two three-peats. Countless game-winners. Finals MVP every single time. He turned basketball into a global language — and himself into a brand.<br><br>
 
 		<h4>Legacy</h4>
 		Even after retiring (twice), Jordan’s influence never faded. From sneakers to sports ownership, he redefined athlete-celebrity culture. But more than the wins, his story is about obsession, grit, and proving that rejection is just the starting line for greatness.
@@ -427,7 +427,7 @@ export const personalities = [
 		On a trip to the U.S. in 1995, Jack discovered the Internet. Searching “beer” brought up results from the U.S. and Germany — but none from China. That’s when the idea hit: the world needed a Chinese web presence. He launched China Pages, which failed. Then Alibaba — which didn’t.<br>
 
 		<h3 class='h3-heading'>From Zero to Alibaba</h3>
-		Started with 17 friends in his apartment, Alibaba grew into China’s Amazon. He faced investor skepticism, legal hurdles, and fierce competition. Still, he pushed. He focused on small businesses, long-term vision, and never forgot what rejection taught him.<br>
+		Started with 17 friends in his apartment, Alibaba grew into China’s Amazon. He faced investor skepticism, legal hurdles, and fierce competition. Still, he pushed. He focused on small businesses, long-term vision, and never forgot what rejection taught him.<br><br>
 
 		<h4>Legacy</h4>
 		Jack Ma stepped down in 2019, but his story is a masterclass in persistence. From the guy no one would hire — to one of the richest people in Asia. His journey proves that sometimes, all it takes is one person believing in you… even if that person is just yourself.
@@ -460,7 +460,7 @@ export const personalities = [
 		He reportedly pitched his chicken to over **1,000 restaurants** before someone finally said yes. And when they did? KFC was born. His blend of 11 herbs and spices? Legendary. But the real spice? Persistence.<br>
 
 		<h3 class='h3-heading'>A Legacy in a Bucket</h3>
-		Sanders didn’t let age, failure, or humiliation stop him. He built a brand recognized in 100+ countries. All because he refused to let “no” be the end.<br>
+		Sanders didn’t let age, failure, or humiliation stop him. He built a brand recognized in 100+ countries. All because he refused to let “no” be the end.<br><br>
 
 		<h4>Legacy</h4>
 		Colonel Sanders sold KFC at 73, but remained its iconic face. His story isn’t just about chicken — it’s about not quitting. It’s proof that your timeline isn’t broken just because it doesn’t look like everyone else’s. Sometimes, the comeback starts *after* retirement.
@@ -494,7 +494,7 @@ export const personalities = [
 		Finally, in 1998, his play *I Know I’ve Been Changed* hit. Word spread. Audiences came. Then came Madea — the sharp-tongued grandmother who would become a cultural icon. Perry built a loyal fan base by creating content *for* the people Hollywood ignored.<br>
 
 		<h3 class='h3-heading'>Owning the Dream</h3>
-		Perry didn’t just break into Hollywood — he built his own studio. The first Black man to own a major film studio outright, he changed the game by proving you don’t need to wait for a seat at the table — you can build your own.<br>
+		Perry didn’t just break into Hollywood — he built his own studio. The first Black man to own a major film studio outright, he changed the game by proving you don’t need to wait for a seat at the table — you can build your own.<br><br>
 
 		<h4>Legacy</h4>
 		Tyler Perry’s rise isn’t just inspirational — it’s defiant. From sleeping in his car to writing, directing, and owning some of the highest-grossing plays and films, he’s shown what happens when you believe in your story — even when no one else does.
@@ -524,7 +524,7 @@ export const personalities = [
 		<p class='quote'>"I only hope that we never lose sight of one thing — that it was all started by a mouse."</p>
 
 		<h4>The Happiest Comeback</h4>
-		He risked everything to create *Snow White*, the first feature-length animated film. People called it “Disney’s Folly.” It became a massive hit. Years later, he mortgaged his home to build Disneyland — a park that critics said would flop. It became an empire.<br>
+		He risked everything to create *Snow White*, the first feature-length animated film. People called it “Disney’s Folly.” It became a massive hit. Years later, he mortgaged his home to build Disneyland — a park that critics said would flop. It became an empire.<br><br>
 
 		<h3 class='h3-heading'>Legacy</h3>
 		Walt Disney didn’t just create characters — he created worlds. His story is a reminder that imagination and resilience can build magic, even when the world tells you to grow up and give up.
@@ -554,7 +554,7 @@ export const personalities = [
 		<p class='quote'>"Nothing in life is to be feared, it is only to be understood."</p>
 
 		<h4>A Historic Legacy</h4>
-		She became the first woman to win a Nobel Prize — in Physics. Then she won again — in Chemistry. She used her discoveries to pioneer medical X-rays during World War I.<br>
+		She became the first woman to win a Nobel Prize — in Physics. Then she won again — in Chemistry. She used her discoveries to pioneer medical X-rays during World War I.<br><br>
 
 		<h3 class='h3-heading'>Legacy</h3>
 		Marie Curie didn’t just break glass ceilings — she disintegrated them at the atomic level. Her legacy isn’t just in science books — it’s in every lab, every hospital, and every woman who dared to say “I belong here too.”
@@ -584,7 +584,7 @@ export const personalities = [
 		<p class='quote'>"The present is theirs; the future, for which I really worked, is mine."</p>
 
 		<h4>Alone with the Pigeons</h4>
-		Tesla died poor, living in a New York hotel, feeding pigeons and dreaming of future tech. His name would later power electric cars, space programs, and an entire generation of engineers.<br>
+		Tesla died poor, living in a New York hotel, feeding pigeons and dreaming of future tech. His name would later power electric cars, space programs, and an entire generation of engineers.<br><br>
 
 		<h3 class='h3-heading'>Legacy</h3>
 		Tesla’s life is proof that genius isn’t always rewarded — at least not immediately. He was ahead of his time, too weird for investors, too bold for his era. But in the long run? He was right. And we’re still catching up.
@@ -614,7 +614,7 @@ export const personalities = [
 			<p class='quote'>"Imagination is more important than knowledge."</p>
 
 			<h4>Redefining the Laws of Physics</h4>
-			His rejection from academia didn't stop him from changing the course of science. The theory of relativity forever altered our understanding of space, time, and energy.<br>
+			His rejection from academia didn't stop him from changing the course of science. The theory of relativity forever altered our understanding of space, time, and energy.<br><br>
 
 			<h3 class='h3-heading'>Legacy</h3>
 			Today, Einstein is celebrated as one of the greatest minds in human history. His rejection story serves as a reminder that even the brightest stars can be overlooked before they shine.<br>
@@ -645,7 +645,7 @@ export const personalities = [
 			<p class='quote'>"I don't have a feeling of being rejected because I was too busy doing the work."</p>
 
 			<h4>Breaking Barriers</h4>
-			Her work was instrumental in getting astronauts into space and back safely, yet her contributions were only recognized decades later.<br>
+			Her work was instrumental in getting astronauts into space and back safely, yet her contributions were only recognized decades later.<br><br>
 
 			<h3 class='h3-heading'>Legacy</h3>
 			Katherine Johnson’s story is one of resilience. She showed that even in the face of extreme adversity, excellence and dedication can change the world. Today, she’s a symbol of breaking barriers.<br>
@@ -674,7 +674,7 @@ export const personalities = [
 			<p class='quote'>"Sometimes it is the people no one can imagine anything of who do the things no one can imagine."</p>
 
 			<h4>Legacy of a Genius</h4>
-			Despite the personal and professional rejection Turing faced, his legacy is undeniable. He laid the foundation for modern computing and artificial intelligence.<br>
+			Despite the personal and professional rejection Turing faced, his legacy is undeniable. He laid the foundation for modern computing and artificial intelligence.<br><br>
 
 			<h3 class='h3-heading'>Legacy</h3>
 			Turing’s story is a tragic reminder of how society can reject its greatest heroes. His brilliance ultimately shines through, as we now recognize him as one of the most influential figures of the 20th century.<br>
