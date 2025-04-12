@@ -369,4 +369,323 @@ export const personalities = [
 		date: "April 1, 2025",
 		reading_time: "6 min",
 	},
+	{
+		id: 11,
+		name: "Michael Jordan",
+		dob: "February 17, 1963",
+		country: "USA",
+		category: "Sports",
+		image_src:
+			"https://upload.wikimedia.org/wikipedia/commons/5/5a/Michael_Jordan_in_2014.jpg",
+		industry: "Sports (Basketball)",
+		title: "Michael Jordan: The Relentless Rise",
+		subtitle:
+			"Redefining greatness through failure, fire, and six unforgettable championships.",
+		story: `
+		<h3 class='h3-heading'>Cut from the Team — Not from the Dream</h3>
+		Before becoming a global icon, Michael Jordan faced crushing rejection. As a sophomore in high school, he was cut from the varsity basketball team. Most would’ve quit. He used it as fuel.<br><br>
+
+		<h4>Work Ethic of a Legend</h4>
+		Jordan trained relentlessly. Early mornings. Late nights. Every drill. Every rep. He made the team the following year — and dominated. That same hunger followed him to UNC, where he hit the game-winning shot in the 1982 NCAA Championship. The league was watching.<br>
+
+		<p class='quote'>"I’ve missed more than 9,000 shots in my career. I’ve lost almost 300 games... I’ve failed over and over and over again in my life. And that is why I succeed."</p>
+
+		<h4>Drafted Third — But Finished First</h4>
+		In 1984, Jordan was drafted third overall. He didn't forget. He dropped 63 points in a playoff game his second year — against Larry Bird’s Celtics. Bird called him “God disguised as Michael Jordan.” Still, critics said he couldn’t win championships. That changed in the '90s.<br>
+
+		<h3 class='h3-heading'>The Dynasty Years</h3>
+		Between 1991 and 1998, Jordan led the Chicago Bulls to six NBA titles. Two three-peats. Countless game-winners. Finals MVP every single time. He turned basketball into a global language — and himself into a brand.<br>
+
+		<h4>Legacy</h4>
+		Even after retiring (twice), Jordan’s influence never faded. From sneakers to sports ownership, he redefined athlete-celebrity culture. But more than the wins, his story is about obsession, grit, and proving that rejection is just the starting line for greatness.
+	`,
+		author: "John Doe",
+		date: "April 11, 2025",
+		reading_time: "6 min",
+	},
+	{
+		id: 12,
+		name: "Jack Ma",
+		dob: "September 10, 1964",
+		country: "China",
+		category: "Business",
+		image_src:
+			"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Jack_Ma_WEF_2015.jpg/800px-Jack_Ma_WEF_2015.jpg",
+		industry: "Tech (E-commerce)",
+		title: "Jack Ma: The Power of the ‘No’",
+		subtitle:
+			"From dozens of rejections to building China’s biggest e-commerce empire.",
+		story: `
+		<h3 class='h3-heading'>A Life of No’s</h3>
+		Jack Ma was no stranger to rejection. He failed primary school — twice. Rejected from Harvard — ten times. When KFC came to China, 24 people applied for jobs. 23 were hired. Jack was the only one rejected.<br><br>
+
+		<h4>Still, He Tried</h4>
+		He applied for jobs he didn’t get, tried schools that didn’t want him. But each failure sharpened his resilience. Jack studied English on his own, talking to tourists, learning from every “no.” Eventually, he became a teacher — making just $12/month.<br>
+
+		<p class='quote'>"If you don’t give up, you still have a chance. Giving up is the greatest failure."</p>
+
+		<h4>The Internet Spark</h4>
+		On a trip to the U.S. in 1995, Jack discovered the Internet. Searching “beer” brought up results from the U.S. and Germany — but none from China. That’s when the idea hit: the world needed a Chinese web presence. He launched China Pages, which failed. Then Alibaba — which didn’t.<br>
+
+		<h3 class='h3-heading'>From Zero to Alibaba</h3>
+		Started with 17 friends in his apartment, Alibaba grew into China’s Amazon. He faced investor skepticism, legal hurdles, and fierce competition. Still, he pushed. He focused on small businesses, long-term vision, and never forgot what rejection taught him.<br>
+
+		<h4>Legacy</h4>
+		Jack Ma stepped down in 2019, but his story is a masterclass in persistence. From the guy no one would hire — to one of the richest people in Asia. His journey proves that sometimes, all it takes is one person believing in you… even if that person is just yourself.
+	`,
+		author: "John Doe",
+		date: "April 11, 2025",
+		reading_time: "5 min",
+	},
+	{
+		id: 13,
+		name: "Colonel Harland Sanders",
+		dob: "September 9, 1890",
+		country: "USA",
+		category: "Food & Beverage",
+		image_src:
+			"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Colonel_Harlan_Sanders%2C_circa_1974_%28cropped%29.png/800px-Colonel_Harlan_Sanders%2C_circa_1974_%28cropped%29.png",
+		industry: "Food (Fast Food)",
+		title: "Colonel Sanders: Late Bloomer, Global Icon",
+		subtitle:
+			"Rejection didn’t stop him. Neither did age. He built an empire at 65.",
+		story: `
+		<h3 class='h3-heading'>Too Old? Try Telling Him That</h3>
+		Harland Sanders didn’t wear the title “Colonel” until long after he’d tried — and failed — at nearly everything. He worked as a farmer, a streetcar conductor, a railroad fireman, an insurance salesman, and even ran a service station. None stuck.<br><br>
+
+		<h4>Rejection on Repeat</h4>
+		He began cooking fried chicken out of a roadside restaurant in Corbin, Kentucky. It was good — but when the highway was rerouted, he lost everything. At 65 years old, he had a $105 social security cheque and a recipe. So he hit the road to sell it.<br>
+
+		<p class='quote'>"I was 66 years old. I still had to make a living. I looked for a new way to turn my chicken into money."</p>
+
+		<h4>1,009 No’s</h4>
+		He reportedly pitched his chicken to over **1,000 restaurants** before someone finally said yes. And when they did? KFC was born. His blend of 11 herbs and spices? Legendary. But the real spice? Persistence.<br>
+
+		<h3 class='h3-heading'>A Legacy in a Bucket</h3>
+		Sanders didn’t let age, failure, or humiliation stop him. He built a brand recognized in 100+ countries. All because he refused to let “no” be the end.<br>
+
+		<h4>Legacy</h4>
+		Colonel Sanders sold KFC at 73, but remained its iconic face. His story isn’t just about chicken — it’s about not quitting. It’s proof that your timeline isn’t broken just because it doesn’t look like everyone else’s. Sometimes, the comeback starts *after* retirement.
+	`,
+		author: "John Doe",
+		date: "April 11, 2025",
+		reading_time: "5 min",
+	},
+	{
+		id: 14,
+		name: "Tyler Perry",
+		dob: "September 13, 1969",
+		country: "USA",
+		category: "Entertainment",
+		image_src:
+			"https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Tyler_Perry_by_Gage_Skidmore.jpg/800px-Tyler_Perry_by_Gage_Skidmore.jpg",
+		industry: "Film & TV",
+		title: "Tyler Perry: From Homeless to Hollywood",
+		subtitle:
+			"Sleeping in his car. Losing everything. Then rewriting the game.",
+		story: `
+		<h3 class='h3-heading'>Hurt Turned Into Healing</h3>
+		Tyler Perry grew up in a violent home and dropped out of high school. But writing became his therapy. Inspired by Oprah, he began turning his pain into stage plays — stories that resonated with people who'd been overlooked.<br><br>
+
+		<h4>The First Show? A Disaster</h4>
+		He saved $12,000 doing odd jobs and poured it into his first play. He rented a theater, prepared for a crowd — and only 30 people showed up. He tried again the next year. Same result. For nearly 7 years, he kept losing money. He was homeless, living in his car, but never stopped writing.<br>
+
+		<p class='quote'>"It was the most grueling, awful time of my life. But I knew if I could keep going, something would break."</p>
+
+		<h4>The Breakthrough</h4>
+		Finally, in 1998, his play *I Know I’ve Been Changed* hit. Word spread. Audiences came. Then came Madea — the sharp-tongued grandmother who would become a cultural icon. Perry built a loyal fan base by creating content *for* the people Hollywood ignored.<br>
+
+		<h3 class='h3-heading'>Owning the Dream</h3>
+		Perry didn’t just break into Hollywood — he built his own studio. The first Black man to own a major film studio outright, he changed the game by proving you don’t need to wait for a seat at the table — you can build your own.<br>
+
+		<h4>Legacy</h4>
+		Tyler Perry’s rise isn’t just inspirational — it’s defiant. From sleeping in his car to writing, directing, and owning some of the highest-grossing plays and films, he’s shown what happens when you believe in your story — even when no one else does.
+	`,
+		author: "John Doe",
+		date: "April 11, 2025",
+		reading_time: "6 min",
+	},
+	{
+		id: 15,
+		name: "Walt Disney",
+		dob: "December 5, 1901",
+		country: "USA",
+		category: "Entertainment",
+		image_src:
+			"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Walt_Disney_1946.JPG/800px-Walt_Disney_1946.JPG",
+		industry: "Entertainment (Animation & Theme Parks)",
+		title: "Walt Disney: Fired for ‘Lack of Imagination’",
+		subtitle:
+			"From bankruptcy and rejection to building the most magical brand on Earth.",
+		story: `
+		<h3 class='h3-heading'>Not Magical at First</h3>
+		Walt Disney was once told he lacked creativity. As a young cartoonist, he was fired from a newspaper for “not having enough imagination.” Later, his first animation studio, Laugh-O-Gram, went bankrupt.<br><br>
+
+		<h4>Rejection Before the Magic</h4>
+		Disney’s first big creation, Mickey Mouse, was rejected by multiple studios. Even *The Three Little Pigs* got pushback: “You can’t do a whole cartoon with just four characters.” But Walt had a vision — and the stubborn optimism to chase it.<br>
+
+		<p class='quote'>"I only hope that we never lose sight of one thing — that it was all started by a mouse."</p>
+
+		<h4>The Happiest Comeback</h4>
+		He risked everything to create *Snow White*, the first feature-length animated film. People called it “Disney’s Folly.” It became a massive hit. Years later, he mortgaged his home to build Disneyland — a park that critics said would flop. It became an empire.<br>
+
+		<h3 class='h3-heading'>Legacy</h3>
+		Walt Disney didn’t just create characters — he created worlds. His story is a reminder that imagination and resilience can build magic, even when the world tells you to grow up and give up.
+	`,
+		author: "John Doe",
+		date: "April 11, 2025",
+		reading_time: "5 min",
+	},
+	{
+		id: 16,
+		name: "Marie Curie",
+		dob: "November 7, 1867",
+		country: "Poland/France",
+		category: "Science",
+		image_src:
+			"https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Marie_Curie_c1920.jpg/800px-Marie_Curie_c1920.jpg",
+		industry: "Science (Physics & Chemistry)",
+		title: "Marie Curie: The Woman Who Split the Atom",
+		subtitle:
+			"The first woman to win a Nobel — and the only one to win it twice.",
+		story: `
+		<h3 class='h3-heading'>Denied, Doubted, Determined</h3>
+		As a woman in the late 1800s, Curie wasn’t allowed to attend university in Poland. So she studied in secret and moved to Paris, sleeping in a cold attic while studying physics at the Sorbonne.<br><br>
+
+		<h4>The Power of Persistence</h4>
+		With her husband Pierre, she discovered two new elements — polonium and radium. She coined the term “radioactivity.” Her work was groundbreaking, but she was constantly dismissed, excluded from academic circles, and told she didn't belong.<br>
+
+		<p class='quote'>"Nothing in life is to be feared, it is only to be understood."</p>
+
+		<h4>A Historic Legacy</h4>
+		She became the first woman to win a Nobel Prize — in Physics. Then she won again — in Chemistry. She used her discoveries to pioneer medical X-rays during World War I.<br>
+
+		<h3 class='h3-heading'>Legacy</h3>
+		Marie Curie didn’t just break glass ceilings — she disintegrated them at the atomic level. Her legacy isn’t just in science books — it’s in every lab, every hospital, and every woman who dared to say “I belong here too.”
+	`,
+		author: "John Doe",
+		date: "April 11, 2025",
+		reading_time: "6 min",
+	},
+	{
+		id: 17,
+		name: "Nikola Tesla",
+		dob: "July 10, 1856",
+		country: "Serbia/Croatia/USA",
+		category: "Science",
+		image_src:
+			"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/N.Tesla.JPG/800px-N.Tesla.JPG",
+		industry: "Science (Electricity & Invention)",
+		title: "Nikola Tesla: The Forgotten Genius",
+		subtitle: "Invented the future. Died broke. Respected a century too late.",
+		story: `
+		<h3 class='h3-heading'>The Man Who Lit the World</h3>
+		Nikola Tesla envisioned wireless power in the 1800s. He invented AC electricity, radio (yes, before Marconi), remote controls, and even early ideas of Wi-Fi. But while Edison hogged the spotlight, Tesla stayed in the lab — broke, obsessed, brilliant.<br><br>
+
+		<h4>Brilliance Ignored</h4>
+		He lit up the Chicago World’s Fair with AC power. He built the Tesla coil. But his Wardenclyffe Tower — meant to give free wireless electricity to the world — lost funding. Investors didn't like that it wouldn’t make money.<br>
+
+		<p class='quote'>"The present is theirs; the future, for which I really worked, is mine."</p>
+
+		<h4>Alone with the Pigeons</h4>
+		Tesla died poor, living in a New York hotel, feeding pigeons and dreaming of future tech. His name would later power electric cars, space programs, and an entire generation of engineers.<br>
+
+		<h3 class='h3-heading'>Legacy</h3>
+		Tesla’s life is proof that genius isn’t always rewarded — at least not immediately. He was ahead of his time, too weird for investors, too bold for his era. But in the long run? He was right. And we’re still catching up.
+	`,
+		author: "John Doe",
+		date: "April 11, 2025",
+		reading_time: "6 min",
+	},
+	{
+		id: 18,
+		name: "Albert Einstein",
+		dob: "March 14, 1879",
+		country: "Germany",
+		category: "Science",
+		image_src:
+			"https://upload.wikimedia.org/wikipedia/commons/d/d3/Einstein_1921_by_F_Schmutzer_-_restoration.jpg",
+		industry: "Physics",
+		title: "Albert Einstein: Defying Traditional Education",
+		subtitle: "From rejected PhD thesis to rewriting the laws of physics.",
+		story: `
+			<h3 class='h3-heading'>From Rejection to Revolution</h3>
+			Albert Einstein faced rejection at multiple points in his early career. His PhD thesis was initially rejected by the University of Bern, and he struggled to secure a teaching position after graduation.<br><br>
+
+			<h4>The Struggles of a Nontraditional Learner</h4>
+			Einstein’s unorthodox approach to learning and thinking led professors to label him lazy and slow. Despite this, he persisted, taking a job at a patent office, where he would later develop the theory of relativity.<br>
+
+			<p class='quote'>"Imagination is more important than knowledge."</p>
+
+			<h4>Redefining the Laws of Physics</h4>
+			His rejection from academia didn't stop him from changing the course of science. The theory of relativity forever altered our understanding of space, time, and energy.<br>
+
+			<h3 class='h3-heading'>Legacy</h3>
+			Today, Einstein is celebrated as one of the greatest minds in human history. His rejection story serves as a reminder that even the brightest stars can be overlooked before they shine.<br>
+		`,
+		author: "John Doe",
+		date: "April 1, 2025",
+		reading_time: "5 min",
+	},
+	{
+		id: 19,
+		name: "Katherine Johnson",
+		dob: "August 26, 1918",
+		country: "USA",
+		category: "Science",
+		image_src:
+			"https://upload.wikimedia.org/wikipedia/commons/a/ab/Katherine_Johnson.jpg",
+		industry: "Mathematics (NASA)",
+		title: "Katherine Johnson: Defying Rejection at NASA",
+		subtitle:
+			"Fighting against racism and sexism to help land a man on the Moon.",
+		story: `
+			<h3 class='h3-heading'>Defying Racism and Sexism</h3>
+			Katherine Johnson faced both **racial and gender discrimination** during her career. Early on, she was rejected from important roles due to her race and gender. Despite this, she fought for a seat at the table.<br><br>
+
+			<h4>The Long Road to NASA</h4>
+			Rejected from several high-level math teams at NASA because she was Black and female, Johnson went on to calculate the trajectory for the first American in space and helped compute the math for the Apollo 11 mission.<br>
+
+			<p class='quote'>"I don't have a feeling of being rejected because I was too busy doing the work."</p>
+
+			<h4>Breaking Barriers</h4>
+			Her work was instrumental in getting astronauts into space and back safely, yet her contributions were only recognized decades later.<br>
+
+			<h3 class='h3-heading'>Legacy</h3>
+			Katherine Johnson’s story is one of resilience. She showed that even in the face of extreme adversity, excellence and dedication can change the world. Today, she’s a symbol of breaking barriers.<br>
+		`,
+		author: "John Doe",
+		date: "April 1, 2025",
+		reading_time: "6 min",
+	},
+	{
+		id: 20,
+		name: "Alan Turing",
+		dob: "June 23, 1912",
+		country: "UK",
+		category: "Science",
+		image_src:
+			"https://upload.wikimedia.org/wikipedia/commons/5/53/Alan_Turing_Aged_16.jpg",
+		industry: "Mathematics/Computer Science",
+		title: "Alan Turing: A Legacy of Rejection and Genius",
+		subtitle: "Breaking the Nazi code, but persecuted for his identity.",
+		story: `
+			<h3 class='h3-heading'>A War Hero Forgotten</h3>
+			Alan Turing’s contributions during WWII are nothing short of extraordinary. His decoding of the Enigma machine is said to have shortened the war by two years and saved millions of lives. Yet, despite this, he was rejected by society for his sexuality.<br><br>
+
+			<h4>Persecution and Rejection</h4>
+			Turing was chemically castrated and persecuted by the government after it was discovered that he was gay. His groundbreaking work was overlooked, and he was forced to live in shame.<br>
+
+			<p class='quote'>"Sometimes it is the people no one can imagine anything of who do the things no one can imagine."</p>
+
+			<h4>Legacy of a Genius</h4>
+			Despite the personal and professional rejection Turing faced, his legacy is undeniable. He laid the foundation for modern computing and artificial intelligence.<br>
+
+			<h3 class='h3-heading'>Legacy</h3>
+			Turing’s story is a tragic reminder of how society can reject its greatest heroes. His brilliance ultimately shines through, as we now recognize him as one of the most influential figures of the 20th century.<br>
+		`,
+		author: "John Doe",
+		date: "April 1, 2025",
+		reading_time: "6 min",
+	},
 ];
