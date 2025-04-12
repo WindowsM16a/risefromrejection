@@ -67,10 +67,10 @@ const date = new Date();
 // getData();
 
 // uploading and updating the local personalities (10 for now). i'll stop doing local stuff once i learn auth so only i can write to the db.
-personalities.forEach((person) => {
-	const personRef = ref(db, "personalities/" + person.id);
-	set(personRef, person);
-});
+// personalities.forEach((person) => {
+// 	const personRef = ref(db, "personalities/" + person.id);
+// 	set(personRef, person);
+// });
 
 // JavaScript for the navbar functionality
 document.addEventListener("DOMContentLoaded", function () {
