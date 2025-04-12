@@ -442,8 +442,7 @@ export const personalities = [
 		dob: "September 9, 1890",
 		country: "USA",
 		category: "Business",
-		image_src:
-			"https://wallpapers.com/images/hd/kfc-colonel-sanders-2o47xhr7syd85zpc.jpg",
+		image_src: "https://wallpapercave.com/wp/wp8764850.jpg",
 		industry: "Food (Fast Food)",
 		title: "Colonel Sanders: Late Bloomer, Global Icon",
 		subtitle:
@@ -510,8 +509,7 @@ export const personalities = [
 		dob: "December 5, 1901",
 		country: "USA",
 		category: "Arts",
-		image_src:
-			"https://media.newyorker.com/photos/63937ba0f7f876dfc16b53fe/3:2/w_1971,h_1314,c_limit/ra1093.jpg",
+		image_src: "https://wallpapercave.com/wp/JMZDSzD.jpg",
 		industry: "Entertainment (Animation & Theme Parks)",
 		title: "Walt Disney: Fired for ‘Lack of Imagination’",
 		subtitle:
@@ -662,8 +660,7 @@ export const personalities = [
 		dob: "June 23, 1912",
 		country: "UK",
 		category: "Science",
-		image_src:
-			"https://www.advocate.com/media-library/alan-turing.jpg?id=32667932&width=1245&height=700&coordinates=0%2C0%2C0%2C2",
+		image_src: "https://wallpapercave.com/wp/wp4462136.png",
 		industry: "Mathematics/Computer Science",
 		title: "Alan Turing: A Legacy of Rejection and Genius",
 		subtitle: "Breaking the Nazi code, but persecuted for his identity.",
