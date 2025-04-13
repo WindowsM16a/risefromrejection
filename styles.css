@@ -355,6 +355,9 @@ main {
 	gap: 1.5rem;
 }
 
+/* contact page */
+#contact {
+}
 footer {
 	display: flex;
 	align-items: center;
