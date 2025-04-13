@@ -138,7 +138,8 @@ body {
 }
 
 .mobile-search-input,
-.email-input {
+.email-input,
+.name-input {
 	width: 100%;
 	padding: 0.75rem;
 	background-color: var(--primary-dark-navy-blue);
@@ -149,12 +150,14 @@ body {
 }
 
 .mobile-search-input::placeholder,
-.email-input::placeholder {
+.email-input::placeholder,
+.name-input::placeholder {
 	color: var(--secondary-soft-gray-text);
 }
 
 .mobile-search-input:focus,
-.email-input:focus {
+.email-input:focus,
+.name-input:focus {
 	outline: none;
 	border-color: var(--accent-bright-teal);
 }
@@ -228,7 +231,7 @@ main {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	gap: 0.39rem;
+	gap: 0.5rem;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -428,9 +431,11 @@ footer {
 }
 
 footer hr {
-	height: 0.002rem;
+	border: none;
+	height: 0.0049rem;
 	background-color: var(--secondary-soft-gray-text);
 	margin: 1.5rem 0;
+	opacity: 0.3;
 }
 .copyrights {
 	text-align: center;

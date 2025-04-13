@@ -67,10 +67,10 @@ const date = new Date();
 // getData();
 
 // uploading and updating the local personalities (10 for now). i'll stop doing local stuff once i learn auth so only i can write to the db.
-personalities.forEach((person) => {
-	const personRef = ref(db, "personalities/" + person.id);
-	set(personRef, person);
-});
+// personalities.forEach((person) => {
+// 	const personRef = ref(db, "personalities/" + person.id);
+// 	set(personRef, person);
+// });
 
 // JavaScript for the navbar functionality
 document.addEventListener("DOMContentLoaded", function () {
@@ -83,7 +83,8 @@ document.addEventListener("DOMContentLoaded", function () {
 	const mobileSearchInput = document.querySelector(".mobile-search-input");
 	const headDiv = document.querySelector(".head-article-container");
 	const copyrightDiv = document.getElementById("copyrights");
-	const footerSearchInput = document.querySelector(".email-input");
+	const footerNameInput = document.querySelector(".name-input");
+	const footerEmailInput = document.querySelector(".email-input");
 	const latestArticlesGrids = document.querySelector(".article-grids");
 	const backBtnEl = document.getElementById("backBtn");
 
@@ -328,17 +329,23 @@ document.addEventListener("DOMContentLoaded", function () {
 			// --- Main Article Section ---
 			const randIndex = Math.floor(Math.random() * personalitiesArray.length);
 			const mainPerson = personalitiesArray[randIndex];
-			headDiv.style.display = "none";
-			headDiv.appendChild(renderMainArticle(mainPerson));
+			if (headDiv) {
+				headDiv.style.display = "none";
+				headDiv.appendChild(renderMainArticle(mainPerson));
+			}
 
 			// --- Latest Articles Grid ---
-			latestArticlesGrids.innerHTML = "";
-			personalitiesArray.forEach((personality) => {
-				latestArticlesGrids.appendChild(renderArticle(personality));
-			});
+			if (latestArticlesGrids) {
+				latestArticlesGrids.innerHTML = "";
+				personalitiesArray.forEach((personality) => {
+					latestArticlesGrids.appendChild(renderArticle(personality));
+				});
+			}
 
-			headDiv.style.display = "flex";
-			latestArticlesGrids.style.display = "flex";
+			if (headDiv) {
+				headDiv.style.display = "flex";
+				latestArticlesGrids.style.display = "flex";
+			}
 		} catch (err) {
 			console.error("Error loading articles:", err);
 		}
@@ -431,33 +438,51 @@ document.addEventListener("DOMContentLoaded", function () {
 	}
 
 	// back btn
-	backBtnEl.addEventListener("click", () => {
-		window.history.back();
-	});
+	if (backBtnEl) {
+		backBtnEl.addEventListener("click", () => {
+			window.history.back();
+		});
+	}
 
 	// submit email to db
-	// footerSearchInput.addEventListener("keyup", function (e) {
-	// 	let user = "Shayne Wuver";
-	// 	if (e.key == "Enter") {
-	// 		set(ref(db, "emails/" + user), {
-	// 			name: user,
-	// 			email: this.value,
-	// 		})
-	// 			.then(() => {
-	// 				console.log("Email search submitted: ", this.value);
-	// 			})
-	// 			.catch((error) => {
-	// 				console.log("unsuccessful: " + error);
-	// 			});
-	// 	}
-	// });
+	// todo: assign names for people who don't input name lol, never trust users.
+	// todo: loop through emails and check if email is already in db
+	// can use toLowerCase and toUpperCase if needed
+	if (footerEmailInput && footerNameInput) {
+		footerEmailInput.addEventListener("keyup", function (e) {
+			let user = footerNameInput.value;
+			if (e.key == "Enter") {
+				set(ref(db, "emails/" + user), {
+					name: user,
+					email: this.value,
+				})
+					.then(() => {
+						if (this.value == "wuvershayne@gmail.com") {
+							alert("Already Subscribed");
+						} else {
+							console.log("Email submitted: ", this.value);
+							alert(
+								`${user}, your email: ${this.value}, has been added to mail list`
+							);
+						}
+						footerEmailInput.value = "";
+						footerNameInput.value = "";
+					})
+					.catch((error) => {
+						console.log("unsuccessful: " + error);
+					});
+			}
+		});
+	}
 
 	// categories
 
 	// date for footer
-	const year = date.getFullYear();
-	copyrightDiv.innerHTML = "";
-	const copyrightText = document.createElement("p");
-	copyrightText.innerHTML = `&copy; ${year} Rise from Rejections. All rights reserved.`;
-	copyrightDiv.appendChild(copyrightText);
+	if (copyrightDiv) {
+		const year = date.getFullYear();
+		copyrightDiv.innerHTML = "";
+		const copyrightText = document.createElement("p");
+		copyrightText.innerHTML = `&copy; ${year} Rise from Rejections. All rights reserved.`;
+		copyrightDiv.appendChild(copyrightText);
+	}
 });
