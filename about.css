@@ -21,6 +21,11 @@ main {
 	margin: 0 0 2rem 0;
 }
 
+a {
+	color: aqua;
+	font-style: italic;
+}
+
 @media (max-width: 768px) {
 	main {
 		padding: 0.5rem;
