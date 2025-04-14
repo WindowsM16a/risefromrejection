@@ -24,6 +24,7 @@ main {
 p a {
 	color: aqua;
 	font-style: italic;
+	text-decoration: underline;
 }
 
 @media (max-width: 768px) {

@@ -494,7 +494,16 @@ document.addEventListener("DOMContentLoaded", function () {
 					<p><a href="medium.com/@shaynewuver">Medium</a></p>`;
 		}
 	}
+	const select = document.getElementById("storyCategory-input");
+	const defaultOpt = document.getElementById("default");
 
+	if (select) {
+		select.addEventListener("click", function (e) {
+			if (defaultOpt) {
+				defaultOpt.disabled = "true";
+			}
+		});
+	}
 	// date for footer
 	if (copyrightDiv) {
 		const year = date.getFullYear();

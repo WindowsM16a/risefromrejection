@@ -139,7 +139,10 @@ body {
 
 .mobile-search-input,
 .email-input,
-.name-input {
+.name-input,
+#storyTitle-input,
+#storyCategory-input {
+	font-family: "montserrat";
 	width: 100%;
 	padding: 0.75rem;
 	background-color: var(--primary-dark-navy-blue);
@@ -151,13 +154,15 @@ body {
 
 .mobile-search-input::placeholder,
 .email-input::placeholder,
-.name-input::placeholder {
+.name-input::placeholder,
+#storyTitle-input::placeholder {
 	color: var(--secondary-soft-gray-text);
 }
 
 .mobile-search-input:focus,
 .email-input:focus,
-.name-input:focus {
+.name-input:focus,
+#storyTitle-input:focus {
 	outline: none;
 	border-color: var(--accent-bright-teal);
 }

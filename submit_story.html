@@ -32,6 +32,7 @@
 		/>
 		<link rel="manifest" href="../site.webmanifest" />
 		<link defer rel="stylesheet" href="../styles.css" />
+		<link defer rel="stylesheet" href="../submit_story.css" />
 	</head>
 	<body>
 		<nav class="navbar">
@@ -108,8 +109,46 @@
 		</nav>
 		<hr />
 		<main>
-			<section>
-				<form id="submitForm" action=""></form>
+			<section id="submitContainer">
+				<div id="formHeading">
+					<h1>Share A Story</h1>
+					<p>
+						Everyone has faced rejection. Your story could inspire others to
+						persevere. Tell us about a time you faced rejection or significant
+						roadblocks but ultimately succeeded
+					</p>
+				</div>
+				<form id="submitForm">
+					<label for="storyTitle"
+						><div class="inputTitle">
+							<img src="../favicon-32x32.png" width="20px" alt="" /> Story Title
+						</div>
+						<input
+							name="storyTitle"
+							id="storyTitle-input"
+							type="text"
+							placeholder="Give your story a compelling title"
+						/>
+					</label>
+					<label for="storyCategory"
+						><div class="inputTitle">
+							<img src="../favicon-32x32.png" width="20px" alt="" /> Story Title
+						</div>
+						<select id="storyCategory-input">
+							<option value="selectCategory" id="default" default>
+								Select a Category
+							</option>
+							<option value="tech">Tech</option>
+							<option value="business">Business</option>
+							<option value="arts">Arts</option>
+							<option value="science">Science</option>
+						</select>
+					</label>
+				</form>
+				<div id="formFooter">
+					<p>Have questions about submitting your story?</p>
+					<p><a href="">Contact us</a> for assistance.</p>
+				</div>
 			</section>
 		</main>
 
