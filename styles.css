@@ -9,6 +9,7 @@
 	--secondary-soft-gray-text: #8e9196;
 	--cards-dark-gray: #2d3748;
 	--tertiary-gray-text: rgb(193, 193, 193);
+	--border: #4e535aab;
 }
 
 * {
@@ -37,6 +38,7 @@ body {
 	cursor: pointer;
 	padding: 1rem 0 2rem 0.3rem;
 }
+
 #backBtn img {
 	width: 2.5rem;
 }
@@ -77,6 +79,7 @@ body {
 	color: var(--accent-bright-teal);
 	font-weight: 700;
 }
+
 .from-rejection {
 	color: var(--primary-light-gray-text);
 	font-weight: 600;
@@ -141,28 +144,57 @@ body {
 .email-input,
 .name-input,
 #storyTitle-input,
-#storyCategory-input {
+#storyCategory-input,
+#story-input,
+#storySubtitle-input,
+#authorName,
+#authorEmail,
+#imgDescription-input {
 	font-family: "montserrat";
-	width: 100%;
+	max-width: 100%;
 	padding: 0.75rem;
 	background-color: var(--primary-dark-navy-blue);
-	border: 1px solid var(--secondary-soft-gray-text);
-	border-radius: 0.25rem;
+	border: 1px solid var(--border);
+	border-radius: 0.35rem;
 	color: var(--primary-light-gray-text);
 	font-size: 1rem;
+}
+
+#submitBtn {
+	font-family: "montserrat";
+	max-width: 100%;
+	padding: 0.75rem;
+	background-color: var(--accent-bright-teal);
+	border: 1px solid var(--border);
+	border-radius: 0.35rem;
+	color: var(--primary-dark-navy-blue);
+	font-size: 1.1rem;
+	font-weight: 500;
+	cursor: pointer;
 }
 
 .mobile-search-input::placeholder,
 .email-input::placeholder,
 .name-input::placeholder,
-#storyTitle-input::placeholder {
+#storyTitle-input::placeholder,
+#story-input::placeholder,
+#storySubtitle-input::placeholder,
+#authorName::placeholder,
+#authorEmail::placeholder,
+#imgDescription-input::placeholder {
 	color: var(--secondary-soft-gray-text);
 }
 
 .mobile-search-input:focus,
 .email-input:focus,
 .name-input:focus,
-#storyTitle-input:focus {
+#storyTitle-input:focus,
+#storyCategory-input:focus,
+#story-input:focus,
+#storySubtitle-input:focus,
+#authorName:focus,
+#authorEmail:focus,
+#imgDescription-input:focus {
 	outline: none;
 	border-color: var(--accent-bright-teal);
 }
@@ -297,21 +329,26 @@ main {
 	font-size: clamp(1.3rem, 2.5vw, 1.4rem);
 	transition: color 0.35s ease-in-out;
 }
+
 .head-title {
 	font-size: clamp(1.6rem, 3vw, 1.8rem);
 }
+
 .sub-title {
 	color: var(--tertiary-gray-text);
 	font-family: "lora";
 	font-weight: 500;
 	font-size: clamp(0.8rem, 1.5vw, 0.9rem);
 }
+
 .head-sub-title {
 	font-size: clamp(1rem, 2vw, 1.1rem);
 }
+
 .title:hover {
 	color: var(--accent-bright-teal);
 }
+
 .credits {
 	display: flex;
 	align-items: center;
@@ -336,16 +373,19 @@ main {
 	flex-direction: column;
 	margin: 0 0 5rem 0;
 }
+
 .latest-view-all {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	margin: 0 0 1rem 0;
 }
+
 .latest-stories-p {
 	font-family: "playfair display";
 	font-size: clamp(1.2rem, 2vw, 1.4rem);
 }
+
 .view-all-p {
 	font-family: "montserrat";
 	font-size: clamp(0.9rem, 1.5vw, 1rem);
@@ -363,6 +403,7 @@ main {
 /* contact page */
 #contact {
 }
+
 footer {
 	display: flex;
 	align-items: center;
@@ -377,31 +418,38 @@ footer {
 	display: flex;
 	flex-direction: column;
 }
+
 .footer-upper {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: flex-start;
 }
+
 .footer-logo {
 	display: flex;
 	font-size: clamp(1.4rem, 2vw, 1.6rem);
 	align-items: center;
 	margin: 0 0 1rem 0;
 }
+
 .footer-logo img {
 	width: 2.5rem;
 }
+
 .footer-logo-and-p {
 	margin: 2rem 0;
 }
+
 .footer-logo-p,
 .subscribe-p {
 	color: var(--secondary-soft-gray-text);
 }
+
 .footer-upper a {
 	color: var(--secondary-soft-gray-text);
 }
+
 .categories-h,
 .information-h,
 .subscribe-h {
@@ -412,6 +460,7 @@ footer {
 	margin: 0 0 -0.4rem 0;
 	flex-grow: 1;
 }
+
 .categories,
 .information {
 	font-family: "montserrat";
@@ -420,20 +469,24 @@ footer {
 	gap: 1rem;
 	margin: 0 0 0.5rem 0;
 }
+
 .subscribe {
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
 }
+
 .catinsub {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: flex-start;
 	gap: 3rem;
 }
+
 .catinsub a {
 	transition: color ease-in-out 0.35s;
 }
+
 .catinsub a:hover {
 	color: var(--accent-bright-teal);
 }
@@ -445,12 +498,13 @@ footer hr {
 	margin: 1.5rem 0;
 	opacity: 0.3;
 }
+
 .copyrights {
 	text-align: center;
 	color: var(--secondary-soft-gray-text);
 }
 
-/* Media queries for responsiveness */
+/* Media queries */
 @media (max-width: 768px) {
 	.nav-links {
 		display: none;
@@ -509,7 +563,7 @@ footer hr {
 		gap: 0.1rem;
 	}
 
-	/* Override font sizes for smaller screens if needed */
+	/* Override font sizes for smaller screens */
 	.title {
 		font-size: 1.3rem;
 	}

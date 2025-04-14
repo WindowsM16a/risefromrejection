@@ -119,22 +119,39 @@
 					</p>
 				</div>
 				<form id="submitForm">
-					<label for="storyTitle"
+					<label for="storyTitle-input"
 						><div class="inputTitle">
 							<img src="../favicon-32x32.png" width="20px" alt="" /> Story Title
 						</div>
 						<input
-							name="storyTitle"
+							required
 							id="storyTitle-input"
 							type="text"
 							placeholder="Give your story a compelling title"
 						/>
+						<p class="characters" id="titleCharacters">0/65 characters</p>
 					</label>
-					<label for="storyCategory"
+
+					<label for="storySubtitle-input"
 						><div class="inputTitle">
-							<img src="../favicon-32x32.png" width="20px" alt="" /> Story Title
+							<img src="../favicon-32x32.png" width="20px" alt="" /> Story
+							Subtitle
 						</div>
-						<select id="storyCategory-input">
+						<input
+							required
+							id="storySubtitle-input"
+							type="text"
+							placeholder="Give your story a catchy subtitle"
+						/>
+						<p class="characters" id="subtitleCharacters">0/110 characters</p>
+					</label>
+
+					<label for="storyCategory-input"
+						><div class="inputTitle">
+							<img src="../favicon-32x32.png" width="20px" alt="" />Select a
+							Category
+						</div>
+						<select id="storyCategory-input" required>
 							<option value="selectCategory" id="default" default>
 								Select a Category
 							</option>
@@ -144,7 +161,67 @@
 							<option value="science">Science</option>
 						</select>
 					</label>
+
+					<label for="story-input"
+						><div class="inputTitle">
+							<img src="../favicon-32x32.png" width="20px" alt="" /> The Story
+						</div>
+						<textarea
+							required
+							id="story-input"
+							placeholder="Write your story here (indicate titles, quotes, etc.)"
+						></textarea>
+						<p class="characters" id="storyCharacters">0/2500 characters</p>
+					</label>
+
+					<div id="author">
+						<label for="authorName"
+							><div class="inputTitle">
+								<img src="../favicon-32x32.png" width="20px" alt="" /> Your Name
+							</div>
+							<input
+								required
+								id="authorName"
+								type="text"
+								placeholder="Your name or pseudonym"
+							/>
+						</label>
+						<label for="authorEmail"
+							><div class="inputTitle">
+								<img src="../favicon-32x32.png" width="20px" alt="" /> Your
+								Email
+							</div>
+							<input
+								id="authorEmail"
+								type="email"
+								placeholder="eg: rfr@gmail.com"
+							/>
+						</label>
+					</div>
+
+					<label for="imgDescription-input"
+						><div class="inputTitle">
+							<img src="../favicon-32x32.png" width="20px" alt="" /> Image
+							Description (Optional)
+						</div>
+						<textarea
+							id="imgDescription-input"
+							placeholder="Describe the images(s) you'd like to include (our team will find suitable ones)"
+						></textarea>
+						<p class="characters" id="storyCharacters">0/2500 characters</p>
+					</label>
+
+					<div class="checkbox-container">
+						<input type="checkbox" id="agree" required />
+						<label for="agree">
+							I agree that my story may be edited for clarity and published on
+							the website
+						</label>
+					</div>
+
+					<input type="submit" id="submitBtn" name="submitBtn" />
 				</form>
+
 				<div id="formFooter">
 					<p>Have questions about submitting your story?</p>
 					<p><a href="">Contact us</a> for assistance.</p>
