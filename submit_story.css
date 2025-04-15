@@ -54,10 +54,11 @@ main {
 	display: flex;
 	gap: 0.55rem;
 	font-weight: 550;
+	font-size: 0.95rem;
 }
 
 .inputTitle img {
-	width: 1.45rem;
+	width: 1.4rem;
 }
 
 p a {
@@ -89,11 +90,17 @@ label {
 	font-size: 0.9rem;
 	line-height: 1.4;
 	color: var(--tertiary-gray-text);
+	cursor: pointer;
 }
 
 .checkbox-container input[type="checkbox"] {
-	margin-top: 0.2rem;
+	margin-top: 0.259rem;
 	accent-color: var(--accent-bright-teal);
+	cursor: pointer;
+}
+
+#agreeLabel {
+	cursor: pointer;
 }
 
 #story-input {

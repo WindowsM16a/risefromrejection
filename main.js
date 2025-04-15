@@ -112,24 +112,30 @@ document.addEventListener("DOMContentLoaded", function () {
 	}
 
 	// Event listeners
-	hamburger.addEventListener("click", function (e) {
-		e.stopPropagation(); // Prevent propagation to document
-		toggleMenu();
-	});
+	if (hamburger) {
+		hamburger.addEventListener("click", function (e) {
+			e.stopPropagation(); // Prevent propagation to document
+			toggleMenu();
+		});
+	}
 
-	close.addEventListener("click", function (e) {
-		e.stopPropagation(); // Prevent propagation to document
-		toggleMenu();
-	});
+	if (close) {
+		close.addEventListener("click", function (e) {
+			e.stopPropagation(); // Prevent propagation to document
+			toggleMenu();
+		});
+	}
 
 	// Close menu when clicking on a link
-	navLinksItems.forEach((item) => {
-		item.addEventListener("click", function (e) {
-			if (window.innerWidth <= 768) {
-				closeMenu();
-			}
+	if (navLinksItems) {
+		navLinksItems.forEach((item) => {
+			item.addEventListener("click", function (e) {
+				if (window.innerWidth <= 768) {
+					closeMenu();
+				}
+			});
 		});
-	});
+	}
 
 	// Handle desktop search button click
 	if (desktopSearchBtn) {
@@ -159,9 +165,11 @@ document.addEventListener("DOMContentLoaded", function () {
 	}
 
 	// Prevent clicks inside the navbar from closing the menu
-	navLinks.addEventListener("click", function (e) {
-		e.stopPropagation();
-	});
+	if (navLinks) {
+		navLinks.addEventListener("click", function (e) {
+			e.stopPropagation();
+		});
+	}
 
 	// Close menu when clicking outside
 	document.addEventListener("click", function () {

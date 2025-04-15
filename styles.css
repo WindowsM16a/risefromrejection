@@ -160,6 +160,13 @@ body {
 	font-size: 1rem;
 }
 
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px var(--primary-dark-navy-blue) inset;
+	box-shadow: 0 0 0px 1000px var(--primary-dark-navy-blue) inset;
+	-webkit-text-fill-color: var(--primary-light-gray-text);
+	transition: background-color 5000s ease-in-out 0s;
+}
+
 #submitBtn {
 	font-family: "montserrat";
 	max-width: 100%;
