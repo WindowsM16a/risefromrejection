@@ -52,8 +52,12 @@ main {
 
 .inputTitle {
 	display: flex;
-	gap: 0.4rem;
+	gap: 0.55rem;
 	font-weight: 550;
+}
+
+.inputTitle img {
+	width: 1.45rem;
 }
 
 p a {
