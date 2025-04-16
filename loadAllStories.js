@@ -104,9 +104,7 @@ function renderArticle(personality) {
 	return storyLink;
 }
 
-// ----------------------------
 // Load All Articles: Modularized rendering of main article and latest articles grid
-// ----------------------------
 async function loadAllArticles() {
 	try {
 		// Fetch all personalities with a single call
@@ -118,7 +116,7 @@ async function loadAllArticles() {
 
 		const personalitiesArray = Object.values(snapshot.val());
 
-		// --- Latest Articles Grid ---
+		// Latest Articles Grid
 		articleGrids.innerHTML = "";
 		personalitiesArray.forEach((personality) => {
 			articleGrids.appendChild(renderArticle(personality));

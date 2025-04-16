@@ -23,6 +23,18 @@
 	user-select: none;
 }
 
+html,
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+main {
+	flex: 1;
+	padding: 2rem;
+}
+
 body {
 	background-color: var(--primary-dark-navy-blue);
 	font-family: "Lora", serif;
@@ -399,7 +411,8 @@ main {
 	color: var(--accent-bright-teal);
 }
 
-.article-grids {
+.article-grids,
+.cat-article-grids {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
@@ -555,7 +568,8 @@ footer hr {
 		}
 	}
 
-	.article-grids {
+	.article-grids,
+	.cat-article-grids {
 		gap: 1rem;
 	}
 

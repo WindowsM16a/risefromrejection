@@ -28,7 +28,7 @@ const personalitiesRef = ref(db, "personalities");
 
 // function to call in each category's js file.
 export async function loadCategoryArticles(category) {
-	const container = document.querySelector(".article-grids");
+	const container = document.querySelector(".cat-article-grids");
 
 	try {
 		const snapshot = await get(personalitiesRef);
