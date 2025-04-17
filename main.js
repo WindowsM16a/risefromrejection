@@ -87,8 +87,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	const footerEmailInput = document.querySelector(".email-input");
 	const latestArticlesGrids = document.querySelector(".article-grids");
 	const backBtnEl = document.getElementById("backBtn");
-	const contactSection = document.getElementById("contact");
-	const contactLink = document.getElementById("contactLink");
 
 	// Toggle menu function
 	function toggleMenu() {
@@ -485,23 +483,6 @@ document.addEventListener("DOMContentLoaded", function () {
 		});
 	}
 
-	// contact
-
-	if (contactSection) {
-		contactSection.innerHTML = "";
-		contactLink.addEventListener("click", function () {
-			displayContact();
-		});
-	}
-	function displayContact() {
-		if (contactSection) {
-			contactSection.innerHTML = `<h3>Where can you find me 👇🏽</h3>
-					<p><a href="linkedin.com/in/shaynewuver">LinkedIn</a></p>
-					<p><a href="github.com/windowsm16a">Github</a></p>
-					<p><a href="mailto:wuvershayne@gmail.com">Mail me</a></p>
-					<p><a href="medium.com/@shaynewuver">Medium</a></p>`;
-		}
-	}
 	const select = document.getElementById("storyCategory-input");
 	const defaultOpt = document.getElementById("default");
 

@@ -8,6 +8,7 @@
 	--accent-dark-teal: #0e7871;
 	--secondary-soft-gray-text: #8e9196;
 	--cards-dark-gray: #2d3748;
+	--cards-light-gray: #384b6613;
 	--tertiary-gray-text: rgb(193, 193, 193);
 	--border: #4e535aab;
 }
@@ -163,7 +164,7 @@ body {
 #authorEmail,
 #imgDescription-input {
 	font-family: "montserrat";
-	max-width: 100%;
+	width: 100%;
 	padding: 0.75rem;
 	background-color: var(--primary-dark-navy-blue);
 	border: 1px solid var(--border);
@@ -246,10 +247,6 @@ hr {
 	border: none;
 	height: 0.05rem;
 	background-color: var(--cards-dark-gray);
-}
-
-main {
-	padding: 2rem;
 }
 
 .article-container,
@@ -497,6 +494,7 @@ footer {
 .catinsub {
 	display: flex;
 	flex-wrap: wrap;
+	width: 100%;
 	align-items: flex-start;
 	gap: 3rem;
 }
@@ -523,7 +521,7 @@ footer hr {
 }
 
 /* Media queries */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 	.nav-links {
 		display: none;
 		position: absolute;
@@ -579,7 +577,7 @@ footer hr {
 	}
 
 	.info {
-		gap: 0.1rem;
+		gap: 0.5rem;
 	}
 
 	/* Override font sizes for smaller screens */

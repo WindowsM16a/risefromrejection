@@ -89,7 +89,7 @@ h4 {
 	margin-left: 0.25rem;
 }
 /* media queries yay */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 	main {
 		padding: 0.5rem;
 	}

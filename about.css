@@ -1,0 +1,89 @@
+main {
+	display: flex;
+	padding: 1.5rem;
+	flex-direction: column;
+	align-items: center;
+}
+
+#aboutContainer {
+	line-height: 1.6;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	min-width: 19rem;
+	max-width: 45rem;
+	gap: 0.8rem;
+	margin: 0 0 2rem 0;
+}
+
+.aboutHeading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 0 0.5rem 0 0.5rem;
+	margin: 0 0 2.3rem 0;
+	gap: 1.2rem;
+}
+
+#rfrH1 {
+	color: var(--accent-bright-teal);
+}
+
+h1 {
+	font-family: "playfair display";
+	word-spacing: 0.25rem;
+	letter-spacing: 0.15rem;
+	font-size: 2rem;
+}
+
+.subtitle {
+	font-size: 1.05rem;
+}
+
+h2 {
+	display: flex;
+	align-items: center;
+	font-size: 1.5rem;
+}
+
+h2 img,
+.aboutTitle img {
+	width: 2.5rem;
+	height: 2.5rem;
+}
+
+h3 {
+	font-family: "playfair display";
+	font-size: 1.3rem;
+}
+
+p {
+	color: var(--tertiary-gray-text);
+}
+
+.missionStory {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	margin: 0 0 10rem 0;
+}
+
+.aboutCard {
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem;
+	max-width: fit-content;
+	border: 1px solid var(--border);
+	border-radius: 0.5rem;
+	background-color: var(--cards-light-gray);
+	gap: 0.5rem;
+}
+
+.editorialFocus {
+	display: flex;
+	flex-direction: column;
+	padding: 0 0.5rem 0 0.5rem;
+	margin: 0 0 2.3rem 0;
+	gap: 1.2rem;
+}
