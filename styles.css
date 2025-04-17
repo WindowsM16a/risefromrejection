@@ -426,6 +426,7 @@ footer {
 	flex-grow: 1;
 	background-color: var(--cards-dark-gray);
 	padding: 2rem;
+	margin-top: 2rem;
 	width: 100%;
 }
 

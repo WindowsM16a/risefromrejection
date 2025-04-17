@@ -44,7 +44,8 @@ h1 {
 h2 {
 	display: flex;
 	align-items: center;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
+	font-family: "playfair display";
 }
 
 h2 img,
@@ -64,16 +65,16 @@ p {
 
 .missionStory {
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 	gap: 2rem;
-	margin: 0 0 10rem 0;
+	margin: 0 0 8rem 0;
 }
 
 .aboutCard {
 	display: flex;
 	flex-direction: column;
 	padding: 1.5rem;
-	max-width: fit-content;
 	border: 1px solid var(--border);
 	border-radius: 0.5rem;
 	background-color: var(--cards-light-gray);
@@ -86,4 +87,48 @@ p {
 	padding: 0 0.5rem 0 0.5rem;
 	margin: 0 0 2.3rem 0;
 	gap: 1.2rem;
+}
+
+.block {
+	width: 0.45rem;
+	height: 0.45rem;
+	margin: 0 0.85rem;
+	background-color: var(--accent-bright-teal);
+	border-radius: 0.2rem;
+}
+
+.edFocus {
+	display: flex;
+	align-items: center;
+	padding: 0.8rem 0.65rem;
+	background-color: var(--cards-light-gray);
+	border: 1px solid var(--border);
+	border-radius: 0.4rem;
+	font-family: "montserrat";
+	font-size: 1.03rem;
+}
+
+.joinCommunity {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	padding: 1.7rem 1.5rem;
+	border: 1px solid var(--border);
+	border-radius: 0.5rem;
+	background-color: var(--cards-light-gray);
+}
+
+.joinCommunity h2 {
+	display: flex;
+	gap: 0.6rem;
+}
+
+.joinCommunity p {
+	font-size: 1.1rem;
+}
+
+.joinCommunity a {
+	color: var(--accent-bright-teal);
+	text-decoration: underline;
+	font-style: italic;
 }
