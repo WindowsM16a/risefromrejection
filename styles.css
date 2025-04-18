@@ -59,9 +59,8 @@ body {
 /* Container for responsive padding */
 .container {
 	width: 100%;
-	max-width: 75rem;
 	margin: 0 auto;
-	padding: 0 1.25rem;
+	padding: 0 5rem;
 }
 
 /* Navbar styles */
