@@ -522,6 +522,10 @@ footer hr {
 
 /* Media queries */
 @media (max-width: 800px) {
+	.container {
+		padding: 0 2rem;
+	}
+
 	.nav-links {
 		display: none;
 		position: absolute;
