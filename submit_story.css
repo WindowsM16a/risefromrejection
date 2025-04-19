@@ -101,7 +101,13 @@ label {
 	cursor: pointer;
 }
 
-.checkbox-container input[type="checkbox"] {
+#agree {
+	margin-top: 0.259rem;
+	accent-color: var(--accent-bright-teal);
+	cursor: pointer;
+}
+
+#storyCategory-input {
 	margin-top: 0.259rem;
 	accent-color: var(--accent-bright-teal);
 	cursor: pointer;
