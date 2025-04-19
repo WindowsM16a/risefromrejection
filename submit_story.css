@@ -76,6 +76,13 @@ form {
 	border-radius: 0.5rem;
 	border: 0.0001rem solid var(--border);
 	background-color: var(--cards-dark-gray);
+	transition: border-color ease-in-out 0.5s;
+	cursor: pointer;
+}
+
+form:hover {
+	border-color: var(--accent-light-teal);
+	box-shadow: 0.02rem 0.005rem 0.2rem var(--accent-bright-teal);
 }
 
 label {
