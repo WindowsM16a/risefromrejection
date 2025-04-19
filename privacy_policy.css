@@ -65,7 +65,7 @@ h3 img {
 	width: 1.8rem;
 }
 
-ul li {
+.privacy-card li {
 	font-family: "montserrat";
 	list-style-type: disc;
 	list-style-position: inside;
