@@ -79,6 +79,13 @@ p {
 	border-radius: 0.5rem;
 	background-color: var(--cards-light-gray);
 	gap: 0.5rem;
+	transition: border-color ease-in-out 0.3s;
+	cursor: pointer;
+}
+
+.aboutCard:hover {
+	border: 1px solid var(--accent-bright-teal);
+	box-shadow: 0.08rem 0.02rem 0.9rem var(--accent-light-teal);
 }
 
 .editorialFocus {
