@@ -62,7 +62,7 @@ Feel free to [submit a story](https://www.risefromrejection.vercel.app/submit_st
 
 Dev • Story collector • Believer in second chances **_when they don't drain you_**
 
-#### 📬: [_medium_](https://medium.com/@wuvershayne)   [_linkedin_](www.linkedin.com/in/shaynewuver)  [_email me_](mailto:wuvershayne@gmail.com)
+#### 📬: [_medium_](https://medium.com/@wuvershayne)  [_linkedin_](www.linkedin.com/in/shaynewuver)  [_email me_](mailto:wuvershayne@gmail.com)
 
 ## 🖤 Why this project?
 
