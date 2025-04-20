@@ -75,7 +75,7 @@ form {
 	padding: 2rem;
 	border-radius: 0.5rem;
 	border: 0.0001rem solid var(--border);
-	background-color: var(--cards-dark-gray);
+	background-color: var(--cards-light-gray);
 	transition: border-color ease-in-out 0.5s;
 	cursor: pointer;
 }
