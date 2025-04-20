@@ -38,7 +38,7 @@ Minimalist, focused on the story
 ## 🔍 Features
 
 - Rotating stories of real-life rejections turned wins
-- Categories: Tech, Art, Business, Science (_more to come_)
+- Categories: Tech, Art, Business and Science
 - Firebase-powered, updates instantly
 - Smooth scaling across devices
 - Coming soon: search & newsletter
@@ -54,11 +54,11 @@ git clone https://github.com/yourusername/risefromrejection.git
 ## 🤝 Want to Contribute?
 
 Have a story worth telling? Or just wanna help?
-Feel free to open a PR or suggest edits _(for now)_. Let’s grow this.
+Feel free to [submit a story](https://www.risefromrejection.vercel.app/submit_story) and the team will review it. Full credit is given to story authors.
 
 ## ✍️ Author
 
-### [Shayne Wuver]()
+### [Shayne Wuver](wwww.linkedin.com/in/wuvershayne)
 
 Dev • Story collector • Believer in second chances **_when they don't drain you_**
 

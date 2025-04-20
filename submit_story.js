@@ -91,6 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 
 	// calling functions
+
 	// story title
 	inputCharCounter("storyTitle-input", "titleCharacters", 65);
 
