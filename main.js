@@ -13,8 +13,6 @@ import {
 // personalities file
 import { personalities } from "../bts-code/personalities.js";
 
-// don't touch
-
 // todo: optimize images on cloudinary for performance.
 const firebaseConfig = {
 	apiKey: "AIzaSyAkidMW8oxhj2UbMZo3iX31sy8sjEf-zEA",

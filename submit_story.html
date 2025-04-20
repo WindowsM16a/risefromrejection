@@ -130,11 +130,12 @@
 						</div>
 						<input
 							required
+							maxlength="65"
 							id="storyTitle-input"
 							type="text"
 							placeholder="Give your story a compelling title"
 						/>
-						<p class="characters" id="titleCharacters">0/65 characters</p>
+						<p class="characters" id="titleCharacters">0 / 65 characters</p>
 					</label>
 
 					<label for="storySubtitle-input"
@@ -147,11 +148,12 @@
 						</div>
 						<input
 							required
+							maxlength="110"
 							id="storySubtitle-input"
 							type="text"
 							placeholder="Give your story a catchy subtitle"
 						/>
-						<p class="characters" id="subtitleCharacters">0/110 characters</p>
+						<p class="characters" id="subtitleCharacters">0 / 110 characters</p>
 					</label>
 
 					<label for="storyCategory-input"
@@ -182,11 +184,12 @@
 						</div>
 						<textarea
 							data-gramm="false"
+							maxlength="2500"
 							required
 							id="story-input"
 							placeholder="Write your story here (indicate titles, quotes, etc.)"
 						></textarea>
-						<p class="characters" id="storyCharacters">0/2500 characters</p>
+						<p class="characters" id="storyCharacters">0 / 2500 characters</p>
 					</label>
 
 					<div id="author">
@@ -231,10 +234,11 @@
 						</div>
 						<textarea
 							data-gramm="false"
+							maxlength="1200"
 							id="imgDescription-input"
 							placeholder="Describe the images(s) you'd like to include (our team will find suitable ones)"
 						></textarea>
-						<p class="characters" id="storyCharacters">0/2500 characters</p>
+						<p class="characters" id="imgDescCharacters">0 / 1200 characters</p>
 					</label>
 
 					<div class="checkbox-container">
@@ -245,7 +249,7 @@
 						</label>
 					</div>
 
-					<input type="submit" id="submitBtn" name="submitBtn" />
+					<button id="submitBtn">Submit</button>
 				</form>
 
 				<div id="formFooter">
@@ -314,6 +318,7 @@
 		</footer>
 
 		<script defer src="../main.js" type="module"></script>
+		<script defer src="../submit_story.js" type="module"></script>
 		<script>
 			window.va =
 				window.va ||
