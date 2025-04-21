@@ -8,7 +8,7 @@
 	--accent-dark-teal: #0e7871;
 	--secondary-soft-gray-text: #8e9196;
 	--cards-dark-gray: #2d3748;
-	--cards-light-gray: #384b6613;
+	--cards-light-gray: #384b6620;
 	--tertiary-gray-text: rgb(193, 193, 193);
 	--border: #4e535aab;
 }
@@ -42,6 +42,36 @@ body {
 	color: var(--primary-light-gray-text);
 	height: 100vh;
 	width: 100%;
+}
+
+.skeleton {
+	background-color: var(--cards-light-gray);
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+}
+
+.skeleton::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -100%;
+	height: 100%;
+	width: 100%;
+	opacity: 0.5;
+	background: linear-gradient(
+		90deg,
+		transparent,
+		var(--cards-dark-gray),
+		transparent
+	);
+	animation: shimmer 1.5s infinite alternate;
+}
+
+@keyframes shimmer {
+	to {
+		transform: translateX(100%);
+	}
 }
 
 #backBtn {
@@ -271,7 +301,6 @@ hr {
 	overflow: hidden;
 	border-radius: 1.5rem;
 	min-height: 25rem;
-	margin: 0 0 3rem 0;
 }
 
 .storyLink,
@@ -386,7 +415,7 @@ hr {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	margin: 0 0 5rem 0;
+	margin: 3rem 0 5rem 0;
 }
 
 .latest-view-all {

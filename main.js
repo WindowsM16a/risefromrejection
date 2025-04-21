@@ -336,8 +336,9 @@ document.addEventListener("DOMContentLoaded", function () {
 			const randIndex = Math.floor(Math.random() * personalitiesArray.length);
 			const mainPerson = personalitiesArray[randIndex];
 			if (headDiv) {
-				headDiv.style.display = "none";
-				headDiv.appendChild(renderMainArticle(mainPerson));
+				const mainEl = renderMainArticle(mainPerson);
+				const headDiv = document.querySelector(".head-article-container");
+				headDiv.replaceWith(mainEl);
 			}
 
 			// --- Latest Articles Grid ---
