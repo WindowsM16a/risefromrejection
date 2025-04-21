@@ -344,9 +344,12 @@ document.addEventListener("DOMContentLoaded", function () {
 			// --- Latest Articles Grid ---
 			if (latestArticlesGrids) {
 				latestArticlesGrids.innerHTML = "";
-				personalitiesArray.forEach((personality) => {
-					latestArticlesGrids.appendChild(renderArticle(personality));
-				});
+				// personalitiesArray.forEach((personality) => {
+				// 	latestArticlesGrids.appendChild(renderArticle(personality));
+				// });
+				for (let i = 0; i < 5 && i < personalitiesArray.length; i++) {
+					latestArticlesGrids.appendChild(renderArticle(personalitiesArray[i]));
+				}
 			}
 
 			if (headDiv) {
