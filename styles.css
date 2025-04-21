@@ -396,7 +396,7 @@ hr {
 .credits {
 	display: flex;
 	align-items: center;
-	margin: 0.5rem 0.2rem 0.2rem 0.2rem;
+	margin: 0.25rem 0.2rem 0.2rem 0.2rem;
 	font-family: "montserrat";
 	font-size: clamp(0.7rem, 1.2vw, 0.8rem);
 	font-weight: 500;
