@@ -284,7 +284,7 @@ hr {
 	flex-grow: 1;
 	min-height: 21rem;
 	min-width: 21rem;
-	max-width: 20rem;
+	max-width: 21rem;
 	position: relative;
 	overflow: hidden;
 	border-radius: 1.5rem;
@@ -625,6 +625,7 @@ footer hr {
 	.article-container,
 	.storyLink {
 		min-width: 19.45rem;
+		max-width: none;
 		margin: 0 0 0.8rem 0;
 	}
 
