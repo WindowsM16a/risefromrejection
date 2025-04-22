@@ -44,13 +44,13 @@ export async function loadCategoryArticles(category) {
 
 		container.innerHTML = "";
 
-		filteredPersonalities.forEach((personality) => {
+		filteredPersonalities.slice(0, 5).forEach((personality) => {
 			const storyLink = document.createElement("a");
 			storyLink.href = `../story.html?id=${personality.id}`;
 			storyLink.classList.add("storyLink");
 
 			const articleContainer = document.createElement("div");
-			articleContainer.classList.add("article-container");
+			articleContainer.classList.add("cat-article-container");
 
 			const gradient = document.createElement("div");
 			gradient.classList.add("gradient");

@@ -279,6 +279,7 @@ hr {
 }
 
 .article-container,
+.cat-article-container,
 .storyLink {
 	display: flex;
 	flex-grow: 1;
@@ -618,11 +619,13 @@ footer hr {
 	.head-article-container,
 	.mainStoryLink,
 	.article-container,
+	.cat-article-container,
 	.storyLink {
 		height: 21.5rem;
 	}
 
 	.article-container,
+	.cat-article-container,
 	.storyLink {
 		min-width: 19.45rem;
 		max-width: none;

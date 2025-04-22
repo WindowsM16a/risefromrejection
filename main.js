@@ -343,9 +343,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 			// --- Latest Articles Grid ---
 			if (latestArticlesGrids) {
+				latestArticlesGrids.innerHTML = "";
+
+				const fragment = document.createDocumentFragment();
 				for (let i = 0; i < 5 && i < personalitiesArray.length; i++) {
-					latestArticlesGrids.appendChild(renderArticle(personalitiesArray[i]));
+					const article = renderArticle(personalitiesArray[i]);
+					fragment.appendChild(article);
 				}
+				latestArticlesGrids.appendChild(fragment);
 			}
 		} catch (err) {
 			console.error("Error loading articles:", err);
@@ -448,6 +453,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	// submit email to db
 	// todo: assign names for people who don't input name lol, never trust users.
 	// todo: loop through emails and check if email is already in db
+
 	// can use toLowerCase and toUpperCase if needed
 	if (footerEmailInput && footerNameInput) {
 		footerEmailInput.addEventListener("keyup", function (e) {
@@ -486,6 +492,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			}
 		});
 	}
+
 	// date for footer
 	if (copyrightDiv) {
 		const year = date.getFullYear();
