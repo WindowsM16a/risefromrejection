@@ -346,9 +346,18 @@ document.addEventListener("DOMContentLoaded", function () {
 				latestArticlesGrids.innerHTML = "";
 
 				const fragment = document.createDocumentFragment();
-				for (let i = 0; i < 5 && i < personalitiesArray.length; i++) {
-					const article = renderArticle(personalitiesArray[i]);
-					fragment.appendChild(article);
+
+				const isStoriesPage = window.location.pathname.endsWith("stories.html");
+
+				if (isStoriesPage) {
+					personalitiesArray.forEach((personality) =>
+						fragment.appendChild(renderArticle(personality))
+					);
+				} else {
+					for (let i = 0; i < 5 && i < personalitiesArray.length; i++) {
+						const article = renderArticle(personalitiesArray[i]);
+						fragment.appendChild(article);
+					}
 				}
 				latestArticlesGrids.appendChild(fragment);
 			}

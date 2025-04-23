@@ -67,7 +67,7 @@ export const personalities = [
 		<br>
 
 		Elon Musk’s story is a high-voltage reminder that rejection doesn’t mean stop. Sometimes, it means you’re just the first to see the future.`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 1, 2025",
 		reading_time: "6 min",
 	},
@@ -99,7 +99,7 @@ export const personalities = [
 
 			<h4>Legacy</h4>
 			Jobs went from being fired to becoming one of the most visionary leaders of all time. His story proves that rejection is not the end — it’s sometimes just the beginning of a better chapter.`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 1, 2025",
 		reading_time: "6 min",
 	},
@@ -132,7 +132,7 @@ export const personalities = [
 			<h4>Legacy</h4>
 			Today, Amazon is one of the most valuable companies in the world. Bezos became the richest man alive not by avoiding rejection, but by walking directly into it with a vision most couldn’t see. His story proves that being doubted doesn’t mean being wrong.
 			`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 1, 2025",
 		reading_time: "6 min",
 	},
@@ -164,7 +164,7 @@ export const personalities = [
 			<h4>Legacy</h4>
 			Howard Schultz took rejection and turned it into a business rooted in values — healthcare for part-timers, stock for baristas, and space for communities. His story proves that when no one else believes in your vision, you must believe enough for all of them.
 			`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 1, 2025",
 		reading_time: "6 min",
 	},
@@ -197,7 +197,7 @@ export const personalities = [
 			<h4>Legacy</h4>
 			Oprah became the first Black female billionaire and built a media empire. She turned her rejection into redirection — and then into revolution. Her life proves that what makes you different can one day become what makes you legendary.
 			`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 1, 2025",
 		reading_time: "6 min",
 	},
@@ -231,7 +231,7 @@ export const personalities = [
 			<h4>Legacy</h4>
 			Branson turned mockery into momentum. His story is a masterclass in believing in the unconventional. Rejection didn't weaken his drive — it amplified his belief that rules are made to be rewritten.
 			`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 1, 2025",
 		reading_time: "6 min",
 	},
@@ -264,7 +264,7 @@ export const personalities = [
 			<h4>Legacy</h4>
 			Today, Dyson is synonymous with innovation. From vacuums to bladeless fans to hand dryers, his brand is built on never accepting “no” as the final answer. His story proves that the world may ignore your first 5,000 ideas — but it only takes one to change everything.
 			`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 1, 2025",
 		reading_time: "6 min",
 	},
@@ -297,7 +297,7 @@ export const personalities = [
 			<h4>Legacy</h4>
 			Rowling’s story of failure and persistence became the foundation of a billion-dollar franchise that spanned books, films, theme parks, and generations. Her life reminds us that rejection is not the end — it’s often the beginning of something magical.
 			`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 1, 2025",
 		reading_time: "6 min",
 	},
@@ -331,7 +331,7 @@ export const personalities = [
 			<h4>Legacy</h4>
 			Larry Ellison built one of the most dominant enterprise software companies in history by betting on the tech no one else believed in. His journey proves that even in a world run by giants, a sharp outsider with conviction can still rewrite the code.
 			`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 1, 2025",
 		reading_time: "6 min",
 	},
@@ -365,7 +365,7 @@ export const personalities = [
 			<h4>Legacy</h4>
 			Though Kalanick later stepped down as CEO, his impact remains undeniable. His journey shows that innovation often comes wrapped in rejection — and it’s not for the faint of heart. Sometimes, it takes a little defiance to change the way the world moves.
 			`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 1, 2025",
 		reading_time: "6 min",
 	},
@@ -399,7 +399,7 @@ export const personalities = [
 		<h4>Legacy</h4>
 		Even after retiring (twice), Jordan’s influence never faded. From sneakers to sports ownership, he redefined athlete-celebrity culture. But more than the wins, his story is about obsession, grit, and proving that rejection is just the starting line for greatness.
 	`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 11, 2025",
 		reading_time: "6 min",
 	},
@@ -432,7 +432,7 @@ export const personalities = [
 		<h4>Legacy</h4>
 		Jack Ma stepped down in 2019, but his story is a masterclass in persistence. From the guy no one would hire — to one of the richest people in Asia. His journey proves that sometimes, all it takes is one person believing in you… even if that person is just yourself.
 	`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 11, 2025",
 		reading_time: "5 min",
 	},
@@ -465,7 +465,7 @@ export const personalities = [
 		<h4>Legacy</h4>
 		Colonel Sanders sold KFC at 73, but remained its iconic face. His story isn’t just about chicken — it’s about not quitting. It’s proof that your timeline isn’t broken just because it doesn’t look like everyone else’s. Sometimes, the comeback starts *after* retirement.
 	`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 11, 2025",
 		reading_time: "5 min",
 	},
@@ -499,7 +499,7 @@ export const personalities = [
 		<h4>Legacy</h4>
 		Tyler Perry’s rise isn’t just inspirational — it’s defiant. From sleeping in his car to writing, directing, and owning some of the highest-grossing plays and films, he’s shown what happens when you believe in your story — even when no one else does.
 	`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 11, 2025",
 		reading_time: "6 min",
 	},
@@ -529,7 +529,7 @@ export const personalities = [
 		<h3 class='h3-heading'>Legacy</h3>
 		Walt Disney didn’t just create characters — he created worlds. His story is a reminder that imagination and resilience can build magic, even when the world tells you to grow up and give up.
 	`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 11, 2025",
 		reading_time: "5 min",
 	},
@@ -559,7 +559,7 @@ export const personalities = [
 		<h3 class='h3-heading'>Legacy</h3>
 		Marie Curie didn’t just break glass ceilings — she disintegrated them at the atomic level. Her legacy isn’t just in science books — it’s in every lab, every hospital, and every woman who dared to say “I belong here too.”
 	`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 11, 2025",
 		reading_time: "6 min",
 	},
@@ -589,7 +589,7 @@ export const personalities = [
 		<h3 class='h3-heading'>Legacy</h3>
 		Tesla’s life is proof that genius isn’t always rewarded — at least not immediately. He was ahead of his time, too weird for investors, too bold for his era. But in the long run? He was right. And we’re still catching up.
 	`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 11, 2025",
 		reading_time: "6 min",
 	},
@@ -619,7 +619,7 @@ export const personalities = [
 			<h3 class='h3-heading'>Legacy</h3>
 			Today, Einstein is celebrated as one of the greatest minds in human history. His rejection story serves as a reminder that even the brightest stars can be overlooked before they shine.<br>
 		`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 1, 2025",
 		reading_time: "5 min",
 	},
@@ -650,7 +650,7 @@ export const personalities = [
 			<h3 class='h3-heading'>Legacy</h3>
 			Katherine Johnson’s story is one of resilience. She showed that even in the face of extreme adversity, excellence and dedication can change the world. Today, she’s a symbol of breaking barriers.<br>
 		`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 1, 2025",
 		reading_time: "6 min",
 	},
@@ -679,7 +679,7 @@ export const personalities = [
 			<h3 class='h3-heading'>Legacy</h3>
 			Turing’s story is a tragic reminder of how society can reject its greatest heroes. His brilliance ultimately shines through, as we now recognize him as one of the most influential figures of the 20th century.<br>
 		`,
-		author: "John Doe",
+		author: "gtmotions",
 		date: "April 1, 2025",
 		reading_time: "6 min",
 	},

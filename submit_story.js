@@ -36,6 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
 	const category = document.getElementById("storyCategory-input");
 	const story = document.getElementById("story-input");
 	const authorName = document.getElementById("authorName");
+	const authorEmail = document.getElementById("authorEmail");
+	const imgDescription = document.getElementById("imgDescription-input");
 
 	// function for character limit
 	function inputCharCounter(inputId, counterId, max) {
@@ -70,19 +72,36 @@ document.addEventListener("DOMContentLoaded", function () {
 			!authorName.value.trim() ||
 			!agree.checked
 		) {
-			alert(`Ma guy fill where you're required to.`);
+			alert(`Kindly fill out all required fields`);
 			return;
 		}
 
-		// pushing to db
-		set(ref(db, "personalities/" + 1), {
+		// pushing to db hour min sec day mon yea
+		const newDate = new Date();
+		const articleSubmissionDate = `${newDate.getDay()}, ${
+			newDate.getMonth() + 1
+		} ${newDate.getFullYear()}`;
+		const submissionId = `${newDate.getHours()}:${newDate.getMinutes()}:${newDate.getSeconds()} ${newDate.getDay()}, ${
+			newDate.getMonth() + 1
+		} ${newDate.getFullYear()}`;
+
+		set(ref(db, "submittedPersonalities/" + submissionId), {
 			author: authorName.value,
 			title: title.value,
 			subtitle: subtitle.value,
 			story: story.value,
-			industry: category.value,
+			category: category.value,
+			date: articleSubmissionDate,
+			authorEmail: authorEmail.value,
+			imgDescription: imgDescription.value,
 		})
 			.then(() => {
+				authorName.value = "";
+				authorEmail.value = "";
+				title.value = "";
+				subtitle.value = "";
+				story.value = "";
+				imgDescription.value = "";
 				alert("submitted successfully");
 			})
 			.catch((error) => {
