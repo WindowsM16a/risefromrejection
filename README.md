@@ -10,7 +10,7 @@
 
 It’s a collection of stories about people who got told _“no”_, and turned it into _“watch me.”_ From tech legends to artists, CEOs to scientists—it’s proof that rejection isn’t the end. Sometimes, it’s the start. (_Elon is my favorite btw_)
 
-**Live here** → [risefromrejection](https://www.risefromrejection.vercel.app)
+**Live here** → [risefromrejection](https://risefromrejection.vercel.app)
 
 ---
 
@@ -54,7 +54,7 @@ git clone https://github.com/yourusername/risefromrejection.git
 ## 🤝 Want to Contribute?
 
 Have a story worth telling? Or just wanna help?
-Feel free to [submit a story](https://www.risefromrejection.vercel.app/submit_story) and the team will review it. Full credit is given to story authors.
+Feel free to [submit a story](https://risefromrejection.vercel.app/submit_story.html) and the team will review it. Full credit is given to story authors.
 
 ## ✍️ Author
 
@@ -62,7 +62,7 @@ Feel free to [submit a story](https://www.risefromrejection.vercel.app/submit_st
 
 Dev • Story collector • Believer in second chances **_when they don't drain you_**
 
-#### 📬: [_medium_](https://medium.com/@wuvershayne)  [_linkedin_](www.linkedin.com/in/shaynewuver)  [_email me_](mailto:wuvershayne@gmail.com)
+#### 📬: [_medium_](https://medium.com/@wuvershayne) [_linkedin_](www.linkedin.com/in/shaynewuver) [_email me_](mailto:wuvershayne@gmail.com)
 
 ## 🖤 Why this project?
 
