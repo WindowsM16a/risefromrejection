@@ -68,8 +68,8 @@ export const personalities = [
 
 		Elon Musk’s story is a high-voltage reminder that rejection doesn’t mean stop. Sometimes, it means you’re just the first to see the future.`,
 		author: "gtmotions",
-		date: "April 1, 2025",
-		reading_time: "6 min",
+		date: "January 3, 2025",
+		reading_time: "5 min",
 	},
 	{
 		id: 2,
@@ -100,8 +100,8 @@ export const personalities = [
 			<h4>Legacy</h4>
 			Jobs went from being fired to becoming one of the most visionary leaders of all time. His story proves that rejection is not the end — it’s sometimes just the beginning of a better chapter.`,
 		author: "gtmotions",
-		date: "April 1, 2025",
-		reading_time: "6 min",
+		date: "March 12, 2025",
+		reading_time: "2 min",
 	},
 	{
 		id: 3,
@@ -133,7 +133,7 @@ export const personalities = [
 			Today, Amazon is one of the most valuable companies in the world. Bezos became the richest man alive not by avoiding rejection, but by walking directly into it with a vision most couldn’t see. His story proves that being doubted doesn’t mean being wrong.
 			`,
 		author: "gtmotions",
-		date: "April 1, 2025",
+		date: "March 1, 2025",
 		reading_time: "6 min",
 	},
 	{
@@ -165,7 +165,7 @@ export const personalities = [
 			Howard Schultz took rejection and turned it into a business rooted in values — healthcare for part-timers, stock for baristas, and space for communities. His story proves that when no one else believes in your vision, you must believe enough for all of them.
 			`,
 		author: "gtmotions",
-		date: "April 1, 2025",
+		date: "February 20, 2025",
 		reading_time: "6 min",
 	},
 	{
@@ -198,7 +198,7 @@ export const personalities = [
 			Oprah became the first Black female billionaire and built a media empire. She turned her rejection into redirection — and then into revolution. Her life proves that what makes you different can one day become what makes you legendary.
 			`,
 		author: "gtmotions",
-		date: "April 1, 2025",
+		date: "March 7, 2025",
 		reading_time: "6 min",
 	},
 	{
@@ -232,7 +232,7 @@ export const personalities = [
 			Branson turned mockery into momentum. His story is a masterclass in believing in the unconventional. Rejection didn't weaken his drive — it amplified his belief that rules are made to be rewritten.
 			`,
 		author: "gtmotions",
-		date: "April 1, 2025",
+		date: "April 13, 2025",
 		reading_time: "6 min",
 	},
 	{
@@ -265,7 +265,7 @@ export const personalities = [
 			Today, Dyson is synonymous with innovation. From vacuums to bladeless fans to hand dryers, his brand is built on never accepting “no” as the final answer. His story proves that the world may ignore your first 5,000 ideas — but it only takes one to change everything.
 			`,
 		author: "gtmotions",
-		date: "April 1, 2025",
+		date: "April 17, 2025",
 		reading_time: "6 min",
 	},
 	{
@@ -298,7 +298,7 @@ export const personalities = [
 			Rowling’s story of failure and persistence became the foundation of a billion-dollar franchise that spanned books, films, theme parks, and generations. Her life reminds us that rejection is not the end — it’s often the beginning of something magical.
 			`,
 		author: "gtmotions",
-		date: "April 1, 2025",
+		date: "March 21, 2025",
 		reading_time: "6 min",
 	},
 	{
@@ -332,7 +332,7 @@ export const personalities = [
 			Larry Ellison built one of the most dominant enterprise software companies in history by betting on the tech no one else believed in. His journey proves that even in a world run by giants, a sharp outsider with conviction can still rewrite the code.
 			`,
 		author: "gtmotions",
-		date: "April 1, 2025",
+		date: "January 13, 2025",
 		reading_time: "6 min",
 	},
 	{
@@ -680,7 +680,7 @@ export const personalities = [
 			Turing’s story is a tragic reminder of how society can reject its greatest heroes. His brilliance ultimately shines through, as we now recognize him as one of the most influential figures of the 20th century.<br>
 		`,
 		author: "gtmotions",
-		date: "April 1, 2025",
-		reading_time: "6 min",
+		date: "January 1, 2025",
+		reading_time: "4 min",
 	},
 ];
