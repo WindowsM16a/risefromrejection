@@ -153,7 +153,6 @@ document.addEventListener("DOMContentLoaded", function () {
 		mobileSearchInput.addEventListener("keyup", function (e) {
 			if (e.key === "Enter") {
 				console.log("Mobile search submitted:", this.value);
-				push("fdf", this.value);
 				// Add your search functionality here
 				closeMenu(); // Close the menu after submitting
 			}
