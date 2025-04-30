@@ -6,8 +6,6 @@ import {
 	child,
 	get,
 	set,
-	update,
-	remove,
 } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-database.js";
 
 // personalities file
@@ -32,37 +30,6 @@ const personalitiesRef = ref(db, "personalities");
 
 // footer date
 const date = new Date();
-
-// function addData() {
-// 	set(ref(db, "artTest/" + `${fName}${lName}`), {
-// 		name: { firstName: fName, lastName: lName },
-// 		dept: "ts is fast",
-// 		canSwim: false,
-// 	})
-// 		.then(() => {
-// 			console.log("data added successfully");
-// 		})
-// 		.catch((error) => {
-// 			console.log("unsuccessful: " + error);
-// 		});
-// }
-// addData();
-
-// function getData() {
-// 	get(child(dbRef, "articles/" + "elonmusk"))
-// 		.then((snapshot) => {
-// 			if (snapshot.exists()) {
-// 				console.log("");
-// 				console.log(snapshot.val().names);
-// 				console.log(snapshot.val().story);
-// 				console.log(snapshot.val().success);
-// 			}
-// 		})
-// 		.catch((error) => {
-// 			console.log('unsuccessful: ' + error);
-// 		});
-// }
-// getData();
 
 // uploading and updating the local personalities (10 for now). i'll stop doing local stuff once i learn auth so only i can write to the db.
 // personalities.forEach((person) => {
@@ -461,7 +428,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	}
 
 	// submit email to db
-	// todo: assign names for people who don't input name lol, never trust users.
 	// todo: loop through emails and check if email is already in db
 
 	// can use toLowerCase and toUpperCase if needed

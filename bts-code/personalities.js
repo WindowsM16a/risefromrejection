@@ -683,4 +683,33 @@ export const personalities = [
 		date: "January 1, 2025",
 		reading_time: "4 min",
 	},
+	{
+		id: 21,
+		name: "Markus Persson",
+		dob: "June 1, 1979",
+		country: "Sweden",
+		category: "Tech",
+		image_src:
+			"https://res.cloudinary.com/dx72ndl5e/image/upload/v1746015475/Markus%20Persson.jpg",
+		industry: "Tech / Video game development",
+		title: "Markus Persson - From Countless Rejections to Building Minecraft",
+		subtitle:
+			"The coder who faced rejection and ended up building a whole new world.",
+		story: `
+		<h3 class='h3-heading'> Humble Beginnings and the Spark of Passion </h3> 
+		Markus Persson, widely known as Notch, was raised in a modest household, surrounded by a creative environment but one not necessarily rooted in affluence. His father introduced him to computers at an early age, and by the time he was 7, Markus had already begun programming simple games on a Commodore 128.Despite his early passion for code, Markus didn’t follow a traditional education route. He was largely self-taught — diving deep into coding forums, online communities, and experimenting with engines. But this passion didn’t translate into immediate success. Rejections from major gaming studios were routine for him in his early professional years. Still, he kept building — from small prototypes to unfinished projects — refining his skills with every setback. <br><br>
+		
+		<h4>Years in the Shadows: Rejection and Burnout</h4>
+		He submitted prototypes to indie game jams and studios but found little traction. Many of his ideas were deemed “too risky.” In some cases, he didn’t even receive a reply. This lack of recognition took a toll on his mental health and creativity. Markus struggled with imposter syndrome, but instead of giving up, he chose to build for himself, without waiting for approval. <br><br>
+		
+		<h4>Minecraft: Building a Universe from a Pixelated Dream</h4> 
+		In 2009, out of a small apartment, Markus began working on what would later be known as Minecraft. Inspired by Dwarf Fortress, Notch envisioned a sandbox world where players could explore, create, and survive without constraints. Minecraft wasn’t an instant success. The first alpha release was rough, buggy, and graphically primitive. But its core mechanics — mining, crafting, surviving — struck a chord with early players. Word-of-mouth began to spread on forums like Reddit and 4chan, and the player base exploded.
+		<p class='quote'> "If you don't have a problem, you create one. That’s what humans do.” </p>
+		
+		<h3 class="h3-heading"> The Legacy of Markus Persson: A Digital Sandbox That Shaped Generations </h3>
+		Within a year, it had over a million registered users. By 2011, Markus had formed Mojang Studios, and Minecraft’s full release followed soon after. The game was available across PC, consoles, and mobile platforms, breaking records at every step.Markus Persson’s journey is one of perseverance and unfiltered creativity. His legacy isn't just Minecraft — it’s the countless stories of kids who discovered their love for coding through redstone circuits and of friends who built castles together across time zones.`,
+		author: "Aadil Faheem",
+		date: "April 6, 2025",
+		reading_time: "4 min",
+	},
 ];
