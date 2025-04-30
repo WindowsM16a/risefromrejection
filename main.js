@@ -444,6 +444,8 @@ document.addEventListener("DOMContentLoaded", function () {
 		contentEl.id = "storyId";
 		contentEl.innerHTML = article.story;
 		container.appendChild(contentEl);
+
+		container.replaceWith(container);
 	}
 
 	// display article
